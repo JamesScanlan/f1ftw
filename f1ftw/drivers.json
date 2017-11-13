@@ -1,0 +1,85 @@
+{
+  "Drivers":
+  [
+    {
+      "name":"Sebastian Vettel",
+      "team":"Ferrari"
+    },
+    {
+      "name":"Lewis Hamilton",
+      "team":"Mercedes"
+    },
+    {
+      "name":"Valitteri Bottas",
+      "team":"Mercedes"
+    },
+    {
+      "name":"Kimi Raikkonen",
+      "team":"Ferrari"
+    },
+    {
+      "name":"Max Verstappen",
+      "team":"Red Bull"
+    },
+    {
+      "name":"Felipe Massa",
+      "team":"Williams"
+    },
+    {
+      "name":"Sergio Perez",
+      "team":"Force India"
+    },
+    {
+      "name":"Carlos Sainz Jnr",
+      "team":"Toro Rosso"
+    },
+    {
+      "name":"Danill Kvyat",
+      "team":"Toro Rosso"
+    },
+    {
+      "name":"Esteban Ocon",
+      "team":"Force India"
+    },
+    {
+      "name":"Nico Hulkenberg",
+      "team":"Renault"
+    },
+    {
+      "name":"Antonio Giovinazzi",
+      "team":"Sauber"
+    },
+    {
+      "name":"Stoffel Vandoorne",
+      "team":"McLaren"
+    },
+    {
+      "name":"Fernando Alonso",
+      "team":"McLaren"
+    },
+    {
+      "name":"Kevin Magnussen",
+      "team":"Haas F1"
+    },
+    {
+      "name":"Lance Stroll",
+      "team":"Williams"
+    },
+    {
+      "name":"Daniel Ricciardo",
+      "team":"Red Bull"
+    },
+    {
+      "name":"Marcus Ericsson",
+      "team":"Sauber"
+    },
+    {
+      "name":"Jolyon Palmer",
+      "team":"Renault"
+    },
+    {
+      "name":"Romain Grosjean",
+      "team":"Haas F1"
+    }
+  ]
+}
