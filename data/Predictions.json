@@ -437,6 +437,26 @@
           "Joker":"McLaren"
         }
       ]
+    },
+    {
+      "Grand_Prix":"Abu Dhabi",
+      "Predictions":
+      [
+        {
+          "Predictor":"Andrew Chadwick",
+          "Qualifying":"Valitteri Bottas",
+          "Race":"Daniel Ricciardo",
+          "Progression":"McLaren",
+          "Joker":"Williams"
+        },
+        {
+          "Predictor":"James Scanlan",
+          "Qualifying":"Sergio Perez",
+          "Race":"Max Verstappen",
+          "Progression":"Haas F1",
+          "Joker":"Red Bull"
+        }
+      ]
     }
   ]
 }
