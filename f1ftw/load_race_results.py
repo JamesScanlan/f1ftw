@@ -13,37 +13,37 @@ def CalcRacePoints(position):
     else:
         return points[position]
 
-
 def LoadRaceResultsIntoJSON():
     return json.load(open(os.path.join(os.path.abspath(".."), "data", "GPData.json")))
 
-
-def ReadRaceResults(grand_prix_name):
+def ReadRaceResults(grand_prix_name, active_year):
     jsonData=LoadRaceResultsIntoJSON()
 
     qualifying_results=[]
     race_results=[]
 
-    for grand_prix_source in jsonData["Grands_Prix"]:
-        if grand_prix_source["Grand_Prix"] == grand_prix_name:
-                for results_source in grand_prix_source["Results"]:
-                    current_driver = Driver(ParsePersonName(results_source["name"]),objects.team.Team(results_source["team"]))
-
-                    qualifying_result = objects.results.QualifyingResult(current_driver, int(results_source["qualifying"]))
-                    qualifying_results.append(qualifying_result)
-
-                    race_result = objects.results.RaceResult(current_driver, int(results_source["grid"]), int(results_source["position"]))
-                    race_result.points = CalcRacePoints(int(results_source["position"]))
-                    race_results.append(race_result)
+    for race_year in jsonData["Grands_Prix"]:
+        if race_year["Year"] == str(active_year):
+            for race in race_year["Races"]:
+                if race["Grand_Prix"] == grand_prix_name:
+                    for results_source in race["Results"]:
+                        current_driver = Driver(ParsePersonName(results_source["name"]),objects.team.Team(results_source["team"]))
+                        qualifying_result = objects.results.QualifyingResult(current_driver, int(results_source["qualifying"]))
+                        qualifying_results.append(qualifying_result)
+                        race_result = objects.results.RaceResult(current_driver, int(results_source["grid"]), int(results_source["position"]))
+                        race_result.points = CalcRacePoints(int(results_source["position"]))
+                        race_results.append(race_result)
 
     return objects.results.GrandPrixResults(qualifying_results, race_results)
 
-def DoResultsExistForGrandPrix(grand_prix_name):
+def DoResultsExistForGrandPrix(grand_prix_name, active_year):
     jsonData=LoadRaceResultsIntoJSON()
     found_results = False
-    for grand_prix_source in jsonData["Grands_Prix"]:
-        if grand_prix_source["Grand_Prix"] == grand_prix_name:
-            found_results = True
+    for race_year in jsonData["Grands_Prix"]:
+        if race_year["Year"] == str(active_year):
+            for race in race_year["Races"]:
+                if race["Grand_Prix"] == grand_prix_name:
+                    found_results = True
     return found_results
 
 def ValidateRaceResults(results):

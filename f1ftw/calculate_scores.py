@@ -11,15 +11,17 @@ def GetGrandPrixStageName(stage):
     stages=["Qualifying","Race","Progression","Joker"]
     return stages[stage.value-1]
 
-def CalculateRaceScore(grand_prix_name):
-    results = load_race_results.ReadRaceResults(grand_prix_name)
-    predictions=load_predictions.ReadPredictions(grand_prix_name)
-    drivers_championship = CalculateDriversChampionship(grand_prix_name)
+def CalculateRaceScore(grand_prix_name, active_year):
+    results = load_race_results.ReadRaceResults(grand_prix_name, active_year)
+    predictions=load_predictions.ReadPredictions(grand_prix_name, active_year)
+    drivers_championship = CalculateDriversChampionship(grand_prix_name, active_year)
     calculation_scores=[]
+
     calculation_scores.append(CalculateQualifyingScores(predictions, results, drivers_championship))
     calculation_scores.append(CalculateRaceScores(predictions, results, drivers_championship))
     calculation_scores.append(CalculateProgressionScores(predictions, results, drivers_championship))
-    calculation_scores.append(CalculateJokerScores(predictions, results, drivers_championship))
+    if active_year == 2017:
+        calculation_scores.append(CalculateJokerScores(predictions, results, drivers_championship))
     return calculation_scores
 
 def CalculateTotals(predictor_totals, calculation_scores, print_totals=True):

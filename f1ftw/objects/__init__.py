@@ -11,3 +11,4 @@ from objects import predictor_totals
 from objects import championship_drivers
 from objects import grands_prix_meta_data
 from objects import text_layout
+from objects import config
