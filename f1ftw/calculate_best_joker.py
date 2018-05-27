@@ -4,10 +4,10 @@ import calculate_joker
 from calculate_drivers_championship import CalculateDriversChampionship
 import objects
 
-def CalculateBestJoker(grand_prix_name):
-    results = load_race_results.ReadRaceResults(grand_prix_name)
-    predictions = load_predictions.ReadPredictions(grand_prix_name)
-    drivers_championship = CalculateDriversChampionship(grand_prix_name)
+def CalculateBestJoker(grand_prix_name, active_year):
+    results = load_race_results.ReadRaceResults(grand_prix_name, active_year)
+    predictions = load_predictions.ReadPredictions(grand_prix_name, active_year)
+    drivers_championship = CalculateDriversChampionship(grand_prix_name, active_year)
 
     calculated_results = objects.calculated_results.CalculatedResults()
 

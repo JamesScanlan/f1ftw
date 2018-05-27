@@ -12,7 +12,7 @@ def ReadPredictions(grand_prix_name = None, active_year = 2018):
         if race_year["Year"] == str(active_year):
             for race in race_year["Races"]:
                 if grand_prix_name is None:
-                    predictions.extend(IteratePredictions(grand_prix, active_year))
+                    predictions.extend(IteratePredictions(race, active_year))
                 else:
                     if race["Grand_Prix"] == grand_prix_name:
                         predictions.extend(IteratePredictions(race, active_year))

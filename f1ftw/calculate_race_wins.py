@@ -3,6 +3,7 @@ import objects
 from objects.collection_class import CollectionClass
 import get_grand_prix_names
 from get_predictors import GetPredictors
+import load_config
 
 class PredictorRaceWinTotals(CollectionClass):
     def __init__(self):
@@ -19,15 +20,15 @@ class PredictorRaceWinTotal(object):
     def __str__(self):
         return "Predictor: " + str(self.predictor) + " Wins: " + str(self.win_total)
 
-def SetupPredictorWins():
+def SetupPredictorWins(active_year):
     predictor_wins = PredictorRaceWinTotals()
-    predictors=GetPredictors()
+    predictors=GetPredictors(active_year)
     for predictor in predictors:
         predictor_wins.AddObject(PredictorRaceWinTotal(predictor))
     return predictor_wins
 
-def CalculateRaceWin(grand_prix_name):
-    calculation_scores = calculate_scores.CalculateRaceScore(grand_prix_name)
+def CalculateRaceWin(grand_prix_name, active_year):
+    calculation_scores = calculate_scores.CalculateRaceScore(grand_prix_name, active_year)
     predictor_totals = objects.predictor_totals.PredictorTotals()
     for calculation_score in calculation_scores:
         for calc_result in calculation_score.results:
@@ -39,25 +40,26 @@ def DisplayRaceWinTotals(predictor_wins):
     for predictor_win in predictor_wins:
         print(str(predictor_win.win_total) + "\t" + str(predictor_win.predictor))
 
-def CalculateTotalRaceWins():
-    grand_prix_names = get_grand_prix_names.GetGrandPrixNames()
-    predictor_wins = SetupPredictorWins()
+def CalculateTotalRaceWins(active_year):
+    grand_prix_names = get_grand_prix_names.GetGrandPrixNames(active_year = active_year)
+    predictor_wins = SetupPredictorWins(active_year)
 
     for grand_prix_name in grand_prix_names:
-        predictor_totals = CalculateRaceWin(grand_prix_name)
+        predictor_totals = CalculateRaceWin(grand_prix_name, active_year)
         if len(predictor_totals) >0:
             predictor_wins.IncrementWinTotalForPredictor(predictor_totals[0].predictor)
     predictor_wins = sorted(predictor_wins, key = lambda x: x.win_total, reverse = True)
     return predictor_wins
 
-def CalculateRaceWins():
-    grand_prix_names = get_grand_prix_names.GetGrandPrixNames()
+def CalculateRaceWins(active_year):
+    grand_prix_names = get_grand_prix_names.GetGrandPrixNames(active_year = active_year)
     for grand_prix_name in grand_prix_names:
-        predictor_totals = CalculateRaceWin(grand_prix_name)
+        predictor_totals = CalculateRaceWin(grand_prix_name, active_year)
         if len(predictor_totals) >0:
             print(grand_prix_name + " GP\t\t" + str(predictor_totals[0].predictor) + "\t(" + str(len(predictor_totals)) + " predictors)")
 
 if __name__ == '__main__':
-    CalculateRaceWins()
-    wins = CalculateTotalRaceWins()
+    config = load_config.ReadConfig()
+    CalculateRaceWins(config.current_year)
+    wins = CalculateTotalRaceWins(config.current_year)
     DisplayRaceWinTotals(wins)

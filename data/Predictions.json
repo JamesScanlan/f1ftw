@@ -503,6 +503,78 @@
               "Progression":"Red Bull"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Chinese",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Sebastian Vettel",
+              "Race":"Max Verstappen",
+              "Progression":"Toro Rosso"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Kimi Raikkonen",
+              "Race":"Valitteri Bottas",
+              "Progression":"McLaren"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Azerbaijan",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Daniel Ricciardo",
+              "Race":"Valitteri Bottas",
+              "Progression":"McLaren"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Max Verstappen",
+              "Race":"Nico Hulkenberg",
+              "Progression":"Toro Rosso"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Spannish",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Lewis Hamilton",
+              "Race":"Fernando Alonso",
+              "Progression":"Force India"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Daniel Ricciardo",
+              "Race":"Nico Hulkenberg",
+              "Progression":"McLaren"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Monaco",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Valitteri Bottas",
+              "Race":"Kimi Raikkonen",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Daniel Ricciardo",
+              "Race":"Sebastian Vettel",
+              "Progression":"Toro Rosso"
+            }
+          ]
         }
       ]
     }

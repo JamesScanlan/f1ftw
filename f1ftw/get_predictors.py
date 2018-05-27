@@ -1,8 +1,9 @@
 import objects
 import load_predictions
+import load_config
 
-def GetPredictors():
-    predictions = load_predictions.ReadPredictions()
+def GetPredictors(active_year):
+    predictions = load_predictions.ReadPredictions(None, active_year)
     predictors=[]
     for prediction in predictions:
         predictors.append(prediction.predictor)
@@ -10,6 +11,7 @@ def GetPredictors():
     return list(predictors)
 
 if __name__ == '__main__':
-    predictors = GetPredictors()
+    config = load_config.ReadConfig()
+    predictors = GetPredictors(config.current_year)
     for predictor in predictors:
         print(predictor)

@@ -5,10 +5,10 @@ from calculate_drivers_championship import CalculateDriversChampionship
 from get_driver import GetDriver
 import objects
 
-def CalculateBestRace(grand_prix_name):
-    results = load_race_results.ReadRaceResults(grand_prix_name)
-    predictions = load_predictions.ReadPredictions(grand_prix_name)
-    drivers_championship = CalculateDriversChampionship(grand_prix_name)
+def CalculateBestRace(grand_prix_name, active_year):
+    results = load_race_results.ReadRaceResults(grand_prix_name, active_year)
+    predictions = load_predictions.ReadPredictions(grand_prix_name, active_year)
+    drivers_championship = CalculateDriversChampionship(grand_prix_name, active_year)
 
     calculated_results = objects.calculated_results.CalculatedResults()
 

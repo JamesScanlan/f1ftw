@@ -2,7 +2,7 @@ from objects.text_layout import FormatItem
 
 class QualifyingPrediction(object):
     def __init__(self,driver):
-        self.driver=driver
+        self.driver = driver
     def __repr__(self):
         return "{}:\n\t{}".format(self.__class__.__name__,self.driver.person_name,self.driver.team)
     def __eq__(self,other):
@@ -13,13 +13,13 @@ class QualifyingPrediction(object):
 
 class RacePrediction(object):
     def __init__(self,driver):
-        self.driver=driver
+        self.driver = driver
     def __repr__(self):
         return "{}:\n\t{}".format(self.__class__.__name__,self.driver.person_name,self.driver.team)
 
 class ProgressionPrediction(object):
     def __init__(self,team):
-        self.team=team
+        self.team = team
     def __str__(self):
         return self.team
     def __repr__(self):

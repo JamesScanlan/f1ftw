@@ -1,13 +1,16 @@
 import calculate_scores
 import objects
 import get_grand_prix_names
+import load_config
 
-grand_prix_names = get_grand_prix_names.GetGrandPrixNames()
+config = load_config.ReadConfig()
+
+grand_prix_names = get_grand_prix_names.GetGrandPrixNames(active_year = config.current_year)
 predictor_totals = objects.predictor_totals.PredictorTotals()
 
 for grand_prix_name in grand_prix_names:
     print("\n" + grand_prix_name + " GP")
-    calculation_scores = calculate_scores.CalculateRaceScore(grand_prix_name)
+    calculation_scores = calculate_scores.CalculateRaceScore(grand_prix_name, config.current_year)
     race_totals = objects.predictor_totals.PredictorTotals()
     race_totals = calculate_scores.CalculateTotals(race_totals, calculation_scores, False)
     calculate_scores.DisplayTotals(race_totals)
