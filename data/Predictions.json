@@ -575,6 +575,24 @@
               "Progression":"Toro Rosso"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Canadian",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Sebastian Vettel",
+              "Race":"Lewis Hamilton",
+              "Progression":"McLaren"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Valitteri Bottas",
+              "Race":"Max Verstappen",
+              "Progression":"Force India"
+            }
+          ]
         }
       ]
     }

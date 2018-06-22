@@ -46,7 +46,7 @@ class ChampionshipDriver(object):
         self.points = points
         self.ranking = 1
     def __str__(self):
-        return str(self.driver) + " " + str(self.points)
+        return str(self.points) + "\t" + str(self.driver)
     def __lt__(self, other):
         return self.points < other.points
     def __eq__(self, other):

@@ -2,7 +2,7 @@ import json
 import os
 import objects
 from helpers import ParsePersonName
-
+import load_config
 
 def ReadPredictions(grand_prix_name = None, active_year = 2018):
     jsonData = json.load(open(os.path.join(os.path.abspath(".."), "data", "Predictions.json" )))
@@ -38,3 +38,10 @@ def ParsePrediction(grand_prix, prediction_source, active_year):
         joker_prediction = None
     prediction = objects.predictions.Prediction(grand_prix, predictor, qualifying_prediction, race_prediction, progression_prediction, joker_prediction)
     return prediction
+
+if __name__== "__main__":
+    config = load_config.ReadConfig()
+    predictions = ReadPredictions(active_year = config.current_year)
+    for prediction in predictions:
+        print(prediction)
+        

@@ -19,8 +19,8 @@ if __name__== "__main__":
     grand_prix_name = GetGrandPrixNameFromCommandLineArguments(default="Australian")
     config = load_config.ReadConfig()
 
-#is there a more elegant way of processing a range of checks that don't result in a set of nested if statements?
-#getting value of return function call proving elusive
+    #is there a more elegant way of processing a range of checks that don't result in a set of nested if statements?
+    #getting value of return function call proving elusive
     check_conditions=[]
     check_conditions.append(Condition(validate_grand_prix.IsGrandPrixKnown(grand_prix_name, config.current_year), "\nSorry, I don't recognise the " + grand_prix_name + " GP as being valid."))
     check_conditions.append(Condition(validate_grand_prix.DoResultsExistForGrandPrix(grand_prix_name, config.current_year), "\nSorry, the " + grand_prix_name + " GP has not taken place yet."))
@@ -36,11 +36,3 @@ if __name__== "__main__":
             break
     if all_conditions_passed:
         ProcessRaceScores(grand_prix_name, config.current_year)
-
-#    if validate_grand_prix.IsGrandPrixKnown(grand_prix_name):
-#        if validate_grand_prix.DoResultsExistForGrandPrix(grand_prix_name):
-#            ProcessRaceScores(grand_prix_name)
-#        else:
-#            print("\nSorry, the " + grand_prix_name + " GP has not taken place yet.")
-#    else:
-#        print("\nSorry, I don't recognise the " + grand_prix_name + " GP as being valid.")

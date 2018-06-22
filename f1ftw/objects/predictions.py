@@ -40,4 +40,7 @@ class Prediction(object):
         self.progression_prediction = progression_prediction
         self.joker_prediction = joker_prediction
     def __str__(self):
-        return FormatItem(str(self.grand_prix),15) + "\t" + FormatItem(str(self.predictor),20) + "\t" + FormatItem(str(self.qualifying_prediction),20) + "\t" + FormatItem(str(self.race_prediction),20) + "\t" + FormatItem(str(self.progression_prediction),15) + "\t" + str(self.joker_prediction)
+        if self.joker_prediction == None:
+            return FormatItem(str(self.grand_prix),15) + "\t" + FormatItem(str(self.predictor),20) + "\t" + FormatItem(str(self.qualifying_prediction),20) + "\t" + FormatItem(str(self.race_prediction),20) + "\t" + FormatItem(str(self.progression_prediction),15)
+        else:
+            return FormatItem(str(self.grand_prix),15) + "\t" + FormatItem(str(self.predictor),20) + "\t" + FormatItem(str(self.qualifying_prediction),20) + "\t" + FormatItem(str(self.race_prediction),20) + "\t" + FormatItem(str(self.progression_prediction),15) + "\t" + str(self.joker_prediction)

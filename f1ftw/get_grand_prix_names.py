@@ -5,7 +5,7 @@ import load_config
 
 def GetGrandPrixNames(date_value = datetime.date.today(), active_year = 2018):
     grands_prix_meta_data = load_grands_prix_meta_data.ReadGrandsPrixMetaData(active_year)
-    return grands_prix_meta_data.GetBeforeDate(date_value).GetNames()
+    return grands_prix_meta_data.GetBeforePreviousOrCurrentRaceWeekends(date_value).GetNames()
 
 if __name__== "__main__":
     config = load_config.ReadConfig()
