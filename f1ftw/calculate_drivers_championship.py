@@ -35,7 +35,7 @@ def GetDateInContextOfRaceWeekend(grand_prix_name, active_year):
     grand_prix_meta_data = load_grands_prix_meta_data.ReadGrandsPrixMetaData(active_year).GetByName(grand_prix_name)
 
     if datetime.datetime.now().date() == grand_prix_meta_data.end_date:
-        return (grand_prix_meta_data.end_date + datetime.timedelta(days=1)).date()
+        return grand_prix_meta_data.end_date + datetime.timedelta(days=1)
     else:
         return grand_prix_meta_data.end_date
 

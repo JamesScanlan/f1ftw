@@ -15,7 +15,7 @@ def ReadGrandsPrixMetaData(active_year):
 
 if __name__== "__main__":
     config = load_config.ReadConfig()
-    gpmd=ReadGrandsPrixMetaData(config.current_year)
-    grand_prix_names=gpmd.GetBeforeDate(datetime.date(2018,12,31)).GetNames()
+    gpmd = ReadGrandsPrixMetaData(config.current_year)
+    grand_prix_names = gpmd.GetBeforeDate(datetime.date(2018,12,31)).GetNames()
     for grand_prix_name in grand_prix_names:
         print(grand_prix_name)
