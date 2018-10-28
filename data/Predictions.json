@@ -593,6 +593,222 @@
               "Progression":"Force India"
             }
           ]
+        },
+        {
+          "Grand_Prix":"French",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Fernando Alonso",
+              "Race":"Pierre Gasly",
+              "Progression":"Force India"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Carlos Sainz Jnr",
+              "Race":"Esteban Ocon",
+              "Progression":"Renault"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Austrian",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Kimi Raikkonen",
+              "Race":"Max Verstappen",
+              "Progression":"Toro Rosso"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Kevin Magnussen",
+              "Race":"Charles Leclerc",
+              "Progression":"Red Bull"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"British",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Nico Hulkenberg",
+              "Race":"Sebastian Vettel",
+              "Progression":"Force India"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Max Verstappen",
+              "Race":"Valitteri Bottas",
+              "Progression":"Toro Rosso"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"German",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Valitteri Bottas",
+              "Race":"Daniel Ricciardo",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Nico Hulkenberg",
+              "Race":"Sebastian Vettel",
+              "Progression":"Renault"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Hungarian",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Daniel Ricciardo",
+              "Race":"Valitteri Bottas",
+              "Progression":"Renault"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Max Verstappen",
+              "Race":"Romain Grosjean",
+              "Progression":"Haas F1"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Belgian",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Kimi Raikkonen",
+              "Race":"Sebastian Vettel",
+              "Progression":"Force India"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Daniel Ricciardo",
+              "Race":"Valitteri Bottas",
+              "Progression":"Haas F1"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Italian",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Daniel Ricciardo",
+              "Race":"Valitteri Bottas",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Romain Grosjean",
+              "Race":"Charles Leclerc",
+              "Progression":"Toro Rosso"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Singapore",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Daniel Ricciardo",
+              "Race":"Valitteri Bottas",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Romain Grosjean",
+              "Race":"Charles Leclerc",
+              "Progression":"Toro Rosso"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Russian",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Daniel Ricciardo",
+              "Race":"Nico Hulkenberg",
+              "Progression":"Red Bull"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Sergio Perez",
+              "Race":"Pierre Gasly",
+              "Progression":"McLaren"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Japanese",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Daniel Ricciardo",
+              "Race":"Valitteri Bottas",
+              "Progression":"Renault"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Nico Hulkenberg",
+              "Race":"Max Verstappen",
+              "Progression":"Force India"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"United States",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Kimi Raikkonen",
+              "Race":"Max Verstappen",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Daniel Ricciardo",
+              "Race":"Nico Hulkenberg",
+              "Progression":"Renault"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Mexican",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Kimi Raikkonen",
+              "Race":"Daniel Ricciardo",
+              "Progression":"Toro Rosso"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Romain Grosjean",
+              "Race":"Sergio Perez",
+              "Progression":"McLaren"
+            }
+          ]
         }
       ]
     }
