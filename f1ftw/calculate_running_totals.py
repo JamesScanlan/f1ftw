@@ -18,6 +18,7 @@ for grand_prix_name in grand_prix_names:
     for race_total in race_totals:
         predictor_totals.AddOrUpdatePredictorTotalPoints(race_total)
 
+
 print("\nGrand Total")
-for predictor_total in predictor_totals:
-    print(str(predictor_total.predictor) + " scored " + str(predictor_total.points) + " points.")
+for predictor_total in sorted(predictor_totals, key = lambda x: x.points, reverse = True):
+    print(str(predictor_total.predictor) + "\t" + str(predictor_total.points) + " points")

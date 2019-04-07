@@ -4,6 +4,7 @@ import get_grand_prix_names
 import load_grands_prix_meta_data
 import datetime
 import load_config
+import helpers
 from get_grand_prix_name import GetGrandPrixNameFromCommandLineArguments
 
 
@@ -19,12 +20,20 @@ def CalculateDriversChampionship(grand_prix, active_year):
             results = load_race_results.ReadRaceResults(grand_prix_name, active_year)
             for result in results.race_results:
                 championship_drivers.AddOrUpdateDriver(result.driver, result.points)
+            if results.fastest_lap != None:
+                fastest_lap = helpers.ParsePersonName(results.fastest_lap)
+                for result in results.race_results:
+                    if result.driver.person_name == fastest_lap:
+                        championship_drivers.AddOrUpdateDriver(result.driver, 1)
         counter += 1
+
 
     if len(championship_drivers) == 0:
         results=load_race_results.ReadRaceResults(grand_prix_names[0], active_year)
         for result in results.race_results:
             championship_drivers.AddOrUpdateDriver(result.driver, 0)
+
+
 
     championship_drivers.ApplySort()
     championship_drivers.ApplyRanking()

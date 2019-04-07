@@ -21,6 +21,7 @@ def ReadRaceResults(grand_prix_name, active_year):
 
     qualifying_results=[]
     race_results=[]
+    fastest_lap = ""
 
     for race_year in jsonData["Grands_Prix"]:
         if race_year["Year"] == str(active_year):
@@ -33,8 +34,9 @@ def ReadRaceResults(grand_prix_name, active_year):
                         race_result = objects.results.RaceResult(current_driver, int(results_source["grid"]), int(results_source["position"]))
                         race_result.points = CalcRacePoints(int(results_source["position"]))
                         race_results.append(race_result)
+                    fastest_lap = race["fastest_lap"]
 
-    return objects.results.GrandPrixResults(qualifying_results, race_results)
+    return objects.results.GrandPrixResults(qualifying_results, race_results, fastest_lap)
 
 def DoResultsExistForGrandPrix(grand_prix_name, active_year):
     jsonData=LoadRaceResultsIntoJSON()

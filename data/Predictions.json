@@ -827,6 +827,78 @@
               "Progression":"Ferrari"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Abu Dhabi",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Daniel Ricciardo",
+              "Race":"Fernando Alonso",
+              "Progression":"Renault"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Max Verstappen",
+              "Race":"Stoffel Vandoorne",
+              "Progression":"Force India"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Year":"2019",
+      "Races":
+      [
+        {
+          "Grand_Prix":"Australian",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Lewis Hamilton",
+              "Race":"Pierre Gasly",
+              "Progression":"Red Bull"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Charles Leclerc",
+              "Race":"Valitteri Bottas",
+              "Progression":"McLaren"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Sebastian Vettel",
+              "Race":"Max Verstappen",
+              "Progression":"Racing Point"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Bahrain",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Max Verstappen",
+              "Race":"Sebastian Vettel",
+              "Progression":"Toro Rosso"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Kimi Raikkonen",
+              "Race":"Lance Stroll",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Charles Leclerc",
+              "Race":"Nico Hulkenberg",
+              "Progression":"McLaren"
+            }
+          ]
         }
       ]
     }

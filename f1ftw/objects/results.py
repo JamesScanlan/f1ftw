@@ -11,6 +11,7 @@ class QualifyingResult(object):
         self.position = position
 
 class GrandPrixResults(object):
-    def __init__(self,qualifying_results,race_results):
+    def __init__(self,qualifying_results, race_results, fastest_lap = None):
         self.qualifying_results=qualifying_results
         self.race_results=race_results
+        self.fastest_lap = fastest_lap
