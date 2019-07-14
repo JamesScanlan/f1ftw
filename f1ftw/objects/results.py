@@ -1,3 +1,6 @@
+from objects.drivers import Drivers
+from objects.person_name import PersonName
+
 class RaceResult(object):
     def __init__(self, driver, grid, position):
         self.driver = driver
@@ -12,6 +15,28 @@ class QualifyingResult(object):
 
 class GrandPrixResults(object):
     def __init__(self,qualifying_results, race_results, fastest_lap = None):
-        self.qualifying_results=qualifying_results
-        self.race_results=race_results
+        self.qualifying_results = qualifying_results
+        self.race_results = race_results
         self.fastest_lap = fastest_lap
+    def GetDriver(self, driver_name):
+        name = driver_name.split(" ")
+        person_name = PersonName(name[0],name[1])
+        for result in self.qualifying_results:
+            if result.driver.person_name == person_name:
+                return result.driver
+        return Nothing
+    def GetDrivers(self):
+        drivers = Drivers()
+        for result in self.qualifying_results:
+            drivers.AddObject(result.driver)
+        return drivers
+    def GetQualifyingResult(self, driver):
+        for qualifying_result in self.qualifying_results:
+            if qualifying_result.driver == driver:
+                return qualifying_result
+        return Nothing
+    def GetRaceResult(self, driver):
+        for race_result in self.race_results:
+            if race_result.driver == driver:
+                return race_result
+        return Nothing
