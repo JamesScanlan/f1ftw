@@ -7,29 +7,48 @@ from process_command_line_arguments import CommandLineArguments
 import sys
 import load_config
 
-grand_prix_name = GetGrandPrixNameFromCommandLineArguments(default="Australian")
-args=CommandLineArguments()
-output_to_file = False
-if len(args)>1:
-    f=open(args[1], "w")
+def CalculateBest(grand_prix_name, current_year):
+    print("\nQualifying\n==========")
+    CalculateBestQualifying(grand_prix_name, current_year)
+    print("\nRace\n====")
+    CalculateBestRace(grand_prix_name, current_year)
+    print("\nProgression\n===========")
+    CalculateBestProgression(grand_prix_name, current_year)
+    if current_year == 2017:
+        print("\nJoker\n=====")
+        CalculateBestJoker(grand_prix_name, current_year)
+
+def ReadAdditionalCommandLineArgument():
+    args = CommandLineArguments()
+    if len(args)>1:
+        return args[1]
+    return None
+
+def OpenFile(filename):
+    f=open(filename, "w")
+    return f
+
+def RedirectConsoleOuputToFile(file_handle):
     original_output = sys.stdout
-    sys.stdout = f
-    output_to_file = True
+    sys.stdout = file_handle
+    return original_output
 
-config = load_config.ReadConfig()
-
-
-print("\nQualifying\n==========")
-CalculateBestQualifying(grand_prix_name, config.current_year)
-print("\nRace\n====")
-CalculateBestRace(grand_prix_name, config.current_year)
-print("\nProgression\n===========")
-CalculateBestProgression(grand_prix_name, config.current_year)
-if config.current_year == 2017:
-    print("\nJoker\n=====")
-    CalculateBestJoker(grand_prix_name, config.current_year)
-
-if output_to_file:
-    f.close()
+def CloseFile(file_handle, original_output):
+    file_handle.close()
     sys.stdout = original_output
-    print(args[1] + " created")
+
+if __name__== "__main__":
+    grand_prix_name = GetGrandPrixNameFromCommandLineArguments(default="Australian")
+    config = load_config.ReadConfig()
+    output_filename = ReadAdditionalCommandLineArgument()
+    file_handle = None
+    original_output = None
+    if output_filename != None:
+        file_handle = OpenFile(output_filename)
+        original_output = RedirectConsoleOuputToFile(file_handle)
+
+    CalculateBest(grand_prix_name, config.current_year)
+
+    if file_handle != None:
+        CloseFile(file_handle, original_output)
+        print(output_filename + " created")
