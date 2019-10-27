@@ -1,7 +1,7 @@
 import objects
 import datetime
 import load_race_results
-from load_predictions import ReadPredictions
+from load_predictions import read_predictions
 
 def DoPredictionsExistForGrandPrix(grand_prix_name, active_year):
-    return len(ReadPredictions(grand_prix_name, active_year)) > 0
+    return len(read_predictions(grand_prix_name, active_year)) > 0

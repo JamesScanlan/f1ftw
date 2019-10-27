@@ -7,9 +7,9 @@ class CalculatedDriverResult(object):
         self.predictor = None
     def __str__(self):
         if self.predictor is None:
-            return str(self.points) + "\t" + str(self.driver.person_name)
+            return str(self.points) + "\t" + str(self.driver.person_name) + " (" + str(self.driver.team) + ")"
         else:
-            return str(self.points) + "\t" + str(self.driver.person_name) + " (" + str(self.predictor) + ")"
+            return str(self.points) + "\t" + str(self.driver.person_name) + " (" + str(self.driver.team) + ") (" + str(self.predictor) + ")"
 
 class CalculatedTeamResult(object):
     def __init__(self, team, points):

@@ -3,7 +3,7 @@ import load_predictions
 import load_config
 
 def GetPredictors(active_year):
-    predictions = load_predictions.ReadPredictions(None, active_year)
+    predictions = load_predictions.read_predictions(None, active_year)
     predictors=[]
     for prediction in predictions:
         predictors.append(prediction.predictor)

@@ -9,6 +9,7 @@ from process_command_line_arguments import CommandLineArguments
 import sys
 import load_config
 import titler
+import calculate_number_of_races_remaining_in_season
 
 def GetFileNameFromCommandLineArgument():
     args=CommandLineArguments()
@@ -33,8 +34,8 @@ def CloseFile(f):
     f.close()
 
 def CalcScores(grand_prix_name, current_year):
-    if calculate_race_scores.ValidateConditions(grand_prix_name, current_year):
-        calculate_race_scores.ProcessRaceScores(grand_prix_name, current_year)
+    if calculate_race_scores.validate_conditions(grand_prix_name, current_year):
+        calculate_race_scores.process_race_scores(grand_prix_name, current_year)
 
 def CalcRaceWins(current_year):
     calculate_race_wins.CalculateRaceWins(current_year)
@@ -62,6 +63,10 @@ if __name__== "__main__":
     print("\n\n")
     titler.Title("Running Totals")
     calculate_running_totals.CalculateRunningTotals(config.current_year, False)
+
+    print("\n\n")
+    titler.Title("Remaining Races")
+    calculate_number_of_races_remaining_in_season.CalculateNumberOfRacesRemaining(grand_prix_name)
 
     CloseFile(file_handler)
 

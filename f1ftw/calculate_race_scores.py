@@ -7,14 +7,14 @@ from conditions.condition import Condition
 import load_config
 
 
-def ProcessRaceScores(grand_prix_name, active_year):
+def process_race_scores(grand_prix_name, active_year):
     predictor_totals = objects.predictor_totals.PredictorTotals()
     calculation_scores = calculate_scores.CalculateRaceScore(grand_prix_name, active_year)
     predictor_totals = calculate_scores.CalculateTotals(predictor_totals, calculation_scores)
     print("\nRace Total:")
     calculate_scores.DisplayTotals(predictor_totals)
 
-def ValidateConditions(grand_prix_name, active_year):
+def validate_conditions(grand_prix_name, active_year):
     check_conditions=[]
     check_conditions.append(Condition(validate_grand_prix.IsGrandPrixKnown(grand_prix_name, active_year), "\nSorry, I don't recognise the " + grand_prix_name + " GP as being valid."))
     check_conditions.append(Condition(validate_grand_prix.DoResultsExistForGrandPrix(grand_prix_name, active_year), "\nSorry, the " + grand_prix_name + " GP has not taken place yet."))
@@ -34,5 +34,5 @@ if __name__== "__main__":
     config = load_config.ReadConfig()
     grand_prix_name = GetGrandPrixNameFromCommandLineArguments(default=config.default_race)
 
-    if ValidateConditions(grand_prix_name, config.current_year):
-        ProcessRaceScores(grand_prix_name, config.current_year)
+    if validate_conditions(grand_prix_name, config.current_year):
+        process_race_scores(grand_prix_name, config.current_year)

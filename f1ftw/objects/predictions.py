@@ -14,6 +14,12 @@ class QualifyingPrediction(object):
 class RacePrediction(object):
     def __init__(self,driver):
         self.driver = driver
+    def __eq__(self, other):
+        if other is None:
+            return False
+        return self.driver == other.driver
+    def __ne__(self, other):
+        return self.driver != other.driver
     def __repr__(self):
         return "{}:\n\t{}".format(self.__class__.__name__,self.driver.person_name,self.driver.team)
 

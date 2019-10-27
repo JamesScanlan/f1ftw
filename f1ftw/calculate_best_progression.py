@@ -6,7 +6,7 @@ import objects
 
 def CalculateBestProgression(grand_prix_name, active_year):
     results = load_race_results.ReadRaceResults(grand_prix_name, active_year)
-    predictions = load_predictions.ReadPredictions(grand_prix_name, active_year)
+    predictions = load_predictions.read_predictions(grand_prix_name, active_year)
     drivers_championship = CalculateDriversChampionship(grand_prix_name, active_year)
 
     calculated_results = objects.calculated_results.CalculatedResults()

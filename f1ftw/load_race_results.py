@@ -3,7 +3,7 @@ import os
 from objects.driver import Driver
 import objects
 import objects.results
-from helpers import ParsePersonName
+from helpers import parse_person_name
 
 
 def CalcRacePoints(position):
@@ -28,7 +28,7 @@ def ReadRaceResults(grand_prix_name, active_year):
             for race in race_year["Races"]:
                 if race["Grand_Prix"] == grand_prix_name:
                     for results_source in race["Results"]:
-                        current_driver = Driver(ParsePersonName(results_source["name"]),objects.team.Team(results_source["team"]))
+                        current_driver = Driver(parse_person_name(results_source["name"]),objects.team.Team(results_source["team"]))
                         qualifying_result = objects.results.QualifyingResult(current_driver, int(results_source["qualifying"]))
                         qualifying_results.append(qualifying_result)
                         race_result = objects.results.RaceResult(current_driver, int(results_source["grid"]), int(results_source["position"]))
