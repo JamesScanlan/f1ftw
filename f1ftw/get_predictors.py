@@ -11,7 +11,7 @@ def GetPredictors(active_year):
     return list(predictors)
 
 if __name__ == '__main__':
-    config = load_config.ReadConfig()
+    config = load_config.read_config()
     predictors = GetPredictors(config.current_year)
     for predictor in predictors:
         print(predictor)

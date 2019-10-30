@@ -1,8 +1,8 @@
-from get_grand_prix_name import GetGrandPrixNameFromCommandLineArguments
+from get_grand_prix_name import get_grand_prix_name_from_command_line_arguments
 import load_config
 import get_grand_prix_names
 
-def FormatNumberDescriptor(number):
+def format_number_descriptor(number):
     if number == 1:
         return "st"
     if number == 2:
@@ -13,16 +13,16 @@ def FormatNumberDescriptor(number):
         return "th"
     return "Unknown"
 
-def CalculateNumberOfRacesRemaining(race_name):
-    config = load_config.ReadConfig()
-    grand_prix_names = get_grand_prix_names.GetGrandPrixNames()
+def calculate_number_of_races_remaining(race_name):
+    config = load_config.read_config()
+    grand_prix_names = get_grand_prix_names.get_all_grand_prix_for_season(config.current_year)
     counter = 0
     print_remaining_grand_prix = False
     remaining_races = ""
     for grand_prix_name in grand_prix_names:
         counter += 1
         if grand_prix_name == race_name:
-            print("The " + race_name + " Grand Prix is the " + str(counter) + FormatNumberDescriptor(counter) + " race of the season.")
+            print("The " + race_name + " Grand Prix is the " + str(counter) + format_number_descriptor(counter) + " race of the season.")
             print("In " + str(config.current_year) + " there are " + str(len(grand_prix_names)) + " races.")
             print("There are " + str(len(grand_prix_names) - counter) + " races remaining.")
             print_remaining_grand_prix = True
@@ -36,6 +36,6 @@ def CalculateNumberOfRacesRemaining(race_name):
 
 
 if __name__ == "__main__":
-    input_grand_prix_name = GetGrandPrixNameFromCommandLineArguments(default="All")
+    input_grand_prix_name = get_grand_prix_name_from_command_line_arguments(default = "All")
     if input_grand_prix_name != "All":
-        CalculateNumberOfRacesRemaining(input_grand_prix_name)
+        calculate_number_of_races_remaining(input_grand_prix_name)

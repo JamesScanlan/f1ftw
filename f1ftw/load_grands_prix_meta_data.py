@@ -4,7 +4,7 @@ import objects
 import datetime
 import load_config
 
-def ReadGrandsPrixMetaData(active_year):
+def read_grands_prix_meta_data(active_year):
     grands_prix_meta_data = objects.grands_prix_meta_data.GrandsPrixMetaData()
     jsonData = json.load(open(os.path.join(os.path.abspath(".."), "data", "GrandsPrixMetaData.json")))
     for grand_prix in jsonData["GrandsPrix"]:
@@ -14,8 +14,8 @@ def ReadGrandsPrixMetaData(active_year):
     return grands_prix_meta_data
 
 if __name__== "__main__":
-    config = load_config.ReadConfig()
-    gpmd = ReadGrandsPrixMetaData(config.current_year)
+    config = load_config.read_config()
+    gpmd = read_grands_prix_meta_data(config.current_year)
     grand_prix_names = gpmd.GetBeforeDate(datetime.date(2018,12,31)).GetNames()
     for grand_prix_name in grand_prix_names:
         print(grand_prix_name)

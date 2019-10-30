@@ -2,7 +2,7 @@ import json
 import os
 import objects
 
-def ReadConfig():
+def read_config():
     config = objects.config.Config()
     jsonData = json.load(open(os.path.join(os.path.abspath(".."), "data", "config.json")))
     config.current_year = int(jsonData["Config"]["Current_Year"])
@@ -10,5 +10,5 @@ def ReadConfig():
     return config
 
 if __name__== "__main__":
-    config = ReadConfig()
+    config = read_config()
     print(config)

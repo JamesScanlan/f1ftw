@@ -1,24 +1,24 @@
 import load_race_results
 import load_predictions
 import calculate_qualifying
-from calculate_drivers_championship import CalculateDriversChampionship
-from get_driver import GetDriver
+from calculate_drivers_championship import calculate_drivers_championship
+from get_driver import get_driver
 import objects
 
-def CalculateBestQualifying(grand_prix_name, active_year):
-    results = load_race_results.ReadRaceResults(grand_prix_name, active_year)
+def calculate_best_qualifying(grand_prix_name, active_year):
+    results = load_race_results.read_race_results(grand_prix_name, active_year)
     predictions = load_predictions.read_predictions(grand_prix_name, active_year)
-    drivers_championship = CalculateDriversChampionship(grand_prix_name, active_year)
+    drivers_championship = calculate_drivers_championship(grand_prix_name, active_year)
 
     calculated_results = objects.calculated_results.CalculatedResults()
 
     for result in results.qualifying_results:
         qualifying_driver = result.driver
-        qualifying_score = calculate_qualifying.CalculateQualifyingScore(qualifying_driver, results.qualifying_results, drivers_championship)
+        qualifying_score = calculate_qualifying.calculate_qualifying_score(qualifying_driver, results.qualifying_results, drivers_championship)
         calculated_results.AddObject(objects.calculated_results.CalculatedDriverResult(qualifying_driver, qualifying_score))
 
     for prediction in predictions:
-        prediction_driver=GetDriver(prediction.qualifying_prediction, results.qualifying_results)
+        prediction_driver = get_driver(prediction.qualifying_prediction, results.qualifying_results)
         for calculated_result in [c for c in calculated_results if c.driver == prediction_driver]:
             calculated_result.predictor = prediction.predictor
 

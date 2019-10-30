@@ -10,7 +10,7 @@ def DoCalculation(grand_prix_name, active_year):
 
 
 if __name__ == "__main__":
-    config = load_config.ReadConfig()
+    config = load_config.read_config()
 
     grand_prix_name = GetGrandPrixNameFromCommandLineArguments(default="All")
     if grand_prix_name != "All":

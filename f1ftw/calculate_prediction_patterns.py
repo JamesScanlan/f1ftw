@@ -3,8 +3,6 @@ from load_predictions import ReadPredictions
 import datetime
 import load_config
 import load_grands_prix_meta_data
-#import prediction_totals
-
 
 class PredictionTotal(object):
     def __init__(self, grand_prix, predictor, prediction):
@@ -48,5 +46,5 @@ def ApplyGrandPrixIndex(prediction_totals, active_year):
     return prediction_totals
 
 if __name__== "__main__":
-    config = load_config.ReadConfig()
+    config = load_config.read_config()
     CalculatePredictionPatterns(config.current_year)

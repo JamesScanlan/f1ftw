@@ -1,7 +1,7 @@
 import objects
-from get_driver import GetDriver
+from get_driver import get_driver
 
-def CalculateRaceScore(race_driver, race_results, drivers_championship):
+def calculate_race_score(race_driver, race_results, drivers_championship):
     for race_result in [r for r in race_results if r.driver == race_driver]:
         driver_championship_index = drivers_championship.GetRanking(race_driver)
         race_position = race_result.position
@@ -9,15 +9,15 @@ def CalculateRaceScore(race_driver, race_results, drivers_championship):
         race_score = ((len(race_results) - (race_position)) + race_points) * driver_championship_index
         return race_score
 
-def CalculateRaceScores(predictions, results, drivers_championship):
+def calculate_race_scores(predictions, results, drivers_championship):
     calculated_results=[]
     for prediction in predictions:
         race_score = 0
         result = None
 
         if prediction.race_prediction != None:
-            race_driver = GetDriver(prediction.race_prediction, results.race_results)
-            race_score = CalculateRaceScore(race_driver, results.race_results, drivers_championship)
+            race_driver = get_driver(prediction.race_prediction, results.race_results)
+            race_score = calculate_race_score(race_driver, results.race_results, drivers_championship)
             result = objects.calculation_score_results.CalculationScoreResult(prediction.predictor, race_score)
             result.log = "For " + str(prediction.predictor) + " driver " + str(prediction.race_prediction) + " achieved a race score of " + str(race_score) + " points"
         else:

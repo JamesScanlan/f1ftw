@@ -16,6 +16,6 @@ def ProcessProgressionPerformance(grand_prix_name, active_year):
         print(str(driver) + ", " + str(qualifying_position) + ", " + str(race_position) + ", " + str(outcome))
 
 if __name__== "__main__":
-    config = load_config.ReadConfig()
+    config = load_config.read_config()
     grand_prix_name = GetGrandPrixNameFromCommandLineArguments(default=config.default_race)
     ProcessProgressionPerformance(grand_prix_name, config.current_year)

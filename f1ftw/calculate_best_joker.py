@@ -1,13 +1,13 @@
 import load_race_results
 import load_predictions
 import calculate_joker
-from calculate_drivers_championship import CalculateDriversChampionship
+from calculate_drivers_championship import calculate_drivers_championship
 import objects
 
-def CalculateBestJoker(grand_prix_name, active_year):
+def calculate_best_joker(grand_prix_name, active_year):
     results = load_race_results.ReadRaceResults(grand_prix_name, active_year)
     predictions = load_predictions.ReadPredictions(grand_prix_name, active_year)
-    drivers_championship = CalculateDriversChampionship(grand_prix_name, active_year)
+    drivers_championship = calculate_drivers_championship(grand_prix_name, active_year)
 
     calculated_results = objects.calculated_results.CalculatedResults()
 
@@ -15,7 +15,7 @@ def CalculateBestJoker(grand_prix_name, active_year):
     qualifying_teams = set(qualifying_teams)
 
     for qualifying_team in qualifying_teams:
-        joker_score = calculate_joker.CalculateJokerScore(qualifying_team, results.qualifying_results, drivers_championship)
+        joker_score = calculate_joker.calculate_joker_score(qualifying_team, results.qualifying_results, drivers_championship)
         calculated_results.AddObject(objects.calculated_results.CalculatedTeamResult(qualifying_team, joker_score))
 
     for prediction in predictions:

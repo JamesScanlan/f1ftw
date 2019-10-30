@@ -45,7 +45,7 @@ def parse_prediction(grand_prix, prediction_source, active_year):
     return prediction
 
 if __name__== "__main__":
-    config = load_config.ReadConfig()
+    config = load_config.read_config()
     predictions = read_predictions(active_year = config.current_year)
     for prediction in predictions:
         print(prediction)

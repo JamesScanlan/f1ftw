@@ -8,28 +8,28 @@ class GrandsPrixMetaData(CollectionClass):
         for s in self:
             print(s)
 
-    def GetBeforeDate(self, date_value):
+    def get_before_date(self, date_value):
         filtered_results=GrandsPrixMetaData()
         for grand_prix_meta_data in self:
             if grand_prix_meta_data.end_date < date_value:
                 filtered_results.AddObject(grand_prix_meta_data)
         return filtered_results
 
-    def GetBeforePreviousOrCurrentRaceWeekends(self, date_value):
-        filtered_results=GrandsPrixMetaData()
+    def get_before_previous_or_current_race_weekends(self, date_value):
+        filtered_results = GrandsPrixMetaData()
         for grand_prix_meta_data in self:
             if grand_prix_meta_data.end_date <= date_value:
                 filtered_results.AddObject(grand_prix_meta_data)
         return filtered_results
 
-    def GetByName(self, grand_prix_name):
+    def get_by_name(self, grand_prix_name):
         filtered_results = [md for md in self if md.name == grand_prix_name]
         if len(filtered_results) == 1:
             return filtered_results[0]
         else:
             return None
 
-    def GetNextGrandPrixMetaData(self,date_value):
+    def get_next_grand_prix_meta_data(self,date_value):
         filtered_results = [md for md in self if md.end_date > date_value]
         filtered_results = sorted(filtered_results, key=lambda GrandPrixMetaData: GrandPrixMetaData.end_date)
         #need to sort by end date too
@@ -38,7 +38,7 @@ class GrandsPrixMetaData(CollectionClass):
         else:
             return None
 
-    def GetNames(self):
+    def get_names(self):
         names=[]
         for s in self:
             names.append(s.name)

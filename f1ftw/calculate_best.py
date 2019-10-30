@@ -1,54 +1,54 @@
-from calculate_best_qualifying import CalculateBestQualifying
-from calculate_best_race import CalculateBestRace
-from calculate_best_progression import CalculateBestProgression
-from calculate_best_joker import CalculateBestJoker
-from get_grand_prix_name import GetGrandPrixNameFromCommandLineArguments
+from calculate_best_qualifying import calculate_best_qualifying
+from calculate_best_race import calculate_best_race
+from calculate_best_progression import calculate_best_progression
+from calculate_best_joker import calculate_best_joker
+from get_grand_prix_name import get_grand_prix_name_from_command_line_arguments
 from process_command_line_arguments import CommandLineArguments
 import sys
 import load_config
 
-def CalculateBest(grand_prix_name, current_year):
+def calculate_best(grand_prix_name, current_year):
     print("\nQualifying\n==========")
-    CalculateBestQualifying(grand_prix_name, current_year)
+    calculate_best_qualifying(grand_prix_name, current_year)
     print("\nRace\n====")
-    CalculateBestRace(grand_prix_name, current_year)
+    calculate_best_race(grand_prix_name, current_year)
     print("\nProgression\n===========")
-    CalculateBestProgression(grand_prix_name, current_year)
+    calculate_best_progression(grand_prix_name, current_year)
     if current_year == 2017:
         print("\nJoker\n=====")
-        CalculateBestJoker(grand_prix_name, current_year)
+        calculate_best_joker(grand_prix_name, current_year)
 
-def ReadAdditionalCommandLineArgument():
+def read_additional_command_line_argument():
     args = CommandLineArguments()
     if len(args)>1:
         return args[1]
     return None
 
-def OpenFile(filename):
-    f=open(filename, "w")
+def open_file(filename):
+    f = open(filename, "w")
     return f
 
-def RedirectConsoleOuputToFile(file_handle):
+def redirect_console_ouput_to_file(file_handle):
     original_output = sys.stdout
     sys.stdout = file_handle
     return original_output
 
-def CloseFile(file_handle, original_output):
+def close_file(file_handle, original_output):
     file_handle.close()
     sys.stdout = original_output
 
 if __name__== "__main__":
-    grand_prix_name = GetGrandPrixNameFromCommandLineArguments(default="Australian")
-    config = load_config.ReadConfig()
-    output_filename = ReadAdditionalCommandLineArgument()
+    grand_prix_name = get_grand_prix_name_from_command_line_arguments(default="Australian")
+    config = load_config.read_config()
+    output_filename = read_additional_command_line_argument()
     file_handle = None
     original_output = None
     if output_filename != None:
-        file_handle = OpenFile(output_filename)
-        original_output = RedirectConsoleOuputToFile(file_handle)
+        file_handle = open_file(output_filename)
+        original_output = redirect_console_ouput_to_file(file_handle)
 
-    CalculateBest(grand_prix_name, config.current_year)
+    calculate_best(grand_prix_name, config.current_year)
 
     if file_handle != None:
-        CloseFile(file_handle, original_output)
+        close_file(file_handle, original_output)
         print(output_filename + " created")

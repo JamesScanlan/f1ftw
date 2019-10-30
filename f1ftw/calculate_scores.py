@@ -1,42 +1,40 @@
 import objects
 import load_predictions
 import load_race_results
-from calculate_qualifying import CalculateQualifyingScores
-from calculate_race import CalculateRaceScores
-from calculate_progression import CalculateProgressionScores
-from calculate_joker import CalculateJokerScores
-from calculate_drivers_championship import CalculateDriversChampionship
+from calculate_qualifying import calculate_qualifying_scores
+from calculate_race import calculate_race_scores
+from calculate_progression import calculate_progression_scores
+from calculate_joker import calculate_joker_scores
+from calculate_drivers_championship import calculate_drivers_championship
 
-def GetGrandPrixStageName(stage):
-    stages=["Qualifying","Race","Progression","Joker"]
+def get_grand_prix_stage_name(stage):
+    stages = ["Qualifying","Race","Progression","Joker"]
     return stages[stage.value-1]
 
-def CalculateRaceScore(grand_prix_name, active_year):
-    results = load_race_results.ReadRaceResults(grand_prix_name, active_year)
+def calculate_race_score(grand_prix_name, active_year):
+    results = load_race_results.read_race_results(grand_prix_name, active_year)
     predictions = load_predictions.read_predictions(grand_prix_name, active_year)
-    drivers_championship = CalculateDriversChampionship(grand_prix_name, active_year)
+    drivers_championship = calculate_drivers_championship(grand_prix_name, active_year)
     calculation_scores = []
 
-    calculation_scores.append(CalculateQualifyingScores(predictions, results, drivers_championship))
-    # for prediction in predictions: #2019 10 20 implementing None predictions
-    #     print(prediction)
-    calculation_scores.append(CalculateRaceScores(predictions, results, drivers_championship))
-    calculation_scores.append(CalculateProgressionScores(predictions, results, drivers_championship))
+    calculation_scores.append(calculate_qualifying_scores(predictions, results, drivers_championship))
+    calculation_scores.append(calculate_race_scores(predictions, results, drivers_championship))
+    calculation_scores.append(calculate_progression_scores(predictions, results, drivers_championship))
     if active_year == 2017:
-        calculation_scores.append(CalculateJokerScores(predictions, results, drivers_championship))
+        calculation_scores.append(calculate_joker_scores(predictions, results, drivers_championship))
     return calculation_scores
 
-def CalculateTotals(predictor_totals, calculation_scores, print_totals=True):
+def calculate_totals(predictor_totals, calculation_scores, print_totals=True):
     for calculation_score in calculation_scores:
         if print_totals:
-            print("\n" + GetGrandPrixStageName(calculation_score.stage) + ":")
+            print("\n" + get_grand_prix_stage_name(calculation_score.stage) + ":")
         for stage_score in calculation_score.results:
             if print_totals:
                 print(stage_score.log)
             predictor_totals.AddOrUpdatePredictorTotalPoints(objects.predictor_totals.PredictorTotal(stage_score.predictor, stage_score.score))
     return predictor_totals
 
-def DisplayTotals(predictor_totals):
+def display_totals(predictor_totals):
     for predictor_total in predictor_totals:
         if predictor_total.predictor != None:
             print(str(predictor_total.predictor) + " scored " + str(predictor_total.points) + " points.")

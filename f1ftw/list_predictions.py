@@ -2,7 +2,7 @@ import objects
 from load_predictions import ReadPredictions
 import load_config
 
-config = load_config.ReadConfig()
+config = load_config.read_config()
 predictions = sorted(ReadPredictions(active_year = config.current_year), key = lambda Prediction: Prediction.predictor)
 
 print("\n")

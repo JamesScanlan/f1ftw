@@ -17,7 +17,7 @@ def ProcessProgressionPerformanceForDriver(driver_name, active_year):
 
 
 if __name__== "__main__":
-    config = load_config.ReadConfig()
+    config = load_config.read_config()
     args = CommandLineArguments()
     driver_name = args[0]
 

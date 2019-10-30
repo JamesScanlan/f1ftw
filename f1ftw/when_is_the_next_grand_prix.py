@@ -3,7 +3,7 @@ import objects
 import datetime
 import load_config
 
-config = load_config.ReadConfig()
+config = load_config.read_config()
 
 grands_prix_meta_data = load_grands_prix_meta_data.ReadGrandsPrixMetaData(config.current_year)
 md = grands_prix_meta_data.GetNextGrandPrixMetaData(datetime.date.today())
