@@ -19,21 +19,21 @@ def calculate_drivers_championship(grand_prix, active_year):
         if counter < index:
             results = load_race_results.read_race_results(grand_prix_name, active_year)
             for result in results.race_results:
-                championship_drivers.AddOrUpdateDriver(result.driver, result.points)
+                championship_drivers.add_or_update_driver(result.driver, result.points)
             if results.fastest_lap != None:
                 fastest_lap = helpers.parse_person_name(results.fastest_lap)
                 for result in results.race_results:
                     if result.driver.person_name == fastest_lap:
-                        championship_drivers.AddOrUpdateDriver(result.driver, 1)
+                        championship_drivers.add_or_update_driver(result.driver, 1)
         counter += 1
 
     if len(championship_drivers) == 0:
         results = load_race_results.read_race_results(grand_prix_names[0], active_year)
         for result in results.race_results:
-            championship_drivers.AddOrUpdateDriver(result.driver, 0)
+            championship_drivers.add_or_update_driver(result.driver, 0)
 
-    championship_drivers.ApplySort()
-    championship_drivers.ApplyRanking()
+    championship_drivers.apply_sort()
+    championship_drivers.apply_ranking()
 
     return championship_drivers
 

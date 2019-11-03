@@ -2,9 +2,9 @@ class CollectionClass(object):
     def __init__(self):
         self.index=-1
         self.objects=[]
-    def AddObject(self, new_object):
+    def add_object(self, new_object):
         self.objects.append(new_object)
-    def GetObjectIndex(self, object_to_compare):
+    def get_object_index(self, object_to_compare):
         index = 0
         for existing_object in self.objects:
             if existing_object == object_to_compare:
@@ -12,13 +12,13 @@ class CollectionClass(object):
             else:
                 index += 1
         return -1
-    def UpsertObject(self, object_in_question):
-        index = self.GetObjectIndex(object_in_question)
+    def upsert_object(self, object_in_question):
+        index = self.get_object_index(object_in_question)
         if index > -1:
             self.objects[index] == object_in_question
         else:
-            self.AddObject(object_in_question)
-        return self.GetObjectIndex(object_in_question)
+            self.add_object(object_in_question)
+        return self.get_object_index(object_in_question)
     def __iter__(self):
         self.index = 0
         return self

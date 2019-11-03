@@ -17,7 +17,7 @@ def calculate_running_totals(current_year, display_breakdown = True):
             calculate_scores.display_totals(race_totals)
 
         for race_total in race_totals:
-            predictor_totals.AddOrUpdatePredictorTotalPoints(race_total)
+            predictor_totals.add_or_update_predictor_total_points(race_total)
     if display_breakdown == True:
         print("\nGrand Total")
 

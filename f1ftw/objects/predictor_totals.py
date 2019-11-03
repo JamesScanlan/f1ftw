@@ -3,7 +3,7 @@ from objects.collection_class import CollectionClass
 class PredictorTotals(CollectionClass):
     def __init__(self):
         CollectionClass.__init__(self)
-    def GetPredictorIndex(self, predictor):
+    def get_predictor_index(self, predictor):
         index = 0
         for predictor_total in self.objects:
             if predictor_total.predictor == predictor:
@@ -11,20 +11,20 @@ class PredictorTotals(CollectionClass):
             else:
                 index += 1
         return -1
-    def AddPredictorTotal(self, predictor_total):
-        self.AddObject(predictor_total)
-    def AddOrUpdatePredictorTotalPoints(self, predictor_total):
-        index=self.GetPredictorIndex(predictor_total.predictor)
+    def add_predictor_total(self, predictor_total):
+        self.add_object(predictor_total)
+    def add_or_update_predictor_total_points(self, predictor_total):
+        index=self.get_predictor_index(predictor_total.predictor)
         if index > -1:
             self.objects[index].points += predictor_total.points
         else:
-            self.AddPredictorTotal(predictor_total)
-    def AppendPredictorTotalPoints(self, predictor, points):
-        index = self.GetPredictorIndex(predictor)
+            self.add_predictor_total(predictor_total)
+    def append_predictor_total_points(self, predictor, points):
+        index = self.get_predictor_index(predictor)
         if index > -1:
             self.objects[index].points += points
         else:
-            self.AddPredictorTotal(PredictorTotal(predictor,points))
+            self.add_predictor_total(PredictorTotal(predictor, points))
 
 class PredictorTotal(object):
     def __init__(self,predictor,points):

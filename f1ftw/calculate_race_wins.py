@@ -8,7 +8,7 @@ import load_config
 class PredictorRaceWinTotals(CollectionClass):
     def __init__(self):
         CollectionClass.__init__(self)
-    def IncrementWinTotalForPredictor(self, predictor):
+    def increment_win_total_for_predictor(self, predictor):
         for item in self:
             if item.predictor == predictor:
                 item.win_total += 1
@@ -22,9 +22,9 @@ class PredictorRaceWinTotal(object):
 
 def setup_predictor_wins(active_year):
     predictor_wins = PredictorRaceWinTotals()
-    predictors=GetPredictors(active_year)
+    predictors = GetPredictors(active_year)
     for predictor in predictors:
-        predictor_wins.AddObject(PredictorRaceWinTotal(predictor))
+        predictor_wins.add_object(PredictorRaceWinTotal(predictor))
     return predictor_wins
 
 def calculate_race_win(grand_prix_name, active_year):
@@ -32,7 +32,7 @@ def calculate_race_win(grand_prix_name, active_year):
     predictor_totals = objects.predictor_totals.PredictorTotals()
     for calculation_score in calculation_scores:
         for calc_result in calculation_score.results:
-            predictor_totals.AddOrUpdatePredictorTotalPoints(objects.predictor_totals.PredictorTotal(calc_result.predictor, calc_result.score))
+            predictor_totals.add_or_update_predictor_total_points(objects.predictor_totals.PredictorTotal(calc_result.predictor, calc_result.score))
     return sorted(predictor_totals, key = lambda x: x.points, reverse = True)
 
 def display_race_win_totals(predictor_wins):
@@ -49,7 +49,7 @@ def calculate_total_race_wins(active_year):
         winning_total = predictor_totals[0].points
         for predictor_total in predictor_totals:
             if predictor_total.points == winning_total:
-                predictor_wins.IncrementWinTotalForPredictor(predictor_total.predictor)
+                predictor_wins.increment_win_total_for_predictor(predictor_total.predictor)
     predictor_wins = sorted(predictor_wins, key = lambda x: x.win_total, reverse = True)
     return predictor_wins
 

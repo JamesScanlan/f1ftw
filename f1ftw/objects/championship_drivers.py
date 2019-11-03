@@ -3,7 +3,7 @@ from objects.collection_class import CollectionClass
 class ChampionshipDrivers(CollectionClass):
     def __init__(self):
         CollectionClass.__init__(self)
-    def GetIndex(self, driver):
+    def get_index(self, driver):
         index=0
         for championship_driver in self.objects:
             if championship_driver.driver == driver:
@@ -11,15 +11,15 @@ class ChampionshipDrivers(CollectionClass):
             else:
                 index += 1
         return -1
-    def AddOrUpdateDriver(self, driver, points):
-        index = self.GetIndex(driver)
+    def add_or_update_driver(self, driver, points):
+        index = self.get_index(driver)
         if index > -1:
             self[index].points += points
         else:
-            self.AddObject(ChampionshipDriver(driver, points))
-    def ApplySort(self):
+            self.add_object(ChampionshipDriver(driver, points))
+    def apply_sort(self):
         self.objects.sort(reverse=True, key=lambda x:x.points)
-    def ApplyRanking(self):
+    def apply_ranking(self):
         isFirst=True
         ranking = -1
         rankingPoints = -1
@@ -33,7 +33,7 @@ class ChampionshipDrivers(CollectionClass):
                     ranking += 1
                     rankingPoints = championship_driver.points
             championship_driver.ranking=ranking
-    def GetRanking(self, driver):
+    def get_ranking(self, driver):
         for championship_driver in self.objects:
             if championship_driver.driver == driver:
                 return championship_driver.ranking

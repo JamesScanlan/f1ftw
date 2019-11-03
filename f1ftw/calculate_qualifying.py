@@ -12,7 +12,7 @@ def calculate_qualifying_sector(position):
 
 def calculate_qualifying_score(qualifying_driver, qualifying_results, drivers_championship):
     for qualifying_result in [r for r in qualifying_results if r.driver == qualifying_driver]:
-        driver_championship_index = drivers_championship.GetRanking(qualifying_driver)
+        driver_championship_index = drivers_championship.get_ranking(qualifying_driver)
         qualifying_position = qualifying_result.position
         qualifying_sector = calculate_qualifying_sector(qualifying_position)
         qualifying_score = (len(qualifying_results) - (qualifying_position) + qualifying_sector) * driver_championship_index

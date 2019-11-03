@@ -7,4 +7,4 @@ class CommandLineArguments(CollectionClass):
         self.read_command_line()
     def read_command_line(self):
         for argumentCounter in range(1,len(sys.argv)):
-            self.AddObject(sys.argv[argumentCounter])
+            self.add_object(sys.argv[argumentCounter])

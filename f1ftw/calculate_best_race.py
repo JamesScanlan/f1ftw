@@ -15,14 +15,14 @@ def calculate_best_race(grand_prix_name, active_year):
     for result in results.race_results:
         race_driver = result.driver
         race_score = calculate_race.calculate_race_score(race_driver, results.race_results, drivers_championship)
-        calculated_results.AddObject(objects.calculated_results.CalculatedDriverResult(race_driver, race_score))
+        calculated_results.add_object(objects.calculated_results.CalculatedDriverResult(race_driver, race_score))
 
     for prediction in predictions:
         prediction_driver = get_driver(prediction.race_prediction, results.race_results)
         for calculated_result in [c for c in calculated_results if c.driver == prediction_driver]:
             calculated_result.predictor = prediction.predictor
 
-    calculated_results.ApplySort()
+    calculated_results.apply_sort()
 
     print("\nPoints\tDriver (Predictor)\n")
     for calculated_result in calculated_results:

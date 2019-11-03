@@ -10,7 +10,7 @@ def read_grands_prix_meta_data(active_year):
     for grand_prix in jsonData["GrandsPrix"]:
         if grand_prix["Year"] == str(active_year):
             for race in grand_prix["Races"]:
-                grands_prix_meta_data.AddObject(objects.grands_prix_meta_data.GrandPrixMetaData(race["Name"], datetime.datetime.strptime(race["StartDate"],"%Y-%m-%d").date(), datetime.datetime.strptime(race["EndDate"],"%Y-%m-%d").date()))
+                grands_prix_meta_data.add_object(objects.grands_prix_meta_data.GrandPrixMetaData(race["Name"], datetime.datetime.strptime(race["StartDate"],"%Y-%m-%d").date(), datetime.datetime.strptime(race["EndDate"],"%Y-%m-%d").date()))
     return grands_prix_meta_data
 
 if __name__== "__main__":

@@ -12,14 +12,14 @@ class GrandsPrixMetaData(CollectionClass):
         filtered_results=GrandsPrixMetaData()
         for grand_prix_meta_data in self:
             if grand_prix_meta_data.end_date < date_value:
-                filtered_results.AddObject(grand_prix_meta_data)
+                filtered_results.add_object(grand_prix_meta_data)
         return filtered_results
 
     def get_before_previous_or_current_race_weekends(self, date_value):
         filtered_results = GrandsPrixMetaData()
         for grand_prix_meta_data in self:
             if grand_prix_meta_data.end_date <= date_value:
-                filtered_results.AddObject(grand_prix_meta_data)
+                filtered_results.add_object(grand_prix_meta_data)
         return filtered_results
 
     def get_by_name(self, grand_prix_name):

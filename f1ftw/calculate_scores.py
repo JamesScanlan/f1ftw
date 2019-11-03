@@ -31,7 +31,7 @@ def calculate_totals(predictor_totals, calculation_scores, print_totals=True):
         for stage_score in calculation_score.results:
             if print_totals:
                 print(stage_score.log)
-            predictor_totals.AddOrUpdatePredictorTotalPoints(objects.predictor_totals.PredictorTotal(stage_score.predictor, stage_score.score))
+            predictor_totals.add_or_update_predictor_total_points(objects.predictor_totals.PredictorTotal(stage_score.predictor, stage_score.score))
     return predictor_totals
 
 def display_totals(predictor_totals):

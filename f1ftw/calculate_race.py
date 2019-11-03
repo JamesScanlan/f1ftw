@@ -3,7 +3,7 @@ from get_driver import get_driver
 
 def calculate_race_score(race_driver, race_results, drivers_championship):
     for race_result in [r for r in race_results if r.driver == race_driver]:
-        driver_championship_index = drivers_championship.GetRanking(race_driver)
+        driver_championship_index = drivers_championship.get_ranking(race_driver)
         race_position = race_result.position
         race_points = race_result.points
         race_score = ((len(race_results) - (race_position)) + race_points) * driver_championship_index

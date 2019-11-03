@@ -26,5 +26,5 @@ class CalculatedTeamResult(object):
 class CalculatedResults(CollectionClass):
     def __init__(self):
         CollectionClass.__init__(self)
-    def ApplySort(self):
+    def apply_sort(self):
         self.objects.sort(reverse=True, key=lambda x:x.points)

@@ -1,4 +1,4 @@
-from objects.text_layout import FormatItem
+from objects.text_layout import format_item
 
 class QualifyingPrediction(object):
     def __init__(self,driver):

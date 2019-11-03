@@ -16,14 +16,14 @@ def calculate_best_progression(grand_prix_name, active_year):
 
     for race_team in race_teams:
         progression_score = calculate_progression.calculate_progression_score(race_team, results.race_results, drivers_championship)
-        calculated_results.AddObject(objects.calculated_results.CalculatedTeamResult(race_team, progression_score))
+        calculated_results.add_object(objects.calculated_results.CalculatedTeamResult(race_team, progression_score))
 
     for prediction in predictions:
         prediction_team = prediction.progression_prediction
         for calculated_result in [c for c in calculated_results if c.team == prediction_team]:
             calculated_result.predictor=prediction.predictor
 
-    calculated_results.ApplySort()
+    calculated_results.apply_sort()
 
     print("\nPoints\tTeam (Predictor)\n")
     for calculated_result in calculated_results:
