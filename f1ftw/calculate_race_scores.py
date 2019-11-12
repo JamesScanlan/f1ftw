@@ -7,10 +7,14 @@ from conditions.condition import Condition
 import load_config
 
 
-def process_race_scores(grand_prix_name, active_year):
+def calculate_race_scores(grand_prix_name, active_year, print_totals):
     predictor_totals = objects.predictor_totals.PredictorTotals()
     calculation_scores = calculate_scores.calculate_race_score(grand_prix_name, active_year)
-    predictor_totals = calculate_scores.calculate_totals(predictor_totals, calculation_scores)
+    predictor_totals = calculate_scores.calculate_totals(predictor_totals, calculation_scores, print_totals)
+    return predictor_totals, calculation_scores, predictor_totals
+
+def process_race_scores(grand_prix_name, active_year):
+    predictor_totals, calculation_scores, predictor_totals = calculate_race_scores(grand_prix_name, active_year, True)
     print("\nRace Total:")
     calculate_scores.display_totals(predictor_totals)
 
