@@ -1,6 +1,7 @@
 {
   "Config":
   {
-      "Current_Year":"2019"
+      "Current_Year":"2019",
+      "Default_Race":"Australian"
   }
 }

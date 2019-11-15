@@ -899,6 +899,414 @@
               "Progression":"McLaren"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Chinese",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Pierre Gasly",
+              "Race":"Sebastian Vettel",
+              "Progression":"Renault"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Lando Norris",
+              "Race":"Alexander Albon",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Carlos Sainz Jnr",
+              "Race":"Daniel Ricciardo",
+              "Progression":"Red Bull"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Azerbaijan",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Sebastian Vettel",
+              "Race":"Daniel Ricciardo",
+              "Progression":"Toro Rosso"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Sergio Perez",
+              "Race":"Pierre Gasly",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Carlos Sainz Jnr",
+              "Race":"Alexander Albon",
+              "Progression":"Red Bull"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Spannish",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Romain Grosjean",
+              "Race":"Valitteri Bottas",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Lando Norris",
+              "Race":"Sergio Perez",
+              "Progression":"Racing Point"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Daniil Kvyat",
+              "Race":"Carlos Sainz Jnr",
+              "Progression":"Williams"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Monaco",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Kimi Raikkonen",
+              "Race":"Sebastian Vettel",
+              "Progression":"McLaren"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Pierre Gasly",
+              "Race":"Max Verstappen",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Alexander Albon",
+              "Race":"Kevin Magnussen",
+              "Progression":"Williams"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Canadian",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Carlos Sainz Jnr",
+              "Race":"Sebastian Vettel",
+              "Progression":"Red Bull"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Charles Leclerc",
+              "Race":"Sergio Perez",
+              "Progression":"Racing Point"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Daniel Ricciardo",
+              "Race":"Lando Norris",
+              "Progression":"Toro Rosso"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"French",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Charles Leclerc",
+              "Race":"Max Verstappen",
+              "Progression":"McLaren"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Lando Norris",
+              "Race":"Kevin Magnussen",
+              "Progression":"Racing Point"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Carlos Sainz Jnr",
+              "Race":"Antonio Giovinazzi",
+              "Progression":"Williams"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Austrian",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Max Verstappen",
+              "Race":"Sebastian Vettel",
+              "Progression":"McLaren"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Pierre Gasly",
+              "Race":"Charles Leclerc",
+              "Progression":"Renault"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Romain Grosjean",
+              "Race":"Lando Norris",
+              "Progression":"Racing Point"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"British",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Romain Grosjean",
+              "Race":"Charles Leclerc",
+              "Progression":"Alfa Romeo"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Lando Norris",
+              "Race":"Max Verstappen",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Alexander Albon",
+              "Race":"Carlos Sainz Jnr",
+              "Progression":"Racing Point"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"German",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Charles Leclerc",
+              "Race":"Max Verstappen",
+              "Progression":"Renault"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Carlos Sainz Jnr",
+              "Race":"Daniel Ricciardo",
+              "Progression":"Racing Point"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Kevin Magnussen",
+              "Race":"Pierre Gasly",
+              "Progression":"Williams"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Hungarian",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Lando Norris",
+              "Race":"Kimi Raikkonen",
+              "Progression":"Toro Rosso"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Antonio Giovinazzi",
+              "Race":"Sergio Perez",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Nico Hulkenberg",
+              "Race":"Daniil Kvyat",
+              "Progression":"Racing Point"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Belgian",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Charles Leclerc",
+              "Race":"Sergio Perez",
+              "Progression":"McLaren"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Carlos Sainz Jnr",
+              "Race":"Lance Stroll",
+              "Progression":"Red Bull"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Alexander Albon",
+              "Race":"Daniel Ricciardo",
+              "Progression":"Williams"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Italian",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Valitteri Bottas",
+              "Race":"Carlos Sainz Jnr",
+              "Progression":"Renault"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Nico Hulkenberg",
+              "Race":"Alexander Albon",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Romain Grosjean",
+              "Race":"Lance Stroll",
+              "Progression":"Racing Point"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Singapore",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Carlos Sainz Jnr",
+              "Race":"Sergio Perez",
+              "Progression":"McLaren"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Daniel Ricciardo",
+              "Race":"Daniil Kvyat",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Alexander Albon",
+              "Race":"Nico Hulkenberg",
+              "Progression":"Racing Point"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Russian",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Max Verstappen",
+              "Race":"Daniil Kvyat",
+              "Progression":"Racing Point"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Alexander Albon",
+              "Race":"Nico Hulkenberg",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Lando Norris",
+              "Race":"Sergio Perez",
+              "Progression":"Toro Rosso"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Japanese",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Sergio Perez",
+              "Race":"",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Nico Hulkenberg",
+              "Race":"Alexander Albon",
+              "Progression":"Red Bull"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Carlos Sainz Jnr",
+              "Race":"",
+              "Progression":"Renault"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Mexican",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Kimi Raikkonen",
+              "Race":"Lando Norris",
+              "Progression":"Toro Rosso"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Carlos Sainz Jnr",
+              "Race":"Alexander Albon",
+              "Progression":"Alfa Romeo"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Antonio Giovinazzi",
+              "Race":"Nico Hulkenberg",
+              "Progression":"Racing Point"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"United States",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Pierre Gasly",
+              "Race":"Nico Hulkenberg",
+              "Progression":"Alfa Romeo"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Romain Grosjean",
+              "Race":"Carlos Sainz Jnr",
+              "Progression":"Toro Rosso"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Daniel Ricciardo",
+              "Race":"Lance Stroll",
+              "Progression":"McLaren"
+            }
+          ]
         }
       ]
     }
