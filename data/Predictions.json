@@ -1309,6 +1309,30 @@
           ]
         },
         {
+          "Grand_Prix":"Brazilian",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Lando Norris",
+              "Race":"Daniil Kvyat",
+              "Progression":"Renault"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Nico Hulkenberg",
+              "Race":"Carlos Sainz Jnr",
+              "Progression":"Ferrari"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Kevin Magnussen",
+              "Race":"Daniel Ricciardo",
+              "Progression":"Racing Point"
+            }
+          ]
+        },
+        {
           "Grand_Prix":"Abu Dhabi",
           "Predictions":
           [
