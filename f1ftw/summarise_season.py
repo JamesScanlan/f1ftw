@@ -24,7 +24,7 @@ def get_best_stage(grand_prix_stage):
     return best_result_from_gp_weekend
 
 
-#this is all bollocks....need to read into a flat structure and sort it:: DICTIONARY O'CLOCK 
+#this is all bollocks....need to read into a flat structure and sort it:: DICTIONARY O'CLOCK
 class OutcomeResult(object):
     def __init__(self):
         self.result = None
@@ -49,7 +49,7 @@ class OutcomeResult(object):
 
 if __name__== "__main__":
     config = load_config.read_config()
-    active_year = datetime.date.today().year
+    active_year = datetime.date.today().year -1
     grand_prix_names = get_grand_prix_names.get_grand_prix_names(datetime.date.today(), active_year)
 
     best_qualifying_result = OutcomeResult()
@@ -58,10 +58,10 @@ if __name__== "__main__":
 
     for grand_prix_name in grand_prix_names:
         predictor_totals, calculation_scores, predictor_totals = calculate_race_scores.calculate_race_scores(grand_prix_name, active_year, False)
-        # print("\n" + grand_prix_name)
-        # print("Qualifying", get_best_stage(GrandPrixStages.QUALIFYING))
-        # print("Race", get_best_stage(GrandPrixStages.RACE))
-        # print("Progession", get_best_stage(GrandPrixStages.PROGRESSION))
+        print("\n" + grand_prix_name)
+        print("Qualifying", get_best_stage(GrandPrixStages.QUALIFYING))
+        print("Race", get_best_stage(GrandPrixStages.RACE))
+        print("Progession", get_best_stage(GrandPrixStages.PROGRESSION))
         best_qualifying_result.add_outcome_result(get_best_stage(GrandPrixStages.QUALIFYING))
         best_race_result.add_outcome_result(get_best_stage(GrandPrixStages.RACE))
         best_progression_result.add_outcome_result(get_best_stage(GrandPrixStages.PROGRESSION))
