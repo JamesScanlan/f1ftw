@@ -8942,6 +8942,153 @@
             }
           ],
           "fastest_lap":"Valitteri Bottas"
+        },
+        {
+          "Grand_Prix":"Abu Dhabi",
+          "Results":
+          [
+            {
+              "name":"Sebastian Vettel",
+              "team":"Ferrari",
+              "qualifying":"5",
+              "grid":"4",
+              "position":"5"
+            },
+            {
+              "name":"Lewis Hamilton",
+              "team":"Mercedes",
+              "qualifying":"1",
+              "grid":"1",
+              "position":"1"
+            },
+            {
+              "name":"Kimi Raikkonen",
+              "team":"Alfa Romeo",
+              "qualifying":"18",
+              "grid":"17",
+              "position":"13"
+            },
+            {
+              "name":"Max Verstappen",
+              "team":"Red Bull",
+              "qualifying":"3",
+              "grid":"2",
+              "position":"2"
+            },
+            {
+              "name":"Daniel Ricciardo",
+              "team":"Renault",
+              "qualifying":"8",
+              "grid":"7",
+              "position":"11"
+            },
+            {
+              "name":"Kevin Magnussen",
+              "team":"Haas F1",
+              "qualifying":"15",
+              "grid":"14",
+              "position":"14"
+            },
+            {
+              "name":"Romain Grosjean",
+              "team":"Haas F1",
+              "qualifying":"16",
+              "grid":"15",
+              "position":"15"
+            },
+            {
+              "name":"Nico Hulkenberg",
+              "team":"Renault",
+              "qualifying":"10",
+              "grid":"9",
+              "position":"12"
+            },
+            {
+              "name":"Carlos Sainz Jnr",
+              "team":"McLaren",
+              "qualifying":"9",
+              "grid":"8",
+              "position":"10"
+            },
+            {
+              "name":"Valitteri Bottas",
+              "team":"Mercedes",
+              "qualifying":"2",
+              "grid":"20",
+              "position":"4"
+            },
+            {
+              "name":"Lando Norris",
+              "team":"McLaren",
+              "qualifying":"7",
+              "grid":"6",
+              "position":"8"
+            },
+            {
+              "name":"Lance Stroll",
+              "team":"Racing Point",
+              "qualifying":"13",
+              "grid":"12",
+              "position":"20"
+            },
+            {
+              "name":"Sergio Perez",
+              "team":"Racing Point",
+              "qualifying":"11",
+              "grid":"10",
+              "position":"7"
+            },
+            {
+              "name":"George Russell",
+              "team":"Williams",
+              "qualifying":"19",
+              "grid":"18",
+              "position":"17"
+            },
+            {
+              "name":"Antonio Giovinazzi",
+              "team":"Alfa Romeo",
+              "qualifying":"17",
+              "grid":"16",
+              "position":"16"
+            },
+            {
+              "name":"Alexander Albon",
+              "team":"Red Bull",
+              "qualifying":"6",
+              "grid":"5",
+              "position":"6"
+            },
+            {
+              "name":"Charles Leclerc",
+              "team":"Ferrari",
+              "qualifying":"4",
+              "grid":"3",
+              "position":"3"
+            },
+            {
+              "name":"Robert Kubica",
+              "team":"Williams",
+              "qualifying":"20",
+              "grid":"19",
+              "position":"19"
+            },
+            {
+              "name":"Pierre Gasly",
+              "team":"Toro Rosso",
+              "qualifying":"12",
+              "grid":"11",
+              "position":"18"
+            },
+            {
+              "name":"Daniil Kvyat",
+              "team":"Toro Rosso",
+              "qualifying":"14",
+              "grid":"13",
+              "position":"9"
+            }
+          ],
+          "fastest_lap":"Lewis Hamilton"
         }
       ]
     }
