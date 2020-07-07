@@ -328,6 +328,52 @@
           "EndDate":"2019-12-01"
         }
       ]
+    },
+    {
+      "Year":"2020",
+      "Races":
+      [
+        {
+          "Name":"Austrian#1",
+          "StartDate":"2020-07-03",
+          "EndDate":"2020-07-05"
+        },
+        {
+          "Name":"Austrian#2",
+          "StartDate":"2020-07-10",
+          "EndDate":"2020-07-12"
+        },
+        {
+          "Name":"Hungarian",
+          "StartDate":"2020-07-17",
+          "EndDate":"2020-07-19"
+        },
+        {
+          "Name":"British",
+          "StartDate":"2020-07-31",
+          "EndDate":"2020-08-02"
+        },
+        {
+          "Name":"70thAnniversary",
+          "StartDate":"2020-08-07",
+          "EndDate":"2020-08-09"
+        },
+        {
+          "Name":"Spanish",
+          "StartDate":"2020-08-14",
+          "EndDate":"2020-08-16"
+        },
+        {
+          "Name":"Belgian",
+          "StartDate":"2020-08-28",
+          "EndDate":"2020-08-30"
+        },
+        {
+          "Name":"Italian",
+          "StartDate":"2020-09-04",
+          "EndDate":"2020-09-06"
+        }
+      ]
     }
   ]
 }

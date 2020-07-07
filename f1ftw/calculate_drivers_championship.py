@@ -39,7 +39,6 @@ def calculate_drivers_championship(grand_prix, active_year):
 
 def get_date_in_context_of_race_weekend(grand_prix_name, active_year):
     grand_prix_meta_data = load_grands_prix_meta_data.read_grands_prix_meta_data(active_year).get_by_name(grand_prix_name)
-
     if datetime.datetime.now().date() == grand_prix_meta_data.end_date:
         return grand_prix_meta_data.end_date + datetime.timedelta(days=1)
     else:

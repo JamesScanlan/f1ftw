@@ -1,5 +1,5 @@
 from objects.drivers import Drivers
-from objects.person_name import PersonName
+from objects.person_name import person_name
 
 class RaceResult(object):
     def __init__(self, driver, grid, position):
@@ -20,7 +20,7 @@ class GrandPrixResults(object):
         self.fastest_lap = fastest_lap
     def get_driver(self, driver_name):
         name = driver_name.split(" ")
-        person_name = PersonName(name[0],name[1])
+        person_name = person_name(name[0],name[1])
         for result in self.qualifying_results:
             if result.driver.person_name == person_name:
                 return result.driver

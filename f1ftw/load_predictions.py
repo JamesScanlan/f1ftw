@@ -18,6 +18,22 @@ def read_predictions(grand_prix_name = None, active_year = 2018):
                         predictions.extend(iterate_predictions(race, active_year))
     return predictions
 
+
+
+def read_predictions_as_dictionary(grand_prix_name, active_year):
+    predictions = read_predictions(grand_prix_name, active_year)
+    parsed_predictions = {}
+    for prediction in predictions:
+        parsed_prediction = {}
+        parsed_prediction['qualifying'] = prediction.qualifying_prediction.full_name()
+        if prediction.race_prediction != None:
+            parsed_prediction['race'] = prediction.race_prediction.full_name()
+        else:
+            parsed_prediction['race'] = None
+        parsed_prediction['progression'] = prediction.progression_prediction.name
+        parsed_predictions[prediction.predictor.full_name()] = parsed_prediction
+    return parsed_predictions
+
 #a classic case of method name not representing the method, or is it?
 def iterate_predictions(grand_prix, active_year):
     predictions = []
@@ -27,10 +43,13 @@ def iterate_predictions(grand_prix, active_year):
     return predictions
 
 def handle_empty_prediction(item):
-    if len(item) == 0:
+    if item == None:
         return None
     else:
-        return parse_person_name(item)
+        if len(item) == 0:
+            return None
+        else:
+            return parse_person_name(item)
 
 def parse_prediction(grand_prix, prediction_source, active_year):
     predictor = parse_person_name(prediction_source["Predictor"])

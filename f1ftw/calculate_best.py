@@ -25,16 +25,16 @@ def calculate_output(output_file_name, grand_prix_name, current_year):
     file_handler = None
     original_output = None
 
-    if output_filename != None:
+    if output_file_name != None:
         file_handler = text_file_writer.open_file(output_file_name)
         original_output = console_output_redirector.set_output_to_file(file_handler)
 
-    calculate_best(grand_prix_name, config.current_year)
+    generate_best(grand_prix_name, config.current_year)
 
     if file_handler != None:
         text_file_writer.close_file(file_handler)
         console_output_redirector.set_output_to_console(original_output)
-        print(output_filename + " created")
+        print(output_file_name + " created")
 
 
 def read_additional_command_line_argument():
@@ -47,4 +47,5 @@ if __name__== "__main__":
     grand_prix_name = get_grand_prix_name_from_command_line_arguments(default = "Australian")
     config = load_config.read_config()
     output_file_name = read_additional_command_line_argument()
+
     calculate_output(output_file_name, grand_prix_name, config.current_year)

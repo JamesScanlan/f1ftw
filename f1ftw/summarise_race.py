@@ -35,7 +35,7 @@ def summarise_scores():
 def summarise_best(grand_prix_name, current_year):
     print("\n\n")
     titler.Title("Best Scores for Race")
-    calculate_best.calculate_best(grand_prix_name, current_year)
+    calculate_best.generate_best(grand_prix_name, current_year)
 
 def summarise_running_totals(current_year):
     print("\n\n")
