@@ -25,7 +25,7 @@ def calc_scores(grand_prix_name, current_year):
 
 def calc_race_wins(current_year):
     calculate_race_wins.calculate_race_wins(current_year)
-    wins = calculate_race_wins.calculate_total_race_wins(config.current_year)
+    wins = calculate_race_wins.calculate_total_race_wins(current_year)
     calculate_race_wins.display_race_win_totals(wins)
 
 def summarise_scores():
@@ -42,21 +42,30 @@ def summarise_running_totals(current_year):
     titler.Title("Running Totals")
     calculate_running_totals.calculate_running_totals(current_year, False)
 
+def summarise_race_wins(current_year):
+    print("\n\n")
+    titler.Title("Race Wins")
+    calc_race_wins(current_year)
+
 def summarise_grand_prix_score(grand_prix_name, current_year):
     titler.Title("Scores for " + grand_prix_name + " Grand Prix")
     calc_scores(grand_prix_name, current_year)
 
 def summarise_race(file_name, grand_prix_name, current_year):
-    file_handler = text_file_writer.open_file(output_filename)
-    original_output = console_output_redirector.set_output_to_file(file_handler)
+    print("filename", file_name)
+    if file_name != None:
+        file_handler = text_file_writer.open_file(output_filename)
+        original_output = console_output_redirector.set_output_to_file(file_handler)
 
     summarise_grand_prix_score(grand_prix_name, current_year)
     summarise_best(grand_prix_name, current_year)
     summarise_running_totals(current_year)
+    summarise_race_wins(current_year)
     summarise_remaining_races(grand_prix_name)
 
-    text_file_writer.close_file(file_handler)
-    console_output_redirector.set_output_to_console(original_output)
+    if file_name != None:
+        text_file_writer.close_file(file_handler)
+        console_output_redirector.set_output_to_console(original_output)
 
 def summarise_remaining_races(grand_prix_name):
     print("\n\n")
@@ -70,4 +79,5 @@ if __name__== "__main__":
 
     summarise_race(output_filename, grand_prix_name, config.current_year)
 
-    print(output_filename + " created")
+    if output_filename != None:
+        print(output_filename + " created")
