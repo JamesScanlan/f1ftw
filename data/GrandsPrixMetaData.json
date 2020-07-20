@@ -372,6 +372,16 @@
           "Name":"Italian",
           "StartDate":"2020-09-04",
           "EndDate":"2020-09-06"
+        },
+        {
+          "Name":"Italian#2",
+          "StartDate":"2020-09-11",
+          "EndDate":"2020-09-13"
+        },
+        {
+          "Name":"Russian",
+          "StartDate":"2020-09-25",
+          "EndDate":"2020-09-27"
         }
       ]
     }

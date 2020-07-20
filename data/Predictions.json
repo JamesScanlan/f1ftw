@@ -1385,6 +1385,54 @@
               "Progression":"Renault"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Austrian#2",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Max Verstappen",
+              "Race":"Charles Leclerc",
+              "Progression":"Racing Point"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Sergio Perez",
+              "Race":"Lewis Hamilton",
+              "Progression":"Alphatauri"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Alexander Albon",
+              "Race":"Lance Stroll",
+              "Progression":"Williams"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Hungarian",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Alexander Albon",
+              "Race":"Lando Norris",
+              "Progression":"Racing Point"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Sebastian Vettel",
+              "Race":"Lance Stroll",
+              "Progression":"Renault"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Daniel Ricciardo",
+              "Race":"Carlos Sainz Jnr",
+              "Progression":"Williams"
+            }
+          ]
         }
       ]
     }
