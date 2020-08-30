@@ -37,7 +37,17 @@ class ChampionshipDrivers(CollectionClass):
         for championship_driver in self.objects:
             if championship_driver.driver == driver:
                 return championship_driver.ranking
-        return -1
+        #if driver not found we could assume either a typo or a new driver on roster
+        #so either way bottom ranking should be provided
+        bottom_ranking = 21
+        bottom_points = -1
+        for driver in self.objects:
+            if driver.ranking < bottom_ranking:
+                bottom_ranking = driver.ranking
+                bottom_points = driver.points
+        if bottom_points > 0:
+            bottom_ranking = bottom_ranking + 1
+        return bottom_ranking
 
 
 class ChampionshipDriver(object):

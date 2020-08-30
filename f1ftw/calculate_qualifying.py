@@ -16,6 +16,7 @@ def calculate_qualifying_score(qualifying_driver, qualifying_results, drivers_ch
         qualifying_position = qualifying_result.position
         qualifying_sector = calculate_qualifying_sector(qualifying_position)
         qualifying_score = (len(qualifying_results) - (qualifying_position) + qualifying_sector) * driver_championship_index
+        #print(qualifying_driver, driver_championship_index, qualifying_position, qualifying_sector, qualifying_score)
         return qualifying_score
 
 def calculate_qualifying_scores(predictions, results, drivers_championship):

@@ -14,8 +14,9 @@ class PredictorTotals(CollectionClass):
     def add_predictor_total(self, predictor_total):
         self.add_object(predictor_total)
     def add_or_update_predictor_total_points(self, predictor_total):
-        index=self.get_predictor_index(predictor_total.predictor)
+        index = self.get_predictor_index(predictor_total.predictor)
         if index > -1:
+            #print(predictor_total.points)
             self.objects[index].points += predictor_total.points
         else:
             self.add_predictor_total(predictor_total)
