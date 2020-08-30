@@ -382,6 +382,41 @@
           "Name":"Russian",
           "StartDate":"2020-09-25",
           "EndDate":"2020-09-27"
+        },
+        {
+          "Name":"German",
+          "StartDate":"2020-10-09",
+          "EndDate":"2020-10-11"
+        },
+        {
+          "Name":"Portugese",
+          "StartDate":"2020-10-23",
+          "EndDate":"2020-10-25"
+        },
+        {
+          "Name":"Italian#3",
+          "StartDate":"2020-10-31",
+          "EndDate":"2020-11-01"
+        },
+        {
+          "Name":"Turkish",
+          "StartDate":"2020-11-13",
+          "EndDate":"2020-11-15"
+        },
+        {
+          "Name":"Bahrain#1",
+          "StartDate":"2020-11-27",
+          "EndDate":"2020-11-29"
+        },
+        {
+          "Name":"Bahrain#2",
+          "StartDate":"2020-12-04",
+          "EndDate":"2020-12-06"
+        },
+        {
+          "Name":"Abu Dhabi",
+          "StartDate":"2020-12-11",
+          "EndDate":"2020-12-13"
         }
       ]
     }
