@@ -1529,7 +1529,31 @@
                   "Progression": "Alphatauri"
               }
           ]
-      }
+        },
+        {
+          "Grand_Prix": "Italian",
+          "Predictions":
+          [
+              {
+                  "Predictor": "Andrew Chadwick",
+                  "Qualifying": "Daniel Ricciardo",
+                  "Race": "Carlos Sainz Jnr",
+                  "Progression": "McLaren"
+              },
+              {
+                  "Predictor": "James Scanlan",
+                  "Qualifying": "Esteban Ocon",
+                  "Race": "Sergio Perez",
+                  "Progression": "Ferrari"
+              },
+              {
+                  "Predictor": "Matt Potter",
+                  "Qualifying": "Pierre Gasly",
+                  "Race": "Daniil Kvyat",
+                  "Progression": "Alfa Romeo"
+              }
+          ]
+        }
       ]
     }
   ]
