@@ -1553,6 +1553,30 @@
                   "Progression": "Alfa Romeo"
               }
           ]
+        },
+        {
+          "Grand_Prix": "Italian#2",
+          "Predictions":
+          [
+              {
+                  "Predictor": "Andrew Chadwick",
+                  "Qualifying": "Esteban Ocon",
+                  "Race": "Max Verstappen",
+                  "Progression": "Ferrari"
+              },
+              {
+                  "Predictor": "James Scanlan",
+                  "Qualifying": "Daniel Ricciardo",
+                  "Race": "Lance Stroll",
+                  "Progression": "Alphatauri"
+              },
+              {
+                  "Predictor": "Matt Potter",
+                  "Qualifying": "Sergio Perez",
+                  "Race": "Carlos Sainz Jnr",
+                  "Progression": "Williams"
+              }
+          ]
         }
       ]
     }
