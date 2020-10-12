@@ -1577,6 +1577,54 @@
                   "Progression": "Williams"
               }
           ]
+        },
+        {
+          "Grand_Prix": "Russian",
+          "Predictions":
+          [
+              {
+                  "Predictor": "Andrew Chadwick",
+                  "Qualifying": "Daniel Ricciardo",
+                  "Race": "Lando Norris",
+                  "Progression": "Alphatauri"
+              },
+              {
+                  "Predictor": "James Scanlan",
+                  "Qualifying": "Charles Leclerc",
+                  "Race": "Alexander Albon",
+                  "Progression": "Racing Point"
+              },
+              {
+                  "Predictor": "Matt Potter",
+                  "Qualifying": "Carlos Sainz Jnr",
+                  "Race": "Sergio Perez",
+                  "Progression": "Haas F1"
+              }
+          ]
+        },
+        {
+          "Grand_Prix": "German",
+          "Predictions":
+          [
+              {
+                  "Predictor": "Andrew Chadwick",
+                  "Qualifying": "Alexander Albon",
+                  "Race": "Nico Hulkenberg",
+                  "Progression": "Haas F1"
+              },
+              {
+                  "Predictor": "James Scanlan",
+                  "Qualifying": "Daniel Ricciardo",
+                  "Race": "Sergio Perez",
+                  "Progression": "Alphatauri"
+              },
+              {
+                  "Predictor": "Matt Potter",
+                  "Qualifying": "Carlos Sainz Jnr",
+                  "Race": "Esteban Ocon",
+                  "Progression": "Alfa Romeo"
+              }
+          ]
         }
       ]
     }
