@@ -1625,6 +1625,54 @@
                   "Progression": "Alfa Romeo"
               }
           ]
+        },
+        {
+          "Grand_Prix": "Portuguese",
+          "Predictions":
+          [
+              {
+                  "Predictor": "Andrew Chadwick",
+                  "Qualifying": "Daniel Ricciardo",
+                  "Race": "Alexander Albon",
+                  "Progression": "Alphatauri"
+              },
+              {
+                  "Predictor": "James Scanlan",
+                  "Qualifying": "Esteban Ocon",
+                  "Race": "Sergio Perez",
+                  "Progression": "Alfa Romeo"
+              },
+              {
+                  "Predictor": "Matt Potter",
+                  "Qualifying": "Carlos Sainz Jnr",
+                  "Race": "Lance Stroll",
+                  "Progression": "Haas F1"
+              }
+          ]
+        },
+        {
+          "Grand_Prix": "Italian#3",
+          "Predictions":
+          [
+              {
+                  "Predictor": "Andrew Chadwick",
+                  "Qualifying": "Lance Stroll",
+                  "Race": "Daniil Kvyat",
+                  "Progression": "Williams"
+              },
+              {
+                  "Predictor": "James Scanlan",
+                  "Qualifying": "Pierre Gasly",
+                  "Race": "Charles Leclerc",
+                  "Progression": "Haas F1"
+              },
+              {
+                  "Predictor": "Matt Potter",
+                  "Qualifying": "Carlos Sainz Jnr",
+                  "Race": "Esteban Ocon",
+                  "Progression": "Alfa Romeo"
+              }
+          ]
         }
       ]
     }
