@@ -1771,6 +1771,36 @@
           ]
         }
       ]
+    },
+    {
+      "Year":"2021",
+      "Races":
+      [
+        {
+          "Grand_Prix":"Bahrain",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Lewis Hamilton",
+              "Race":"Carlos Sainz Jnr",
+              "Progression":"McLaren"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Max Verstappen",
+              "Race":"Valtteri Bottas",
+              "Progression":"Ferrari"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Lando Norris",
+              "Race":"Sergio Perez",
+              "Progression":"Haas F1"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
