@@ -1799,6 +1799,30 @@
               "Progression":"Haas F1"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Italy#1",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Pierre Gasly",
+              "Race":"Charles Leclerc",
+              "Progression":"Aston Martin"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Sergio Perez",
+              "Race":"Max Verstappen",
+              "Progression":"Alfa Romeo"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Valtteri Bottas",
+              "Race":"Carlos Sainz Jnr",
+              "Progression":"Haas F1"
+            }
+          ]
         }
       ]
     }
