@@ -1823,6 +1823,30 @@
               "Progression":"Haas F1"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Portugal",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Carlos Sainz Jnr",
+              "Race":"Lando Norris",
+              "Progression":"Ferrari"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Sergio Perez",
+              "Race":"Pierre Gasly",
+              "Progression":"McLaren"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Valtteri Bottas",
+              "Race":"Daniel Ricciardo",
+              "Progression":"Alfa Romeo"
+            }
+          ]
         }
       ]
     }
