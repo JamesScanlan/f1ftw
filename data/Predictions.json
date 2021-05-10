@@ -1847,6 +1847,30 @@
               "Progression":"Alfa Romeo"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Spain",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Esteban Ocon",
+              "Race":"Lando Norris",
+              "Progression":"Alfa Romeo"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Fernando Alonso",
+              "Race":"Carlos Sainz Jnr",
+              "Progression":"Aston Martin"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Pierre Gasly",
+              "Race":"Sergio Perez",
+              "Progression":"Alpine"
+            }
+          ]
         }
       ]
     }
