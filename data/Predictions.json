@@ -1871,6 +1871,30 @@
               "Progression":"Alpine"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Monaco",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Daniel Ricciardo",
+              "Race":"Sergio Perez",
+              "Progression":"Aston Martin"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Pierre Gasly",
+              "Race":"Esteban Ocon",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Carlos Sainz Jnr",
+              "Race":"Sebastian Vettel",
+              "Progression":"Haas F1"
+            }
+          ]
         }
       ]
     }
