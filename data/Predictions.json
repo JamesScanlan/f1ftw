@@ -1895,6 +1895,54 @@
               "Progression":"Haas F1"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Azerbaijan",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Charles Leclerc",
+              "Race":"Lando Norris",
+              "Progression":"Aston Martin"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Sergio Perez",
+              "Race":"Esteban Ocon",
+              "Progression":"Alphatauri"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Carlos Sainz Jnr",
+              "Race":"Daniel Ricciardo",
+              "Progression":"Haas F1"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"France",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Sergio Perez",
+              "Race":"Daniel Ricciardo",
+              "Progression":"Alpine"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Charles Leclerc",
+              "Race":"Carlos Sainz Jnr",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Esteban Ocon",
+              "Race":"Valtteri Bottas",
+              "Progression":"Alfa Romeo"
+            }
+          ]
         }
       ]
     }
