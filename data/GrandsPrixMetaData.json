@@ -472,7 +472,8 @@
         {
           "Name":"Great Britain",
           "StartDate":"2021-07-16",
-          "EndDate":"2021-07-18"
+          "EndDate":"2021-07-18",
+          "Format":"Sprint"
         },
         {
           "Name":"Hungary",

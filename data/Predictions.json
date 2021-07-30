@@ -1991,6 +1991,33 @@
               "Progression":"Alfa Romeo"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Great Britain",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Carlos Sainz Jnr",
+              "Sprint":"Lando Norris",
+              "Race":"Valtteri Bottas",
+              "Progression":"Ferrari"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"George Russell",
+              "Sprint":"Sergio Perez",
+              "Race":"Pierre Gasly",
+              "Progression":"Aston Martin"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Sebastian Vettel",
+              "Sprint":"Daniel Ricciardo",
+              "Race":"Esteban Ocon",
+              "Progression":"Alfa Romeo"
+            }
+          ]
         }
       ]
     }
