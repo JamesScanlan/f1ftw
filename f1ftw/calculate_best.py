@@ -21,12 +21,12 @@ def generate_best(grand_prix_name, current_year):
     print("\nQualifying\n==========")
     calculate_best_qualifying(grand_prix_name, current_year)
 
-    print("\nRace\n====")
-    calculate_best_race(grand_prix_name, current_year)
-
     if does_race_feature_a_sprint(grand_prix_name, current_year):
         print("\nSprint\n======")
         calculate_best_sprint_race(grand_prix_name, current_year)
+        
+    print("\nRace\n====")
+    calculate_best_race(grand_prix_name, current_year)
 
     print("\nProgression\n===========")
     calculate_best_progression(grand_prix_name, current_year)
