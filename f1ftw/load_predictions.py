@@ -3,6 +3,13 @@ import os
 import objects
 from helpers import parse_person_name
 import load_config
+from load_grands_prix_meta_data import read_meta_data_value
+
+def does_race_feature_a_sprint(grand_prix_name, active_year):
+    if read_meta_data_value(grand_prix_name, active_year, "Format") == "Sprint":
+        return True
+    else:
+        return False
 
 def read_predictions(grand_prix_name = None, active_year = 2018):
     jsonData = json.load(open(os.path.join(os.path.abspath(".."), "data", "Predictions.json" )))
@@ -54,13 +61,18 @@ def handle_empty_prediction(item):
 def parse_prediction(grand_prix, prediction_source, active_year):
     predictor = parse_person_name(prediction_source["Predictor"])
     qualifying_prediction = parse_person_name(prediction_source["Qualifying"])
+    # print(grand_prix)
+    if does_race_feature_a_sprint(grand_prix, active_year):
+        sprint_race_prediction = parse_person_name(prediction_source["Sprint"])
+    else:
+        sprint_race_prediction = None
     race_prediction = handle_empty_prediction(prediction_source["Race"]) #parse_person_name(prediction_source["Race"])
     progression_prediction = objects.team.Team(prediction_source["Progression"])
     if active_year == 2017:
         joker_prediction = objects.team.Team(prediction_source["Joker"])
     else:
         joker_prediction = None
-    prediction = objects.predictions.Prediction(grand_prix, predictor, qualifying_prediction, race_prediction, progression_prediction, joker_prediction)
+    prediction = objects.predictions.Prediction(grand_prix, predictor, qualifying_prediction, race_prediction, progression_prediction, joker_prediction, sprint_race_prediction)
     return prediction
 
 if __name__== "__main__":

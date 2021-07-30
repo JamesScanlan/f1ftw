@@ -14,9 +14,25 @@ def read_grands_prix_meta_data(active_year):
 
     return grands_prix_meta_data
 
+def read_meta_data_value(grand_prix_name, active_year, key_name):
+    jsonData = json.load(open(os.path.join(os.path.abspath(".."), "data", "GrandsPrixMetaData.json")))
+    for grand_prix in jsonData["GrandsPrix"]:
+        if grand_prix["Year"] == str(active_year):
+            for race in grand_prix["Races"]:
+                if race["Name"] == grand_prix_name:
+                    # print(race)
+                    if key_name in race:
+                        return race[key_name]
+                    else:
+                        return None
+
+    
+
 if __name__== "__main__":
     config = load_config.read_config()
     gpmd = read_grands_prix_meta_data(config.current_year)
     grand_prix_names = gpmd.get_before_date(datetime.date(config.current_year,12,31)).get_names()
     for grand_prix_name in grand_prix_names:
         print(grand_prix_name)
+    # x = read_meta_data_value("Great Britain", 2021, "format")
+    # print(x)

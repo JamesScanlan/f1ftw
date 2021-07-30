@@ -5,3 +5,4 @@ class GrandPrixStages(Enum):
     RACE=2
     PROGRESSION=3
     JOKER=4
+    SPRINT=5

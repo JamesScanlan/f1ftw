@@ -1,4 +1,5 @@
 from calculate_best_qualifying import calculate_best_qualifying
+from calculate_best_sprint_race import calculate_best_sprint_race
 from calculate_best_race import calculate_best_race
 from calculate_best_progression import calculate_best_progression
 from calculate_best_joker import calculate_best_joker
@@ -8,12 +9,25 @@ import sys
 import load_config
 import console_output_redirector
 import text_file_writer
+from load_grands_prix_meta_data import read_meta_data_value
+
+def does_race_feature_a_sprint(grand_prix_name, active_year):
+    if read_meta_data_value(grand_prix_name, active_year, "Format") == "Sprint":
+        return True
+    else:
+        return False
 
 def generate_best(grand_prix_name, current_year):
     print("\nQualifying\n==========")
     calculate_best_qualifying(grand_prix_name, current_year)
+
     print("\nRace\n====")
     calculate_best_race(grand_prix_name, current_year)
+
+    if does_race_feature_a_sprint(grand_prix_name, current_year):
+        print("\nSprint\n======")
+        calculate_best_sprint_race(grand_prix_name, current_year)
+
     print("\nProgression\n===========")
     calculate_best_progression(grand_prix_name, current_year)
     if current_year == 2017:

@@ -3,12 +3,21 @@ import load_predictions
 import load_race_results
 from calculate_qualifying import calculate_qualifying_scores
 from calculate_race import calculate_race_scores
+from calculate_sprint_race import calculate_sprint_race_scores
 from calculate_progression import calculate_progression_scores
 from calculate_joker import calculate_joker_scores
 from calculate_drivers_championship import calculate_drivers_championship
+from load_grands_prix_meta_data import read_meta_data_value
+
+def does_race_feature_a_sprint(grand_prix_name, active_year):
+    if read_meta_data_value(grand_prix_name, active_year, "Format") == "Sprint":
+        return True
+    else:
+        return False
+    
 
 def get_grand_prix_stage_name(stage):
-    stages = ["Qualifying","Race","Progression","Joker"]
+    stages = ["Qualifying","Race","Progression","Joker","Sprint"]
     return stages[stage.value-1]
 
 def calculate_race_score(grand_prix_name, active_year):
@@ -18,6 +27,9 @@ def calculate_race_score(grand_prix_name, active_year):
     calculation_scores = []
 
     calculation_scores.append(calculate_qualifying_scores(predictions, results, drivers_championship))
+    if does_race_feature_a_sprint(grand_prix_name, active_year):
+        calculation_scores.append(calculate_sprint_race_scores(predictions, results, drivers_championship))
+
     calculation_scores.append(calculate_race_scores(predictions, results, drivers_championship))
     calculation_scores.append(calculate_progression_scores(predictions, results, drivers_championship))
     if active_year == 2017:

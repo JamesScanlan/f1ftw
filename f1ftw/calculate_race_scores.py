@@ -7,6 +7,7 @@ from conditions.condition import Condition
 import load_config
 
 
+
 def calculate_race_scores(grand_prix_name, active_year, print_totals):
     predictor_totals = objects.predictor_totals.PredictorTotals()
     calculation_scores = calculate_scores.calculate_race_score(grand_prix_name, active_year)

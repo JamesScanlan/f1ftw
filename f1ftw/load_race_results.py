@@ -4,7 +4,13 @@ from objects.driver import Driver
 import objects
 import objects.results
 from helpers import parse_person_name
+from load_grands_prix_meta_data import read_meta_data_value
 
+def does_race_feature_a_sprint(grand_prix_name, active_year):
+    if read_meta_data_value(grand_prix_name, active_year, "Format") == "Sprint":
+        return True
+    else:
+        return False
 
 def calc_race_points(position):
     points = {1: 25, 2: 18, 3: 15, 4: 12, 5: 10, 6: 8, 7: 6, 8: 4, 9: 2, 10: 1}
@@ -19,8 +25,9 @@ def load_race_results_into_json():
 def read_race_results(grand_prix_name, active_year):
     jsonData = load_race_results_into_json()
 
-    qualifying_results=[]
-    race_results=[]
+    qualifying_results = []
+    sprint_race_results = []
+    race_results = []
     fastest_lap = ""
 
     for race_year in jsonData["Grands_Prix"]:
@@ -29,14 +36,22 @@ def read_race_results(grand_prix_name, active_year):
                 if race["Grand_Prix"] == grand_prix_name:
                     for results_source in race["Results"]:
                         current_driver = Driver(parse_person_name(results_source["name"]),objects.team.Team(results_source["team"]))
+                        
                         qualifying_result = objects.results.QualifyingResult(current_driver, int(results_source["qualifying"]))
                         qualifying_results.append(qualifying_result)
+                        
+                        if does_race_feature_a_sprint(race["Grand_Prix"], active_year):
+                            sprint_race_result = objects.results.SprintRaceResult(current_driver, int(results_source["qualifying"]), int(results_source["sprint"])) #(current_driver, int(results_source["sprint"]))
+                        else:
+                            sprint_race_result = None
+                        sprint_race_results.append(sprint_race_result)
+
                         race_result = objects.results.RaceResult(current_driver, int(results_source["grid"]), int(results_source["position"]))
                         race_result.points = calc_race_points(int(results_source["position"]))
                         race_results.append(race_result)
                     fastest_lap = race["fastest_lap"]
 
-    return objects.results.GrandPrixResults(qualifying_results, race_results, fastest_lap)
+    return objects.results.GrandPrixResults(qualifying_results, sprint_race_results, race_results, fastest_lap)
 
 def do_results_exist_for_grand_prix(grand_prix_name, active_year):
     jsonData = load_race_results_into_json()
