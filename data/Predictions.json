@@ -2018,6 +2018,30 @@
               "Progression":"Alfa Romeo"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Hungary",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Lando Norris",
+              "Race":"Charles Leclerc",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"George Russell",
+              "Race":"Daniel Ricciardo",
+              "Progression":"Alpine"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Pierre Gasly",
+              "Race":"Fernando Alonso",
+              "Progression":"Alfa Romeo"
+            }
+          ]
         }
       ]
     }
