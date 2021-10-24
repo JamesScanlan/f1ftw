@@ -483,7 +483,8 @@
         {
           "Name":"Belgium",
           "StartDate":"2021-08-27",
-          "EndDate":"2021-08-29"
+          "EndDate":"2021-08-29",
+          "Outcome":"RaceImpactedByWeather"
         },
         {
           "Name":"Netherlands",
@@ -491,9 +492,10 @@
           "EndDate":"2021-09-05"
         },
         {
-          "Name":"Italy",
+          "Name":"Italy#2",
           "StartDate":"2021-09-10",
-          "EndDate":"2021-09-12"
+          "EndDate":"2021-09-12",
+          "Format":"Sprint"
         },
         {
           "Name":"Russia",
@@ -501,32 +503,27 @@
           "EndDate":"2021-09-26"
         },
         {
-          "Name":"tbc",
-          "StartDate":"2021-10-01",
-          "EndDate":"2021-10-03"
-        },
-        {
-          "Name":"Japan",
+          "Name":"Turkey",
           "StartDate":"2021-10-08",
           "EndDate":"2021-10-10"
         },
         {
-          "Name":"United Streets",
+          "Name":"United States",
           "StartDate":"2021-10-22",
           "EndDate":"2021-10-24"
         },
         {
           "Name":"Mexico",
-          "StartDate":"2021-10-29",
-          "EndDate":"2021-10-31"
-        },
-        {
-          "Name":"Brazil",
           "StartDate":"2021-11-05",
           "EndDate":"2021-11-07"
         },
         {
-          "Name":"Australia",
+          "Name":"Brazil",
+          "StartDate":"2021-11-12",
+          "EndDate":"2021-11-14"
+        },
+        {
+          "Name":"Qatar",
           "StartDate":"2021-11-19",
           "EndDate":"2021-11-21"
         },

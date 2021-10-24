@@ -2,7 +2,7 @@ import calculate_scores
 import objects
 from objects.collection_class import CollectionClass
 import get_grand_prix_names
-from get_predictors import GetPredictors
+import get_predictors
 import load_config
 
 class PredictorRaceWinTotals(CollectionClass):
@@ -22,7 +22,7 @@ class PredictorRaceWinTotal(object):
 
 def setup_predictor_wins(active_year):
     predictor_wins = PredictorRaceWinTotals()
-    predictors = GetPredictors(active_year)
+    predictors = get_predictors.get_predictors(active_year)
     for predictor in predictors:
         predictor_wins.add_object(PredictorRaceWinTotal(predictor))
     return predictor_wins

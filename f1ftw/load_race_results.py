@@ -12,6 +12,12 @@ def does_race_feature_a_sprint(grand_prix_name, active_year):
     else:
         return False
 
+def was_race_impacted_by_weather(grand_prix_name, active_year):
+    if read_meta_data_value(grand_prix_name, active_year, "Outcome") == "RaceImpactedByWeather":
+        return True
+    else:
+        return False
+
 def calc_race_points(position):
     points = {1: 25, 2: 18, 3: 15, 4: 12, 5: 10, 6: 8, 7: 6, 8: 4, 9: 2, 10: 1}
     if position > 10:
@@ -34,6 +40,8 @@ def read_race_results(grand_prix_name, active_year):
         if race_year["Year"] == str(active_year):
             for race in race_year["Races"]:
                 if race["Grand_Prix"] == grand_prix_name:
+                    was_race_weather_affected = was_race_impacted_by_weather(grand_prix_name, active_year)
+
                     for results_source in race["Results"]:
                         current_driver = Driver(parse_person_name(results_source["name"]),objects.team.Team(results_source["team"]))
                         
@@ -48,6 +56,8 @@ def read_race_results(grand_prix_name, active_year):
 
                         race_result = objects.results.RaceResult(current_driver, int(results_source["grid"]), int(results_source["position"]))
                         race_result.points = calc_race_points(int(results_source["position"]))
+                        if was_race_weather_affected ==True:
+                            race_result.points = race_result.points / 2
                         race_results.append(race_result)
                     fastest_lap = race["fastest_lap"]
 

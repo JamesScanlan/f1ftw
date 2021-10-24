@@ -20,7 +20,7 @@ def calculate_drivers_championship(grand_prix, active_year):
             results = load_race_results.read_race_results(grand_prix_name, active_year)
             for result in results.race_results:
                 championship_drivers.add_or_update_driver(result.driver, result.points)
-            if results.fastest_lap != None:
+            if results.fastest_lap != None or results.fastest_lap != '':
                 fastest_lap = helpers.parse_person_name(results.fastest_lap)
                 for result in results.race_results:
                     if result.driver.person_name == fastest_lap:
