@@ -28,7 +28,7 @@ def generate_results(grand_prix_name, active_year):
     # print("\nPoints\tDriver (Predictor)\n")
     # for calculated_result in calculated_results:
     #     print(str(calculated_result))
-
+    
     return calculated_results
 
 

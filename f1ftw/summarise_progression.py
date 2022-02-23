@@ -15,7 +15,6 @@ def generate_summary(active_year):
 
     for grand_prix_name in grand_prix_names:
         results = calculate_best_progression.generate_results(grand_prix_name, active_year)
-        
         for predictor in predictors:        
             for result in results:
                 if result.predictor != None:
@@ -27,7 +26,7 @@ def generate_summary(active_year):
                             summary[predictor]['teams'][result.team.name]['scores'].append(result.points)
     return summary
 
-def summarise_progressions(active_year):
+def summarise_progression(active_year):
     summary = generate_summary(active_year)
 
     for s in summary:
@@ -55,4 +54,4 @@ if __name__== "__main__":
     config = load_config.read_config()
     active_year = config.current_year
 
-    summarise_progressions(active_year)
+    summarise_progression(active_year)
