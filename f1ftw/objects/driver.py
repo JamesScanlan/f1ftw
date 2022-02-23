@@ -16,3 +16,5 @@ class Driver(object):
         return self.person_name < other.person_name
     def __gt__(self, other):
         return self.person_name > other.person_name
+    def __hash__(self) -> int:
+        return hash(self.person_name) + hash(self.team)

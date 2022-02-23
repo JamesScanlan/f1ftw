@@ -13,12 +13,10 @@ def generate_summary(active_year):
     for predictor in predictors:
         summary[predictors[predictor].full_name()] = {'drivers': {}, 'predictor': predictor}
 
-
     for grand_prix_name in grand_prix_names:
         results = calculate_best_qualifying.generate_results(grand_prix_name, active_year)
         for predictor in predictors:        
-            for result in results:
-                
+            for result in results:                
                 if result.predictor != None:
                     if result.predictor.full_name() == predictor:
                         if result.driver not in summary[predictor]['drivers']:
