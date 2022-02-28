@@ -16,7 +16,8 @@ def generate_summary(active_year):
     for grand_prix_name in grand_prix_names:
         results = calculate_best_qualifying.generate_results(grand_prix_name, active_year)
         for predictor in predictors:        
-            for result in results:                
+            for result in results:
+                
                 if result.predictor != None:
                     if result.predictor.full_name() == predictor:
                         if result.driver not in summary[predictor]['drivers']:
@@ -32,37 +33,37 @@ def analyse_scores(scores):
         total += score
     return total, round(total / len(scores),2)
 
-def summarise_progressions(active_year):
+def summarise_qualifying(active_year):
     summary = generate_summary(active_year)
 
-    for s in summary:
-        monkey = summary[s]['drivers']
+    for summary_item in summary:
+        drivers = summary[summary_item]['drivers']
         index = 0
         indexes = {}
-        for m in monkey:
-            indexes[index] = monkey[m]['count']
+        for driver in drivers:
+            indexes[index] = drivers[driver]['count']
             index += 1
         
         sorted_indexes = {key: value for key, value in sorted(indexes.items(), key=lambda item: item[1], reverse = True)}
         
         new_drivers = {}
         for i in sorted_indexes:
-            new_drivers[list(monkey)[i]] = monkey[list(monkey)[i]]
+            new_drivers[list(drivers)[i]] = drivers[list(drivers)[i]]
         
-        summary[s]['drivers'] = new_drivers
+        summary[summary_item]['drivers'] = new_drivers
 
-    for s in summary:
-        print(s)
-        sub_count = 0
-        for driver in summary[s]['drivers']:
-            sub_count += summary[s]['drivers'][driver]['count']
-            total, average = analyse_scores(summary[s]['drivers'][driver]['scores'])
-            print('\t' + str(driver.person_name) + ' Count:' + str(summary[s]['drivers'][driver]['count']) + ' ' + str(summary[s]['drivers'][driver]['scores']) + ' Total:' + str(total) + ' Average: ' + str(average))
-        print(sub_count)
+    for summary_item in summary:
+        print(summary_item)
+        # sub_count = 0
+        for driver in summary[summary_item]['drivers']:
+            # sub_count += summary[summary_item]['drivers'][driver]['count']
+            total, average = analyse_scores(summary[summary_item]['drivers'][driver]['scores'])
+            print('\t' + str(driver.person_name) + ' Count:' + str(summary[summary_item]['drivers'][driver]['count']) + ' ' + str(summary[summary_item]['drivers'][driver]['scores']) + ' Total:' + str(total) + ' Average: ' + str(average))
+        # print(sub_count)
         print('\n')
 
 if __name__== "__main__":
     config = load_config.read_config()
     active_year = config.current_year
 
-    summarise_progressions(active_year)
+    summarise_qualifying(active_year)

@@ -1,5 +1,5 @@
 import load_grands_prix_meta_data
-import objects
+# import objects
 import datetime
 import load_config
 

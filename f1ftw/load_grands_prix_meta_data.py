@@ -6,7 +6,8 @@ import load_config
 
 def read_grands_prix_meta_data(active_year):
     grands_prix_meta_data = objects.grands_prix_meta_data.GrandsPrixMetaData()
-    jsonData = json.load(open(os.path.join(os.path.abspath(".."), "data", "GrandsPrixMetaData.json")))
+    # jsonData = json.load(open(os.path.join(os.path.abspath(".."), "data", "GrandsPrixMetaData.json")))
+    jsonData = json.load(open('data/GrandsPrixMetaData.json'))
     for grand_prix in jsonData["GrandsPrix"]:
         if grand_prix["Year"] == str(active_year):
             for race in grand_prix["Races"]:
@@ -15,7 +16,8 @@ def read_grands_prix_meta_data(active_year):
     return grands_prix_meta_data
 
 def read_meta_data_value(grand_prix_name, active_year, key_name):
-    jsonData = json.load(open(os.path.join(os.path.abspath(".."), "data", "GrandsPrixMetaData.json")))
+    # jsonData = json.load(open(os.path.join(os.path.abspath(".."), "data", "GrandsPrixMetaData.json")))
+    jsonData = json.load(open('data/GrandsPrixMetaData.json'))
     for grand_prix in jsonData["GrandsPrix"]:
         if grand_prix["Year"] == str(active_year):
             for race in grand_prix["Races"]:

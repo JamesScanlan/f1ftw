@@ -26,7 +26,8 @@ def calc_race_points(position):
         return points[position]
 
 def load_race_results_into_json():
-    return json.load(open(os.path.join(os.path.abspath(".."), "data", "GPData.json")))
+    # return json.load(open(os.path.join(os.path.abspath(".."), "data", "GPData.json")))
+    return json.load(open('data/GPData.json'))
 
 def read_race_results(grand_prix_name, active_year):
     jsonData = load_race_results_into_json()

@@ -12,7 +12,8 @@ def does_race_feature_a_sprint(grand_prix_name, active_year):
         return False
 
 def read_predictions(grand_prix_name = None, active_year = 2018):
-    jsonData = json.load(open(os.path.join(os.path.abspath(".."), "data", "Predictions.json" )))
+    # jsonData = json.load(open(os.path.join(os.path.abspath(".."), "data", "Predictions.json" )))
+    jsonData = json.load(open('data/Predictions.json'))
     predictions = []
 
     for race_year in jsonData["Grands_Prix"]:
