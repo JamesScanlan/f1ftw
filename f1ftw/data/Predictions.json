@@ -2314,6 +2314,84 @@
           ]
         }
       ]
+    },
+    {
+      "Year":"2022",
+      "Races":
+      [
+        {
+          "Grand_Prix":"Bahrain",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Charles Leclerc",
+              "Race":"Lewis Hamilton",
+              "Progression":"Alpine"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Carlos Sainz Jnr",
+              "Race":"Lando Norris",
+              "Progression":"Mercedes"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Max Verstappen",
+              "Race":"George Russell",
+              "Progression":"Williams"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Saudi Arabia",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Kevin Magnussen",
+              "Race":"George Russell",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Sergio Perez",
+              "Race":"Pierre Gasly",
+              "Progression":"Alfa Romeo"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Max Verstappen",
+              "Race":"Valtteri Bottas",
+              "Progression":"Aston Martin"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Australia",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Carlos Sainz Jnr",
+              "Race":"Lewis Hamilton",
+              "Progression":"McLaren"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Lando Norris",
+              "Race":"Kevin Magnussen",
+              "Progression":"Alpine"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Sergio Perez",
+              "Race":"Fernando Alonso",
+              "Progression":"Haas F1"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

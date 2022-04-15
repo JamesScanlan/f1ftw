@@ -1,5 +1,5 @@
 import json
-import os
+# import os
 import objects
 from helpers import parse_person_name
 import load_config

@@ -539,6 +539,123 @@
           "EndDate":"2021-12-12"
         }
       ]
+    },
+    {
+      "Year":"2022",
+      "Races":
+      [
+        {
+          "Name":"Bahrain",
+          "StartDate":"2022-03-18",
+          "EndDate":"2022-03-20"
+        },
+        {
+          "Name":"Saudi Arabia",
+          "StartDate":"2022-03-25",
+          "EndDate":"2022-03-27"
+        },
+        {
+          "Name":"Australia",
+          "StartDate":"2022-04-08",
+          "EndDate":"2022-04-10"
+        },
+        {
+          "Name":"Italy#1",
+          "StartDate":"2022-04-22",
+          "EndDate":"2022-04-24"
+        },
+        {
+          "Name":"United States#1",
+          "StartDate":"2022-05-06",
+          "EndDate":"2022-05-08"
+        },
+        {
+          "Name":"Spain",
+          "StartDate":"2022-05-20",
+          "EndDate":"2022-05-22"
+        },
+        {
+          "Name":"Monaco",
+          "StartDate":"2022-05-27",
+          "EndDate":"2022-05-29"
+        },
+        {
+          "Name":"Azerbaijan",
+          "StartDate":"2022-06-10",
+          "EndDate":"2022-06-12"
+        },
+        {
+          "Name":"Canada",
+          "StartDate":"2022-06-17",
+          "EndDate":"2022-06-19"
+        },
+        {
+          "Name":"Great Britain",
+          "StartDate":"2022-07-01",
+          "EndDate":"2022-07-03"
+        },
+        {
+          "Name":"Austria",
+          "StartDate":"2022-07-08",
+          "EndDate":"2022-07-10"
+        },
+        {
+          "Name":"France",
+          "StartDate":"2022-07-22",
+          "EndDate":"2022-07-24"
+        },
+        {
+          "Name":"Hungary",
+          "StartDate":"2022-07-29",
+          "EndDate":"2022-07-31"
+        },
+        {
+          "Name":"Belgium",
+          "StartDate":"2022-08-26",
+          "EndDate":"2022-08-28"
+        },
+        {
+          "Name":"Netherlands",
+          "StartDate":"2022-09-02",
+          "EndDate":"2022-09-04"
+        },
+        {
+          "Name":"Italy#2",
+          "StartDate":"2022-09-09",
+          "EndDate":"2022-09-11"
+        },
+        {
+          "Name":"Singapore",
+          "StartDate":"2022-09-30",
+          "EndDate":"2022-10-02"
+        },
+        {
+          "Name":"Japan",
+          "StartDate":"2022-09-07",
+          "EndDate":"2022-10-09"
+        },
+        {
+          "Name":"United States#2",
+          "StartDate":"2022-10-21",
+          "EndDate":"2022-10-23"
+        },
+        {
+          "Name":"Mexico",
+          "StartDate":"2022-10-28",
+          "EndDate":"2022-10-30"
+        },
+        {
+          "Name":"Brazil",
+          "StartDate":"2022-11-11",
+          "EndDate":"2022-11-13"
+        },
+        {
+          "Name":"Abu Dhabi",
+          "StartDate":"2022-11-18",
+          "EndDate":"2022-11-20"
+        }
+
+      ]
     }
   ]
 }

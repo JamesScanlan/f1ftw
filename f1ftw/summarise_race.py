@@ -73,7 +73,7 @@ def summarise_remaining_races(grand_prix_name):
     calculate_number_of_races_remaining_in_season.calculate_number_of_races_remaining(grand_prix_name)
 
 if __name__== "__main__":
-    grand_prix_name = get_grand_prix_name_from_command_line_arguments(default = "Australian")
+    grand_prix_name = get_grand_prix_name_from_command_line_arguments(default = "Bahrain")
     output_filename = get_file_name_from_command_line_argument()
     config = load_config.read_config()
 

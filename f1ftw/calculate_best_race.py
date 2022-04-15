@@ -5,7 +5,7 @@ from calculate_drivers_championship import calculate_drivers_championship
 from get_driver import get_driver
 import objects
 
-def calculate_best_race(grand_prix_name, active_year):
+def generate_results(grand_prix_name, active_year):
     results = load_race_results.read_race_results(grand_prix_name, active_year)
     predictions = load_predictions.read_predictions(grand_prix_name, active_year)
     drivers_championship = calculate_drivers_championship(grand_prix_name, active_year)
@@ -24,6 +24,13 @@ def calculate_best_race(grand_prix_name, active_year):
 
     calculated_results.apply_sort()
 
+    return calculated_results
+
+def calculate_best_race(grand_prix_name, active_year):
+    results = generate_results(grand_prix_name, active_year)
     print("\nPoints\tDriver (Predictor)\n")
-    for calculated_result in calculated_results:
+    for calculated_result in results:
         print(str(calculated_result))
+
+if __name__== "__main__":
+    calculate_best_race('Qatar',2021)
