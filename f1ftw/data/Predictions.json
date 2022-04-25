@@ -2390,6 +2390,33 @@
               "Progression":"Haas F1"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Italy#1",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Fernando Alonso",
+              "Sprint":"Lando Norris",
+              "Race":"Lewis Hamilton",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Kevin Magnussen",
+              "Sprint":"Daniel Ricciardo",
+              "Race":"Sergio Perez",
+              "Progression":"Aston Martin"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Sebastian Vettel",
+              "Sprint":"Mick Schumacher",
+              "Race":"Valtteri Bottas",
+              "Progression":"Alphatauri"
+            }
+          ]
         }
       ]
     }

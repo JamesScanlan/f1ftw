@@ -562,7 +562,8 @@
         {
           "Name":"Italy#1",
           "StartDate":"2022-04-22",
-          "EndDate":"2022-04-24"
+          "EndDate":"2022-04-24",
+          "Format":"Sprint"
         },
         {
           "Name":"United States#1",
