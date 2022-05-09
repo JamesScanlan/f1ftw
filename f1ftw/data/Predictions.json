@@ -2417,6 +2417,30 @@
               "Progression":"Alphatauri"
             }
           ]
+        },
+        {
+          "Grand_Prix":"United States#1",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Lewis Hamilton",
+              "Race":"Kevin Magnussen",
+              "Progression":"Alfa Romeo"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Daniel Ricciardo",
+              "Race":"Valtteri Bottas",
+              "Progression":"Alphatauri"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Pierre Gasly",
+              "Race":"Fernando Alonso",
+              "Progression":"Aston Martin"
+            }
+          ]
         }
       ]
     }

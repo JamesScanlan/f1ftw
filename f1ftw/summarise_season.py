@@ -207,6 +207,7 @@ if __name__== "__main__":
 
     if output_file_name != None:
         text_file_writer.close_file(file_handler)
+        print(output_file_name + ' created.')
         console_output_redirector.set_output_to_console(original_output)
 
 
