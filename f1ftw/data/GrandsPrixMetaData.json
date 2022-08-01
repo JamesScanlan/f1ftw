@@ -598,7 +598,8 @@
         {
           "Name":"Austria",
           "StartDate":"2022-07-08",
-          "EndDate":"2022-07-10"
+          "EndDate":"2022-07-10",
+          "Format":"Sprint"
         },
         {
           "Name":"France",
