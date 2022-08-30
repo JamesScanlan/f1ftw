@@ -2636,6 +2636,30 @@
               "Progression":"Williams"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Belgium",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Daniel Ricciardo",
+              "Race":"Lewis Hamilton",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Fernando Alonso",
+              "Race":"Sergio Perez",
+              "Progression":"Alfa Romeo"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"George Russell",
+              "Race":"Lance Stroll",
+              "Progression":"Ferrari"
+            }
+          ]
         }
       ]
     }
