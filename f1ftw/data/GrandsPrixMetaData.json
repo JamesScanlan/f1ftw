@@ -649,7 +649,8 @@
         {
           "Name":"Brazil",
           "StartDate":"2022-11-11",
-          "EndDate":"2022-11-13"
+          "EndDate":"2022-11-13",
+          "Format":"Sprint"
         },
         {
           "Name":"Abu Dhabi",
