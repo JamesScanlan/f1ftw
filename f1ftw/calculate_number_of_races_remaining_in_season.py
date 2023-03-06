@@ -26,13 +26,19 @@ def calculate_number_of_races_remaining(race_name):
             print("In " + str(config.current_year) + " there are " + str(len(grand_prix_names)) + " races.")
             print("There are " + str(len(grand_prix_names) - counter) + " races remaining.")
             print_remaining_grand_prix = True
+            if len(grand_prix_names) == counter:
+                print_remaining_grand_prix = False
+
         if print_remaining_grand_prix == True:
             if grand_prix_name != race_name:
                 remaining_races += grand_prix_name
                 if counter < len(grand_prix_names):
                     remaining_races += ", "
     if print_remaining_grand_prix == True:
-        print("The remaining races are: " + remaining_races)
+        if ',' in remaining_races: 
+            print("The remaining races are: " + remaining_races)
+        else:
+            print("The remaining race is: " + remaining_races)
 
 
 if __name__ == "__main__":

@@ -659,6 +659,127 @@
         }
 
       ]
+    },
+    {
+      "Year":"2023",
+      "Races":
+      [
+        {
+          "Name":"Bahrain",
+          "StartDate":"2023-03-03",
+          "EndDate":"2023-03-05"
+        },
+        {
+          "Name":"Saudi Arabia",
+          "StartDate":"2023-03-17",
+          "EndDate":"2023-03-19"
+        },
+        {
+          "Name":"Australia",
+          "StartDate":"2023-03-31",
+          "EndDate":"2023-04-02"
+        },
+        {
+          "Name":"Azerbaijan",
+          "StartDate":"2023-04-28",
+          "EndDate":"2023-04-30"
+        },
+        {
+          "Name":"Miami",
+          "StartDate":"2023-05-05",
+          "EndDate":"2023-05-07"
+        },
+        {
+          "Name":"Italy#1",
+          "StartDate":"2023-05-19",
+          "EndDate":"2023-05-21"
+        },
+        {
+          "Name":"Monaco",
+          "StartDate":"2023-05-26",
+          "EndDate":"2023-05-28"
+        },
+        {
+          "Name":"Spain",
+          "StartDate":"2023-06-02",
+          "EndDate":"2023-06-04"
+        },
+        {
+          "Name":"Canada",
+          "StartDate":"2023-06-16",
+          "EndDate":"2023-06-18"
+        },
+        {
+          "Name":"Austria",
+          "StartDate":"2023-06-30",
+          "EndDate":"2023-07-02"
+        },
+        {
+          "Name":"Great Britain",
+          "StartDate":"2023-07-07",
+          "EndDate":"2023-07-09"
+        },
+        {
+          "Name":"Hungary",
+          "StartDate":"2023-07-21",
+          "EndDate":"2023-07-23"
+        },
+        {
+          "Name":"Belgium",
+          "StartDate":"2023-07-28",
+          "EndDate":"2023-07-30"
+        },
+        {
+          "Name":"Netherlands",
+          "StartDate":"2023-08-25",
+          "EndDate":"2023-08-27"
+        },
+        {
+          "Name":"Italy#2",
+          "StartDate":"2023-09-01",
+          "EndDate":"2023-09-03"
+        },
+        {
+          "Name":"Singapore",
+          "StartDate":"2023-09-15",
+          "EndDate":"2023-08-17"
+        },
+        {
+          "Name":"Japan",
+          "StartDate":"2023-09-22",
+          "EndDate":"2023-09-24"
+        },
+        {
+          "Name":"Qatar",
+          "StartDate":"2023-10-06",
+          "EndDate":"2023-10-08"
+        },
+        {
+          "Name":"United States",
+          "StartDate":"2023-10-20",
+          "EndDate":"2023-10-22"
+        },
+        {
+          "Name":"Mexico",
+          "StartDate":"2023-10-27",
+          "EndDate":"2023-10-29"
+        },
+        {
+          "Name":"Brazil",
+          "StartDate":"2023-11-03",
+          "EndDate":"2023-11-05"
+        },
+        {
+          "Name":"Las Vegas",
+          "StartDate":"2023-11-16",
+          "EndDate":"2023-11-18"
+        },
+        {
+          "Name":"Abu Dhabi",
+          "StartDate":"2023-11-24",
+          "EndDate":"2023-11-26"
+        }
+      ]
     }
   ]
 }
