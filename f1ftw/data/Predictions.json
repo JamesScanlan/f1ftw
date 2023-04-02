@@ -2885,6 +2885,54 @@
               "Progression":"Williams"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Saudi Arabia",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"George Russell",
+              "Race":"Lance Stroll",
+              "Progression":"McLaren"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Fernando Alonso",
+              "Race":"Sergio Perez",
+              "Progression":"Ferrari"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Charles Leclerc",
+              "Race":"Carlos Sainz Jnr",
+              "Progression":"Williams"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Australia",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Charles Leclerc",
+              "Race":"Lewis Hamilton",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Lance Stroll",
+              "Race":"George Russell",
+              "Progression":"Alfa Romeo"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Pierre Gasly",
+              "Race":"Esteban Ocon",
+              "Progression":"McLaren"
+            }
+          ]
         }
       ]
     }
