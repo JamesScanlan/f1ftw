@@ -2933,6 +2933,57 @@
               "Progression":"McLaren"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Azerbaijan",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Lance Stroll",
+              "Sprint":"Lando Norris",
+              "Race":"Lewis Hamilton",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Carlos Sainz Jnr",
+              "Sprint":"Fernando Alonso",
+              "Race":"Pierre Gasly",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Charles Leclerc",
+              "Sprint":"George Russell",
+              "Race":"Alexander Albon",
+              "Progression":"Alfa Romeo"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Miami",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Carlos Sainz Jnr",
+              "Race":"Lance Stroll",
+              "Progression":"Alfa Romeo"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Fernando Alonso",
+              "Race":"Lando Norris",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Charles Leclerc",
+              "Race":"George Russell",
+              "Progression":"Haas F1"
+            }
+          ]
         }
       ]
     }

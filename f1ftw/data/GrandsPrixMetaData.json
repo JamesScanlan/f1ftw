@@ -682,7 +682,8 @@
         {
           "Name":"Azerbaijan",
           "StartDate":"2023-04-28",
-          "EndDate":"2023-04-30"
+          "EndDate":"2023-04-30",
+          "Format":"Sprint"
         },
         {
           "Name":"Miami",
