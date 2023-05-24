@@ -60,7 +60,10 @@ def read_race_results(grand_prix_name, active_year):
                         if was_race_weather_affected ==True:
                             race_result.points = race_result.points / 2
                         race_results.append(race_result)
-                    fastest_lap = race["fastest_lap"]
+                    if "fastest_lap" in race:
+                        fastest_lap = race["fastest_lap"]
+                    else:
+                        fastest_lap = None
 
     return objects.results.GrandPrixResults(qualifying_results, sprint_race_results, race_results, fastest_lap)
 

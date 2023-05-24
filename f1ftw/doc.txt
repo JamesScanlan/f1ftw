@@ -1,124 +1,123 @@
-Qualifying Prediction Analysis
+2017
+     Qualifying          Race                
 
-Andrew Chadwick
-	Esteban Ocon Count:5 [162, 150, 121, 154, 154] Total:741 Average: 148.2
-	Lando Norris Count:4 [51, 76, 88, 65] Total:280 Average: 70.0
-	Daniel Ricciardo Count:3 [70, 81, 120] Total:271 Average: 90.33
-	Carlos Sainz Jnr Count:3 [108, 98, 42] Total:248 Average: 82.67
-	Pierre Gasly Count:2 [198, 171] Total:369 Average: 184.5
-	Lance Stroll Count:1 [156] Total:156 Average: 156.0
-	Charles Leclerc Count:1 [132] Total:132 Average: 132.0
-	Fernando Alonso Count:1 [80] Total:80 Average: 80.0
-	Sergio Perez Count:1 [57] Total:57 Average: 57.0
-	Lewis Hamilton Count:1 [21] Total:21 Average: 21.0
+1    Kimi Raikkonen      Sebastian Vettel    
+2    Sebastian Vettel    Kimi Raikkonen      
+3    Valtteri Bottas     Daniel Ricciardo    
+4    Max Verstappen      Valtteri Bottas     
+5    Daniel Ricciardo    Max Verstappen      
+6    Carlos Sainz Jnr    Carlos Sainz Jnr    
+7    Sergio Perez        Lewis Hamilton      
+8    Romain Grosjean     Romain Grosjean     
+9    Jenson Button       Felipe Massa        
+10   Stoffel Vandoorne   Kevin Magnussen     
+11   Danill Kvyat        Jolyon Palmer       
+12   Nico Hulkenberg     Esteban Ocon        
+13   Kevin Magnussen     Sergio Perez        
+14   Lewis Hamilton      Danill Kvyat        
+15   Felipe Massa        Lance Stroll        
+16   Esteban Ocon        Stoffel Vandoorne   
+17   Jolyon Palmer       Marcus Ericsson     
+18   Lance Stroll        Jenson Button       
+19   Pascal Wehrlein     Pascal Wehrlein     
+20   Marcus Ericsson     Nico Hulkenberg     
 
-	10 drivers selected across season
 
-James Scanlan
-	Pierre Gasly Count:5 [170, 136, 136, 171, 90] Total:703 Average: 140.6
-	Daniel Ricciardo Count:4 [81, 104, 144, 128] Total:457 Average: 114.25
-	Sergio Perez Count:3 [105, 133, 80] Total:318 Average: 106.0
-	George Russell Count:2 [240, 64] Total:304 Average: 152.0
-	Fernando Alonso Count:2 [143, 90] Total:233 Average: 116.5
-	Carlos Sainz Jnr Count:2 [102, 112] Total:214 Average: 107.0
-	Esteban Ocon Count:1 [126] Total:126 Average: 126.0
-	Charles Leclerc Count:1 [80] Total:80 Average: 80.0
-	Lando Norris Count:1 [60] Total:60 Average: 60.0
-	Max Verstappen Count:1 [22] Total:22 Average: 22.0
+2018
+     Qualifying          Race                
 
-	10 drivers selected across season
+1    Daniel Ricciardo    Daniel Ricciardo    
+2    Sebastian Vettel    Sebastian Vettel    
+3    Lewis Hamilton      Lewis Hamilton      
+4    Kimi Raikkonen      Kimi Raikkonen      
+5    Valtteri Bottas     Valtteri Bottas     
+6    Esteban Ocon        Esteban Ocon        
+7    Fernando Alonso     Pierre Gasly        
+8    Carlos Sainz Jnr    Nico Hulkenberg     
+9    Sergio Perez        Max Verstappen      
+10   Pierre Gasly        Carlos Sainz Jnr    
+11   Nico Hulkenberg     Marcus Ericsson     
+12   Stoffel Vandoorne   Sergio Perez        
+13   Sergey Sirotkin     Kevin Magnussen     
+14   Charles Leclerc     Stoffel Vandoorne   
+15   Romain Grosjean     Romain Grosjean     
+16   Brendon Hartley     Sergey Sirotkin     
+17   Marcus Ericsson     Lance Stroll        
+18   Lance Stroll        Charles Leclerc     
+19   Kevin Magnussen     Brendon Hartley     
+20   Max Verstappen      Fernando Alonso     
 
-Matt Potter
-	Pierre Gasly Count:8 [100, 136, 162, 136, 90, 126, 162, 153] Total:1065 Average: 133.12
-	Esteban Ocon Count:3 [132, 110, 143] Total:385 Average: 128.33
-	Lance Stroll Count:2 [169, 130] Total:299 Average: 149.5
-	Carlos Sainz Jnr Count:2 [152, 126] Total:278 Average: 139.0
-	Fernando Alonso Count:2 [154, 110] Total:264 Average: 132.0
-	Valtteri Bottas Count:2 [45, 110] Total:155 Average: 77.5
-	Yuki Tsunoda Count:1 [210] Total:210 Average: 210.0
-	Sebastian Vettel Count:1 [130] Total:130 Average: 130.0
-	Lando Norris Count:1 [16] Total:16 Average: 16.0
 
-	9 drivers selected across season
+2019
+     Qualifying          Race                
 
-Race Prediction Analysis
+1    Lewis Hamilton      Lewis Hamilton      
+2    Valtteri Bottas     Sebastian Vettel    
+3    Max Verstappen      Valtteri Bottas     
+4    Sebastian Vettel    Max Verstappen      
+5    Pierre Gasly        Pierre Gasly        
+6    Kevin Magnussen     Carlos Sainz Jnr    
+7    Daniel Ricciardo    Daniil Kvyat        
+8    Daniil Kvyat        Alexander Albon     
+9    Carlos Sainz Jnr    Daniel Ricciardo    
+10   Alexander Albon     Romain Grosjean     
+11   Nico Hulkenberg     Lando Norris        
+12   Lando Norris        Sergio Perez        
+13   Romain Grosjean     Nico Hulkenberg     
+14   Kimi Raikkonen      Kevin Magnussen     
+15   Antonio Giovinazzi  George Russell      
+16   Charles Leclerc     Lance Stroll        
+17   Sergio Perez        Kimi Raikkonen      
+18   Lance Stroll        Robert Kubica       
+19   George Russell      Antonio Giovinazzi  
+20   Robert Kubica       Charles Leclerc     
 
-Andrew Chadwick
-	Lando Norris Count:6 [75, 48, 75, 100, 33, 55] Total:386 Average: 64.33
-	Fernando Alonso Count:3 [40, 20, 320] Total:380 Average: 126.67
-	Charles Leclerc Count:3 [168, 12, 168] Total:348 Average: 116.0
-	Carlos Sainz Jnr Count:3 [16, 63.0, 224] Total:303.0 Average: 101.0
-	George Russell Count:2 [165, 105] Total:270 Average: 135.0
-	Sebastian Vettel Count:1 [228] Total:228 Average: 228.0
-	Daniel Ricciardo Count:1 [220] Total:220 Average: 220.0
-	Sergio Perez Count:1 [168] Total:168 Average: 168.0
-	Valtteri Bottas Count:1 [160] Total:160 Average: 160.0
-	Esteban Ocon Count:1 [0] Total:0 Average: 0.0
 
-	10 drivers selected across season
+2021
+     Qualifying          Race                
 
-James Scanlan
-	Daniel Ricciardo Count:5 [72, 176.0, 200, 64, 64] Total:576.0 Average: 115.2
-	Carlos Sainz Jnr Count:4 [152, 63, 224, 112] Total:551 Average: 137.75
-	Pierre Gasly Count:3 [88, 81, 198] Total:367 Average: 122.33
-	Sergio Perez Count:3 [125, 128, 112] Total:365 Average: 121.67
-	Sebastian Vettel Count:2 [80, 84] Total:164 Average: 82.0
-	Esteban Ocon Count:2 [117, 0] Total:117 Average: 58.5
-	Yuki Tsunoda Count:1 [112] Total:112 Average: 112.0
-	Max Verstappen Count:1 [88] Total:88 Average: 88.0
-	Valtteri Bottas Count:1 [32] Total:32 Average: 32.0
+1    Charles Leclerc     Max Verstappen      
+2    Max Verstappen      Carlos Sainz Jnr    
+3    Valtteri Bottas     Lando Norris        
+4    Carlos Sainz Jnr    Sergio Perez        
+5    Lando Norris        Sebastian Vettel    
+6    Pierre Gasly        Pierre Gasly        
+7    Lewis Hamilton      Lewis Hamilton      
+8    Sebastian Vettel    Lance Stroll        
+9    Sergio Perez        Esteban Ocon        
+10   Antonio Giovinazzi  Antonio Giovinazzi  
+11   Esteban Ocon        Kimi Raikkonen      
+12   Daniel Ricciardo    Daniel Ricciardo    
+13   Lance Stroll        Fernando Alonso     
+14   Kimi Raikkonen      George Russell      
+15   George Russell      Nicholas Latifi     
+16   Yuki Tsunoda        Yuki Tsunoda        
+17   Fernando Alonso     Nikita Mazepin      
+18   Nicholas Latifi     Mick Schumacher     
+19   Nikita Mazepin      Valtteri Bottas     
+20   Mick Schumacher     Charles Leclerc     
 
-	9 drivers selected across season
 
-Matt Potter
-	Fernando Alonso Count:5 [143, 121, 308, 220, 130] Total:922 Average: 184.4
-	Daniel Ricciardo Count:3 [78, 104, 396] Total:578 Average: 192.67
-	Sebastian Vettel Count:2 [325, 220.0] Total:545.0 Average: 272.5
-	Yuki Tsunoda Count:2 [84, 392] Total:476 Average: 238.0
-	Sergio Perez Count:2 [25, 150] Total:175 Average: 87.5
-	Lance Stroll Count:1 [286] Total:286 Average: 286.0
-	Carlos Sainz Jnr Count:1 [200] Total:200 Average: 200.0
-	Charles Leclerc Count:1 [175] Total:175 Average: 175.0
-	Esteban Ocon Count:1 [169] Total:169 Average: 169.0
-	Valtteri Bottas Count:1 [168] Total:168 Average: 168.0
-	Antonio Giovinazzi Count:1 [162] Total:162 Average: 162.0
-	Kimi Raikkonen Count:1 [128] Total:128 Average: 128.0
-	George Russell Count:1 [75] Total:75 Average: 75.0
+2022
+     Qualifying          Race                
 
-	13 drivers selected across season
-
-Progression Prediction Analysis
-
-Andrew Chadwick
-	Aston Martin Count:7 [-2, 94, 99, 33, -108, -12, 109] Total:213 Average: 30.43
-	Williams Count:5 [320, -24, -64, -7, -15] Total:210 Average: 42.0
-	Alfa Romeo Count:3 [52, -48, 103] Total:107 Average: 35.67
-	Ferrari Count:2 [-28, 40] Total:12 Average: 6.0
-	Alpine Count:2 [-25, 30] Total:5 Average: 2.5
-	McLaren Count:2 [2, -9] Total:-7 Average: -3.5
-	Alphatauri Count:1 [-88] Total:-88 Average: -88.0
-
-	7 teams selected across season
-
-James Scanlan
-	Alphatauri Count:6 [9, -98, -57, -94, -33, 0] Total:-273 Average: -45.5
-	Ferrari Count:4 [-2, 59, 17, 59] Total:133 Average: 33.25
-	Aston Martin Count:4 [0, -38, 103, 48] Total:113 Average: 28.25
-	Alfa Romeo Count:3 [66, 46, -117] Total:-5 Average: -1.67
-	Alpine Count:2 [146, 44] Total:190 Average: 95.0
-	Williams Count:1 [52] Total:52 Average: 52.0
-	McLaren Count:1 [48] Total:48 Average: 48.0
-	Haas F1 Count:1 [-96] Total:-96 Average: -96.0
-
-	8 teams selected across season
-
-Matt Potter
-	Alfa Romeo Count:10 [-60, -30, 105, 30, 0, 60, 34, 86, -30, -70] Total:125 Average: 12.5
-	Haas F1 Count:5 [1, 44, 52, 128, -54] Total:171 Average: 34.2
-	Williams Count:4 [13, 100, 74, 60] Total:247 Average: 61.75
-	Red Bull Count:1 [13] Total:13 Average: 13.0
-	Aston Martin Count:1 [-109] Total:-109 Average: -109.0
-	Alpine Count:1 [-113] Total:-113 Average: -113.0
-
-	6 teams selected across season
-
+1    Charles Leclerc     Sergio Perez        
+2    Carlos Sainz Jnr    Carlos Sainz Jnr    
+3    Sergio Perez        Max Verstappen      
+4    Max Verstappen      Charles Leclerc     
+5    Lando Norris        George Russell      
+6    George Russell      Lando Norris        
+7    Fernando Alonso     Fernando Alonso     
+8    Lewis Hamilton      Lewis Hamilton      
+9    Sebastian Vettel    Valtteri Bottas     
+10   Esteban Ocon        Sebastian Vettel    
+11   Yuki Tsunoda        Pierre Gasly        
+12   Valtteri Bottas     Esteban Ocon        
+13   Kevin Magnussen     Daniel Ricciardo    
+14   Daniel Ricciardo    Lance Stroll        
+15   Mick Schumacher     Nicholas Latifi     
+16   Alexander Albon     Zhou Guanyu         
+17   Pierre Gasly        Yuki Tsunoda        
+18   Lance Stroll        Alexander Albon     
+19   Nicholas Latifi     Mick Schumacher     
+20   Zhou Guanyu         Kevin Magnussen
