@@ -2984,6 +2984,30 @@
               "Progression":"Haas F1"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Monaco",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Lewis Hamilton",
+              "Race":"Valtteri Bottas",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Charles Leclerc",
+              "Race":"Fernando Alonso",
+              "Progression":"Mercedes"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Lando Norris",
+              "Race":"Carlos Sainz Jnr",
+              "Progression":"Williams"
+            }
+          ]
         }
       ]
     }

@@ -693,7 +693,8 @@
         {
           "Name":"Italy#1",
           "StartDate":"2023-05-19",
-          "EndDate":"2023-05-21"
+          "EndDate":"2023-05-21",
+          "Status":"Cancelled"
         },
         {
           "Name":"Monaco",

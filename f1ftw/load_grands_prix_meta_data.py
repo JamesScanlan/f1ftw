@@ -6,17 +6,20 @@ import load_config
 
 def read_grands_prix_meta_data(active_year):
     grands_prix_meta_data = objects.grands_prix_meta_data.GrandsPrixMetaData()
-    # jsonData = json.load(open(os.path.join(os.path.abspath(".."), "data", "GrandsPrixMetaData.json")))
     jsonData = json.load(open('data/GrandsPrixMetaData.json'))
     for grand_prix in jsonData["GrandsPrix"]:
         if grand_prix["Year"] == str(active_year):
             for race in grand_prix["Races"]:
-                grands_prix_meta_data.add_object(objects.grands_prix_meta_data.GrandPrixMetaData(race["Name"], datetime.datetime.strptime(race["StartDate"],"%Y-%m-%d").date(), datetime.datetime.strptime(race["EndDate"],"%Y-%m-%d").date()))
+                parse_race = True
+                if "Status" in race.keys():
+                    parse_race = not (race["Status"] == "Cancelled")
+                
+                if parse_race == True:
+                    grands_prix_meta_data.add_object(objects.grands_prix_meta_data.GrandPrixMetaData(race["Name"], datetime.datetime.strptime(race["StartDate"],"%Y-%m-%d").date(), datetime.datetime.strptime(race["EndDate"],"%Y-%m-%d").date()))
 
     return grands_prix_meta_data
 
 def read_meta_data_value(grand_prix_name, active_year, key_name):
-    # jsonData = json.load(open(os.path.join(os.path.abspath(".."), "data", "GrandsPrixMetaData.json")))
     jsonData = json.load(open('data/GrandsPrixMetaData.json'))
     for grand_prix in jsonData["GrandsPrix"]:
         if grand_prix["Year"] == str(active_year):
