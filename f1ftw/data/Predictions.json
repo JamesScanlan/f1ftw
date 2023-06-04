@@ -3008,6 +3008,30 @@
               "Progression":"Williams"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Spain",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Esteban Ocon",
+              "Race":"Fernando Alonso",
+              "Progression":"Alphatauri"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Pierre Gasly",
+              "Race":"Carlos Sainz Jnr",
+              "Progression":"Alpine"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Lance Stroll",
+              "Race":"Charles Leclerc",
+              "Progression":"McLaren"
+            }
+          ]
         }
       ]
     }
