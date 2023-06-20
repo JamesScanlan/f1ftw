@@ -3032,6 +3032,30 @@
               "Progression":"McLaren"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Canada",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Pierre Gasly",
+              "Race":"Fernando Alonso",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Lando Norris",
+              "Race":"Esteban Ocon",
+              "Progression":"Mercedes"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Charles Leclerc",
+              "Race":"Lance Stroll",
+              "Progression":"Haas F1"
+            }
+          ]
         }
       ]
     }
