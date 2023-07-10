@@ -18,4 +18,4 @@ if __name__ == "__main__":
     else:
         grand_prix_names = get_grand_prix_names.get_grand_prix_names()
         for grand_prix_name in grand_prix_names:
-            DoCalculation(grand_prix_name,config.current_year)
+            do_calculation(grand_prix_name,config.current_year)
