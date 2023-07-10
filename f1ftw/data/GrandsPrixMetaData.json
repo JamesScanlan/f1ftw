@@ -714,7 +714,8 @@
         {
           "Name":"Austria",
           "StartDate":"2023-06-30",
-          "EndDate":"2023-07-02"
+          "EndDate":"2023-07-02",
+          "Format":"Sprint"
         },
         {
           "Name":"Great Britain",
