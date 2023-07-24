@@ -3107,6 +3107,30 @@
               "Progression":"Alphatauri"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Hungary",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Alexander Albon",
+              "Race":"Oscar Piastri",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Lando Norris",
+              "Race":"Logan Sargeant",
+              "Progression":"Alphatauri"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Pierre Gasly",
+              "Race":"Daniel Ricciardo",
+              "Progression":"Alfa Romeo"
+            }
+          ]
         }
       ]
     }
