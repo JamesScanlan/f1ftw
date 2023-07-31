@@ -730,7 +730,8 @@
         {
           "Name":"Belgium",
           "StartDate":"2023-07-28",
-          "EndDate":"2023-07-30"
+          "EndDate":"2023-07-30",
+          "Format":"Sprint"
         },
         {
           "Name":"Netherlands",

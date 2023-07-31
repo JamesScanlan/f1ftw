@@ -3131,6 +3131,33 @@
               "Progression":"Alfa Romeo"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Belgium",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Oscar Piastri",
+              "Sprint":"Fernando Alonso",
+              "Race":"Lewis Hamilton",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Carlos Sainz Jnr",
+              "Sprint":"Lando Norris",
+              "Race":"Alexander Albon",
+              "Progression":"Alpine"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Pierre Gasly",
+              "Sprint":"George Russell",
+              "Race":"Lance Stroll",
+              "Progression":"Williams"
+            }
+          ]
         }
       ]
     }
