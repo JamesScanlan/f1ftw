@@ -756,12 +756,14 @@
         {
           "Name":"Qatar",
           "StartDate":"2023-10-06",
-          "EndDate":"2023-10-08"
+          "EndDate":"2023-10-08",
+          "Format":"Sprint"
         },
         {
           "Name":"United States",
           "StartDate":"2023-10-20",
-          "EndDate":"2023-10-22"
+          "EndDate":"2023-10-22",
+          "Format":"Sprint"
         },
         {
           "Name":"Mexico",

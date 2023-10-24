@@ -3206,6 +3206,108 @@
               "Progression":"Alphatauri"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Singapore",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Oscar Piastri",
+              "Race":"Lewis Hamilton",
+              "Progression":"Alpine"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Fernando Alonso",
+              "Race":"Liam Lawson",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"George Russell",
+              "Race":"Valtteri Bottas",
+              "Progression":"Alfa Romeo"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Japan",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Lando Norris",
+              "Race":"Fernando Alonso",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Alexander Albon",
+              "Race":"Charles Leclerc",
+              "Progression":"Alpine"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"George Russell",
+              "Race":"Oscar Piastri",
+              "Progression":"Alphatauri"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Qatar",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Lewis Hamilton",
+              "Sprint":"Charles Leclerc",
+              "Race":"Sergio Perez",
+              "Progression":"Alpine"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Oscar Piastri",
+              "Sprint":"Nico Hulkenberg",
+              "Race":"Lando Norris",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Alexander Albon",
+              "Sprint":"Yuki Tsunoda",
+              "Race":"Esteban Ocon",
+              "Progression":"Haas F1"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"United States",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Daniel Ricciardo",
+              "Sprint":"Lewis Hamilton",
+              "Race":"Carlos Sainz Jnr",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Lando Norris",
+              "Sprint":"Alexander Albon",
+              "Race":"Esteban Ocon",
+              "Progression":"Alpine"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Oscar Piastri",
+              "Sprint":"George Russell",
+              "Race":"Nico Hulkenberg",
+              "Progression":"Williams"
+            }
+          ]
         }
       ]
     }
