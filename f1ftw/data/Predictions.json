@@ -3308,6 +3308,30 @@
               "Progression":"Williams"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Mexico",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"George Russell",
+              "Race":"Fernando Alonso",
+              "Progression":"Alpine"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Daniel Ricciardo",
+              "Race":"Esteban Ocon",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Oscar Piastri",
+              "Race":"Valtteri Bottas",
+              "Progression":"Alphatauri"
+            }
+          ]
         }
       ]
     }
