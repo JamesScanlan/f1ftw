@@ -773,7 +773,8 @@
         {
           "Name":"Brazil",
           "StartDate":"2023-11-03",
-          "EndDate":"2023-11-05"
+          "EndDate":"2023-11-05",
+          "Format":"Sprint"
         },
         {
           "Name":"Las Vegas",

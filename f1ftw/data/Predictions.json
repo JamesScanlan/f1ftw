@@ -3332,6 +3332,33 @@
               "Progression":"Alphatauri"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Brazil",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Alexander Albon",
+              "Sprint":"Lando Norris",
+              "Race":"Carlos Sainz Jnr",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Oscar Piastri",
+              "Sprint":"Nico Hulkenberg",
+              "Race":"George Russell",
+              "Progression":"Aston Martin"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Pierre Gasly",
+              "Sprint":"Yuki Tsunoda",
+              "Race":"Lance Stroll",
+              "Progression":"Alphatauri"
+            }
+          ]
         }
       ]
     }
