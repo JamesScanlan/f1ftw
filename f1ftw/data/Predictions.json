@@ -3359,6 +3359,54 @@
               "Progression":"Alphatauri"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Las Vegas",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Daniel Ricciardo",
+              "Race":"George Russell",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Oscar Piastri",
+              "Race":"Charles Leclerc",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Nico Hulkenberg",
+              "Race":"Alexander Albon",
+              "Progression":"Alphatauri"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Abu Dhabi",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Esteban Ocon",
+              "Race":"Fernando Alonso",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Alexander Albon",
+              "Race":"George Russell",
+              "Progression":"Alphatauri"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Oscar Piastri",
+              "Race":"Pierre Gasly",
+              "Progression":"Haas F1"
+            }
+          ]
         }
       ]
     }
