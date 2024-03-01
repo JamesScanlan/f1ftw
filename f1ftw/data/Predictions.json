@@ -3409,6 +3409,36 @@
           ]
         }
       ]
+    },
+    {
+      "Year":"2024",
+      "Races":
+      [
+        {
+          "Grand_Prix":"Bahrain",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Lewis Hamilton",
+              "Race":"Carlos Sainz Jnr",
+              "Progression":"RB"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Charles Leclerc",
+              "Race":"George Russell",
+              "Progression":"McLaren"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Max Verstappen",
+              "Race":"Lando Norris",
+              "Progression":"Sauber"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
