@@ -3461,6 +3461,54 @@
               "Progression":"Haas F1"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Australia",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Oscar Piastri",
+              "Race":"Lewis Hamilton",
+              "Progression":"RB"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Lando Norris",
+              "Race":"George Russell",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Fernando Alonso",
+              "Race":"Carlos Sainz Jnr",
+              "Progression":"Haas F1"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Japan",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Fernando Alonso",
+              "Race":"Charles Leclerc",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Oscar Piastri",
+              "Race":"Sergio Perez",
+              "Progression":"Sauber"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Yuki Tsunoda",
+              "Race":"Lewis Hamilton",
+              "Progression":"Williams"
+            }
+          ]
         }
       ]
     }

@@ -33,6 +33,7 @@ def calculate_race_win(grand_prix_name, active_year):
     for calculation_score in calculation_scores:
         for calc_result in calculation_score.results:
             predictor_totals.add_or_update_predictor_total_points(objects.predictor_totals.PredictorTotal(calc_result.predictor, calc_result.score))
+    print(len(predictor_totals),len(calculation_score.results))
     return sorted(predictor_totals, key = lambda x: x.points, reverse = True)
 
 def display_race_win_totals(predictor_wins):
