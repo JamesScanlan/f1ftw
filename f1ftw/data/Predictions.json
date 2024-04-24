@@ -3509,6 +3509,33 @@
               "Progression":"Williams"
             }
           ]
+        },
+        {
+          "Grand_Prix":"China",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Fernando Alonso",
+              "Sprint":"Lewis Hamilton",
+              "Race":"Carlos Sainz Jnr",
+              "Progression":"Mercedes"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Oscar Piastri",
+              "Sprint":"Lando Norris",
+              "Race":"Charles Leclerc",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Lance Stroll",
+              "Sprint":"Logan Sargeant",
+              "Race":"Zhou Guanyu",
+              "Progression":"Williams"
+            }
+          ]
         }
       ]
     }

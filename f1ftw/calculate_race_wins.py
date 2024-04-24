@@ -33,7 +33,7 @@ def calculate_race_win(grand_prix_name, active_year):
     for calculation_score in calculation_scores:
         for calc_result in calculation_score.results:
             predictor_totals.add_or_update_predictor_total_points(objects.predictor_totals.PredictorTotal(calc_result.predictor, calc_result.score))
-    print(len(predictor_totals),len(calculation_score.results))
+    # print(len(predictor_totals),len(calculation_score.results))
     return sorted(predictor_totals, key = lambda x: x.points, reverse = True)
 
 def display_race_win_totals(predictor_wins):
@@ -47,10 +47,11 @@ def calculate_total_race_wins(active_year):
 
     for grand_prix_name in grand_prix_names:
         predictor_totals = calculate_race_win(grand_prix_name, active_year)
-        winning_total = predictor_totals[0].points
-        for predictor_total in predictor_totals:
-            if predictor_total.points == winning_total:
-                predictor_wins.increment_win_total_for_predictor(predictor_total.predictor)
+        if len(predictor_totals) > 0:
+            winning_total = predictor_totals[0].points
+            for predictor_total in predictor_totals:
+                if predictor_total.points == winning_total:
+                    predictor_wins.increment_win_total_for_predictor(predictor_total.predictor)
     predictor_wins = sorted(predictor_wins, key = lambda x: x.win_total, reverse = True)
     return predictor_wins
 
@@ -58,10 +59,11 @@ def calculate_race_wins(active_year):
     grand_prix_names = get_grand_prix_names.get_grand_prix_names(active_year = active_year)
     for grand_prix_name in grand_prix_names:
         predictor_totals = calculate_race_win(grand_prix_name, active_year)
-        winning_total = predictor_totals[0].points
-        for predictor_total in predictor_totals:
-            if predictor_total.points == winning_total:
-                print(grand_prix_name + " GP\t\t" + str(predictor_total.predictor) + "\t(" + str(len(predictor_totals)) + " predictors)")
+        if len(predictor_totals) > 0:
+            winning_total = predictor_totals[0].points
+            for predictor_total in predictor_totals:
+                if predictor_total.points == winning_total:
+                    print(grand_prix_name + " GP\t\t" + str(predictor_total.predictor) + "\t(" + str(len(predictor_totals)) + " predictors)")
 
 
 if __name__ == '__main__':
