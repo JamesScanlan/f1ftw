@@ -3536,6 +3536,33 @@
               "Progression":"Williams"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Miami",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Oscar Piastri",
+              "Sprint":"Sergio Perez",
+              "Race":"Carlos Sainz Jnr",
+              "Progression":"RB"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Fernando Alonso",
+              "Sprint":"Lewis Hamilton",
+              "Race":"Nico Hulkenberg",
+              "Progression":"Mercedes"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Lance Stroll",
+              "Sprint":"George Russell",
+              "Race":"Yuki Tsunoda",
+              "Progression":"Williams"
+            }
+          ]
         }
       ]
     }
