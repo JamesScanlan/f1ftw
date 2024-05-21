@@ -3563,6 +3563,30 @@
               "Progression":"Williams"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Italy#1",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Charles Leclerc",
+              "Race":"Lewis Hamilton",
+              "Progression":"Aston Martin"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Oscar Piastri",
+              "Race":"Carlos Sainz Jnr",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Yuki Tsunoda",
+              "Race":"George Russell",
+              "Progression":"Williams"
+            }
+          ]
         }
       ]
     }
