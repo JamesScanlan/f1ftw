@@ -3611,6 +3611,30 @@
               "Progression":"Sauber"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Canada",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"George Russell",
+              "Race":"Sergio Perez",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Yuki Tsunoda",
+              "Race":"Carlos Sainz Jnr",
+              "Progression":"Aston Martin"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Oscar Piastri",
+              "Race":"Fernando Alonso",
+              "Progression":"Sauber"
+            }
+          ]
         }
       ]
     }
