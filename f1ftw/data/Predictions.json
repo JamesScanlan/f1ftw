@@ -3710,6 +3710,54 @@
               "Progression":"Williams"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Hungary",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Carlos Sainz Jnr",
+              "Race":"George Russell",
+              "Progression":"RB"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Oscar Piastri",
+              "Race":"Lewis Hamilton",
+              "Progression":"Aston Martin"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Sergio Perez",
+              "Race":"Alexander Albon",
+              "Progression":"Sauber"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Belgium",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Carlos Sainz Jnr",
+              "Race":"Lando Norris",
+              "Progression":"Mercedes"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"George Russell",
+              "Race":"Lewis Hamilton",
+              "Progression":"Red Bull"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Lance Stroll",
+              "Race":"Esteban Ocon",
+              "Progression":"Haas F1"
+            }
+          ]
         }
       ]
     }
