@@ -3758,6 +3758,30 @@
               "Progression":"Haas F1"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Netherlands",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Lewis Hamilton",
+              "Race":"Carlos Sainz Jnr",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Charles Leclerc",
+              "Race":"Max Verstappen",
+              "Progression":"Mercedes"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Alexander Albon",
+              "Race":"George Russell",
+              "Progression":"Alpine"
+            }
+          ]
         }
       ]
     }
