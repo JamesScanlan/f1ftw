@@ -3782,6 +3782,30 @@
               "Progression":"Alpine"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Italy#2",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Lewis Hamilton",
+              "Race":"Oscar Piastri",
+              "Progression":"RB"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Pierre Gasly",
+              "Race":"Charles Leclerc",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"George Russell",
+              "Race":"Nico Hulkenberg",
+              "Progression":"Sauber"
+            }
+          ]
         }
       ]
     }
