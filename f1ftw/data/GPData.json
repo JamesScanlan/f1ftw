@@ -24266,6 +24266,173 @@
             }
           ],
           "fastest_lap":"Daniel Ricciardo"
+        },
+        {
+          "Grand_Prix":"United States",
+          "Results":
+          [
+            {
+              "name":"Max Verstappen",
+              "team":"Red Bull",
+              "sprint":"1",
+              "qualifying":"2",
+              "grid":"2",
+              "position":"3"
+            },
+            {
+              "name":"Sergio Perez",
+              "team":"Red Bull",
+              "sprint":"9",
+              "qualifying":"10",
+              "grid":"9",
+              "position":"7"
+            },
+            {
+              "name":"Lewis Hamilton",
+              "team":"Mercedes",
+              "sprint":"6",
+              "qualifying":"19",
+              "grid":"17",
+              "position":"20"
+            },
+            {
+              "name":"George Russell",
+              "team":"Mercedes",
+              "sprint":"5",
+              "qualifying":"6",
+              "grid":"20",
+              "position":"6"
+            },
+            {
+              "name":"Carlos Sainz Jnr",
+              "team":"Ferrari",
+              "sprint":"2",
+              "qualifying":"3",
+              "grid":"3",
+              "position":"2"
+            },
+            {
+              "name":"Charles Leclerc",
+              "team":"Ferrari",
+              "sprint":"4",
+              "qualifying":"4",
+              "grid":"4",
+              "position":"1"
+            },
+            {
+              "name":"Lando Norris",
+              "team":"McLaren",
+              "sprint":"3",
+              "qualifying":"1",
+              "grid":"1",
+              "position":"4"
+            },
+            {
+              "name":"Oscar Piastri",
+              "team":"McLaren",
+              "sprint":"10",
+              "qualifying":"5",
+              "grid":"5",
+              "position":"5"
+            },
+            {
+              "name":"Fernando Alonso",
+              "team":"Aston Martin",
+              "sprint":"18",
+              "qualifying":"8",
+              "grid":"7",
+              "position":"13"
+            },
+            {
+              "name":"Lance Stroll",
+              "team":"Aston Martin",
+              "sprint":"13",
+              "qualifying":"14",
+              "grid":"13",
+              "position":"15"
+            },
+            {
+              "name":"Valtteri Bottas",
+              "team":"Sauber",
+              "sprint":"20",
+              "qualifying":"18",
+              "grid":"16",
+              "position":"17"
+            },
+            {
+              "name":"Zhou Guanyu",
+              "team":"Sauber",
+              "sprint":"19",
+              "qualifying":"20",
+              "grid":"18",
+              "position":"19"
+            },
+            {
+              "name":"Pierre Gasly",
+              "team":"Alpine",
+              "sprint":"14",
+              "qualifying":"7",
+              "grid":"6",
+              "position":"12"
+            },
+            {
+              "name":"Esteban Ocon",
+              "team":"Alpine",
+              "sprint":"14",
+              "qualifying":"13",
+              "grid":"12",
+              "position":"18"
+            },
+            {
+              "name":"Yuki Tsunoda",
+              "team":"RB",
+              "sprint":"11",
+              "qualifying":"11",
+              "grid":"10",
+              "position":"14"
+            },
+            {
+              "name":"Liam Lawson",
+              "team":"RB",
+              "sprint":"16",
+              "qualifying":"15",
+              "grid":"19",
+              "position":"9"
+            },
+            {
+              "name":"Alexander Albon",
+              "team":"Williams",
+              "sprint":"18",
+              "qualifying":"16",
+              "grid":"14",
+              "position":"16"
+            },
+            {
+              "name":"Franco Colapinto",
+              "team":"Williams",
+              "sprint":"12",
+              "qualifying":"17",
+              "grid":"15",
+              "position":"10"
+            },
+            {
+              "name":"Kevin Magnussen",
+              "team":"Haas F1",
+              "sprint":"7",
+              "qualifying":"9",
+              "grid":"8",
+              "position":"11"
+            },
+            {
+              "name":"Nico Hulkenberg",
+              "team":"Haas F1",
+              "sprint":"8",
+              "qualifying":"12",
+              "grid":"11",
+              "position":"8"
+            }
+          ],
+          "fastest_lap":"Franco Colapinto"
         }
       ]
     }

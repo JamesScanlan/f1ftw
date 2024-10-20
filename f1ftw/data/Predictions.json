@@ -3854,6 +3854,33 @@
               "Progression":"Alpine"
             }
           ]
+        },
+        {
+          "Grand_Prix":"United States",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Sprint":"Oscar Piastri",
+              "Qualifying":"Yuki Tsunoda",
+              "Race":"Carlos Sainz Jnr",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Sprint":"Fernando Alonso",
+              "Qualifying":"Nico Hulkenberg",
+              "Race":"Charles Leclerc",
+              "Progression":"RB"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Sprint":"Liam Lawson",
+              "Qualifying":"George Russell",
+              "Race":"Alexander Albon",
+              "Progression":"Alpine"
+            }
+          ]
         }
       ]
     }
