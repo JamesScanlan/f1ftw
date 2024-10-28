@@ -3881,6 +3881,30 @@
               "Progression":"Alpine"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Mexico",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Lewis Hamilton",
+              "Race":"Liam Lawson",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Yuki Tsunoda",
+              "Race":"Sergio Perez",
+              "Progression":"Alpine"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"George Russell",
+              "Race":"Nico Hulkenberg",
+              "Progression":"Williams"
+            }
+          ]
         }
       ]
     }
