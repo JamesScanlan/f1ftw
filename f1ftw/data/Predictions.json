@@ -3905,6 +3905,33 @@
               "Progression":"Williams"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Brazil",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Sprint":"Lewis Hamilton",
+              "Qualifying":"Liam Lawson",
+              "Race":"Yuki Tsunoda",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Sprint":"Max Verstappen",
+              "Qualifying":"Franco Colapinto",
+              "Race":"George Russell",
+              "Progression":"Aston Martin"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Sprint":"Oliver Bearman",
+              "Qualifying":"Nico Hulkenberg",
+              "Race":"Alexander Albon",
+              "Progression":"Sauber"
+            }
+          ]
         }
       ]
     }
