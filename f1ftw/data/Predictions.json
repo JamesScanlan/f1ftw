@@ -3932,6 +3932,57 @@
               "Progression":"Sauber"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Las Vegas",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Yuki Tsunoda",
+              "Race":"Lewis Hamilton",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Liam Lawson",
+              "Race":"Alexander Albon",
+              "Progression":"Sauber"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Nico Hulkenberg",
+              "Race":"Pierre Gasly",
+              "Progression":"Aston Martin"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Qatar",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Sprint":"Oscar Piastri",
+              "Qualifying":"Lewis Hamilton",
+              "Race":"Carlos Sainz Jnr",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Sprint":"Max Verstappen",
+              "Qualifying":"Pierre Gasly",
+              "Race":"George Russell",
+              "Progression":"RB"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Sprint":"Yuki Tsunoda",
+              "Qualifying":"Nico Hulkenberg",
+              "Race":"Liam Lawson",
+              "Progression":"Aston Martin"
+            }
+          ]
         }
       ]
     }
