@@ -3983,6 +3983,30 @@
               "Progression":"Aston Martin"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Abu Dhabi",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"George Russell",
+              "Race":"Nico Hulkenberg",
+              "Progression":"RB"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Yuki Tsunoda",
+              "Race":"Pierre Gasly",
+              "Progression":"Sauber"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Lewis Hamilton",
+              "Race":"Kevin Magnussen",
+              "Progression":"Williams"
+            }
+          ]
         }
       ]
     }
