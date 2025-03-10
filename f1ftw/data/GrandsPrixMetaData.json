@@ -919,6 +919,127 @@
           "EndDate":"2024-12-08"
         }
       ]
+    },
+    {
+      "Year":"2025",
+      "Races":
+      [
+        {
+          "Name":"Australia",
+          "StartDate":"2025-03-21",
+          "EndDate":"2025-03-23"
+        },
+        {
+          "Name":"Japan",
+          "StartDate":"2025-04-04",
+          "EndDate":"2025-04-06"
+        },
+        {
+          "Name":"Bahrain",
+          "StartDate":"2025-04-11",
+          "EndDate":"2025-04-13"
+        },
+        {
+          "Name":"Saudi Arabia",
+          "StartDate":"2025-04-18",
+          "EndDate":"2025-04-20"
+        },
+        {
+          "Name":"Miami",
+          "StartDate":"2025-05-02",
+          "EndDate":"2025-05-04"
+        },
+        {
+          "Name":"Emilia-Romagna",
+          "StartDate":"2025-05-16",
+          "EndDate":"2025-05-18"
+        },
+        {
+          "Name":"Monaco",
+          "StartDate":"2025-05-23",
+          "EndDate":"2025-05-25"
+        },
+        {
+          "Name":"Spain",
+          "StartDate":"2025-05-30",
+          "EndDate":"2025-06-01"
+        },
+        {
+          "Name":"Canada",
+          "StartDate":"2025-06-13",
+          "EndDate":"2025-06-15"
+        },
+        {
+          "Name":"Austria",
+          "StartDate":"2025-06-27",
+          "EndDate":"2025-06-29"
+        },
+        {
+          "Name":"Great Britain",
+          "StartDate":"2025-07-04",
+          "EndDate":"2025-07-06"
+        },
+        {
+          "Name":"Belgium",
+          "StartDate":"2025-07-25",
+          "EndDate":"2025-07-27"
+        },
+        {
+          "Name":"Hungary",
+          "StartDate":"2025-08-01",
+          "EndDate":"2025-08-03"
+        },
+        {
+          "Name":"Netherlands",
+          "StartDate":"2025-08-29",
+          "EndDate":"2025-08-31"
+        },
+        {
+          "Name":"Italy",
+          "StartDate":"2025-09-05",
+          "EndDate":"2025-09-07"
+        },
+        {
+          "Name":"Azerbaijan",
+          "StartDate":"2025-09-19",
+          "EndDate":"2025-09-21"
+        },
+        {
+          "Name":"Singapore",
+          "StartDate":"2025-10-03",
+          "EndDate":"2025-10-05"
+        },
+        {
+          "Name":"United States",
+          "StartDate":"2025-10-17",
+          "EndDate":"2025-10-19"
+        },
+        {
+          "Name":"Mexico",
+          "StartDate":"2025-10-24",
+          "EndDate":"2025-10-26"
+        },
+        {
+          "Name":"Brazil",
+          "StartDate":"2025-11-07",
+          "EndDate":"2025-11-09"
+        },
+        {
+          "Name":"Las Vegas",
+          "StartDate":"2025-11-20",
+          "EndDate":"2025-11-22"
+        },
+        {
+          "Name":"Qatar",
+          "StartDate":"2025-11-28",
+          "EndDate":"2025-11-30"
+        },
+        {
+          "Name":"Abu Dhabi",
+          "StartDate":"2025-12-05",
+          "EndDate":"2025-12-07"
+        }
+      ]
     }
   ]
 }
