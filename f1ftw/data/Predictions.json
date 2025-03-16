@@ -4009,6 +4009,36 @@
           ]
         }
       ]
+    },
+    {
+      "Year":"2025",
+      "Races":
+      [
+        {
+          "Grand_Prix":"Australia",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Charles Leclerc",
+              "Race":"Carlos Sainz Jnr",
+              "Progression":"Alpine"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Lewis Hamilton",
+              "Race":"Oscar Piastri",
+              "Progression":"Red Bull"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Lando Norris",
+              "Race":"Max Verstappen",
+              "Progression":"Sauber"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
