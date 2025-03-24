@@ -4037,6 +4037,33 @@
               "Progression":"Sauber"
             }
           ]
+        },
+        {
+          "Grand_Prix":"China",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Sprint":"Oscar Piastri",
+              "Qualifying":"Carlos Sainz Jnr",
+              "Race":"Andrea Kimi Antonelli",
+              "Progression":"Racing Bulls"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Sprint":"Liam Lawson",
+              "Qualifying":"Yuki Tsunoda",
+              "Race":"Pierre Gasly",
+              "Progression":"Ferrari"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Sprint":"Charles Leclerc",
+              "Qualifying":"Lewis Hamilton",
+              "Race":"Alexander Albon",
+              "Progression":"Sauber"
+            }
+          ]
         }
       ]
     }

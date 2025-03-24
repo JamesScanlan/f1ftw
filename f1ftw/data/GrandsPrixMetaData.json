@@ -926,8 +926,14 @@
       [
         {
           "Name":"Australia",
+          "StartDate":"2025-2-26",
+          "EndDate":"2025-02-28"
+        },
+        {
+          "Name":"China",
           "StartDate":"2025-03-21",
-          "EndDate":"2025-03-23"
+          "EndDate":"2025-03-23",
+          "Format":"Sprint"
         },
         {
           "Name":"Japan",
