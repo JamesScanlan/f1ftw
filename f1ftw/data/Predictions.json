@@ -4064,6 +4064,30 @@
               "Progression":"Sauber"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Japan",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"George Russell",
+              "Race":"Yuki Tsunoda",
+              "Progression":"Aston Martin"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Charles Leclerc",
+              "Race":"Carlos Sainz Jnr",
+              "Progression":"Red Bull"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Lewis Hamilton",
+              "Race":"Alexander Albon",
+              "Progression":"Haas F1"
+            }
+          ]
         }
       ]
     }
