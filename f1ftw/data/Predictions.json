@@ -4088,6 +4088,30 @@
               "Progression":"Haas F1"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Bahrain",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Lewis Hamilton",
+              "Race":"Alexander Albon",
+              "Progression":"Ferrari"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Andrea Kimi Antonelli",
+              "Race":"George Russell",
+              "Progression":"Racing Bulls"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Charles Leclerc",
+              "Race":"Isack Hadjar",
+              "Progression":"Haas F1"
+            }
+          ]
         }
       ]
     }
