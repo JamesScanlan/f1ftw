@@ -4112,6 +4112,30 @@
               "Progression":"Haas F1"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Saudi Arabia",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Charles Leclerc",
+              "Race":"Lewis Hamilton",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Pierre Gasly",
+              "Race":"Oliver Bearman",
+              "Progression":"Alpine"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Yuki Tsunoda",
+              "Race":"Alexander Albon",
+              "Progression":"Sauber"
+            }
+          ]
         }
       ]
     }
