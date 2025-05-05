@@ -4136,6 +4136,33 @@
               "Progression":"Sauber"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Miami",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Sprint":"Lewis Hamilton",
+              "Qualifying":"Yuki Tsunoda",
+              "Race":"Andrea Kimi Antonelli",
+              "Progression":"Alpine"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Sprint":"Charles Leclerc",
+              "Qualifying":"Liam Lawson",
+              "Race":"George Russell",
+              "Progression":"Racing Bulls"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Sprint":"Carlos Sainz Jnr",
+              "Qualifying":"Alexander Albon",
+              "Race":"Pierre Gasly",
+              "Progression":"Haas F1"
+            }
+          ]
         }
       ]
     }

@@ -26,10 +26,10 @@ def calculate_race_score(grand_prix_name, active_year):
     drivers_championship = calculate_drivers_championship(grand_prix_name, active_year)
     calculation_scores = []
 
-    calculation_scores.append(calculate_qualifying_scores(predictions, results, drivers_championship))
+
     if does_race_feature_a_sprint(grand_prix_name, active_year):
         calculation_scores.append(calculate_sprint_race_scores(predictions, results, drivers_championship))
-
+    calculation_scores.append(calculate_qualifying_scores(predictions, results, drivers_championship))
     calculation_scores.append(calculate_race_scores(predictions, results, drivers_championship))
     calculation_scores.append(calculate_progression_scores(predictions, results, drivers_championship))
     if active_year == 2017:

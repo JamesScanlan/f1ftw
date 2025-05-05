@@ -953,7 +953,8 @@
         {
           "Name":"Miami",
           "StartDate":"2025-05-02",
-          "EndDate":"2025-05-04"
+          "EndDate":"2025-05-04",
+          "Format":"Sprint"
         },
         {
           "Name":"Emilia-Romagna",
