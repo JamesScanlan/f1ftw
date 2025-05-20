@@ -4163,6 +4163,30 @@
               "Progression":"Haas F1"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Emilia-Romagna",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Alexander Albon",
+              "Race":"George Russell",
+              "Progression":"Aston Martin"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Pierre Gasly",
+              "Race":"Lewis Hamilton",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Carlos Sainz Jnr",
+              "Race":"Nico Hulkenberg",
+              "Progression":"Sauber"
+            }
+          ]
         }
       ]
     }
