@@ -4187,6 +4187,30 @@
               "Progression":"Sauber"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Monaco",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Charles Leclerc",
+              "Race":"Carlos Sainz Jnr",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Alexander Albon",
+              "Race":"Andrea Kimi Antonelli",
+              "Progression":"Ferrari"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Lewis Hamilton",
+              "Race":"Fernando Alonso",
+              "Progression":"Sauber"
+            }
+          ]
         }
       ]
     }
