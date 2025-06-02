@@ -4211,6 +4211,30 @@
               "Progression":"Sauber"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Spain",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Max Verstappen",
+              "Race":"Alexander Albon",
+              "Progression":"Red Bull"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Andrea Kimi Antonelli",
+              "Race":"Lewis Hamilton",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Fernando Alonso",
+              "Race":"Isack Hadjar",
+              "Progression":"Haas F1"
+            }
+          ]
         }
       ]
     }
