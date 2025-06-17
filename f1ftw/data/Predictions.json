@@ -4235,6 +4235,30 @@
               "Progression":"Haas F1"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Canada",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Carlos Sainz Jnr",
+              "Race":"Lewis Hamilton",
+              "Progression":"Racing Bulls"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Alexander Albon",
+              "Race":"George Russell",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Fernando Alonso",
+              "Race":"Isack Hadjar",
+              "Progression":"Sauber"
+            }
+          ]
         }
       ]
     }
