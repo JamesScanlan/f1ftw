@@ -4259,6 +4259,30 @@
               "Progression":"Sauber"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Austria",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"George Russell",
+              "Race":"Lewis Hamilton",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Alexander Albon",
+              "Race":"Charles Leclerc",
+              "Progression":"Sauber"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Yuki Tsunoda",
+              "Race":"Fernando Alonso",
+              "Progression":"Alpine"
+            }
+          ]
         }
       ]
     }
