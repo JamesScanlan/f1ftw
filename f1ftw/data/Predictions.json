@@ -4307,6 +4307,33 @@
               "Progression":"Haas F1"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Belgium",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Sprint":"Yuki Tsunoda",
+              "Qualifying":"George Russell",
+              "Race":"Max Verstappen",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Sprint":"Fernando Alonso",
+              "Qualifying":"Lewis Hamilton",
+              "Race":"Andrea Kimi Antonelli",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Sprint":"Lance Stroll",
+              "Qualifying":"Isack Hadjar",
+              "Race":"Carlos Sainz Jnr",
+              "Progression":"Sauber"
+            }
+          ]
         }
       ]
     }
