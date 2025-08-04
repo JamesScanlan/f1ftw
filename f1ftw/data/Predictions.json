@@ -4334,6 +4334,30 @@
               "Progression":"Sauber"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Hungary",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Charles Leclerc",
+              "Race":"Max Verstappen",
+              "Progression":"Sauber"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"George Russell",
+              "Race":"Alexander Albon",
+              "Progression":"Ferrari"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Isack Hadjar",
+              "Race":"Oliver Bearman",
+              "Progression":"Haas F1"
+            }
+          ]
         }
       ]
     }
