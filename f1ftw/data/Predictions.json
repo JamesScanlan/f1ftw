@@ -4382,6 +4382,30 @@
               "Progression":"Williams"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Italy",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Alexander Albon",
+              "Race":"George Russell",
+              "Progression":"Sauber"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Carlos Sainz Jnr",
+              "Race":"Charles Leclerc",
+              "Progression":"Mercedes"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Isack Hadjar",
+              "Race":"Nico Hulkenberg",
+              "Progression":"Haas F1"
+            }
+          ]
         }
       ]
     }
