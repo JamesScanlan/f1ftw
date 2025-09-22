@@ -4406,6 +4406,30 @@
               "Progression":"Haas F1"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Azerbaijan",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Lewis Hamilton",
+              "Race":"Alexander Albon",
+              "Progression":"Sauber"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Isack Hadjar",
+              "Race":"Gabriel Bortoleto",
+              "Progression":"Aston Martin"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Andrea Kimi Antonelli",
+              "Race":"Esteban Ocon",
+              "Progression":"Alpine"
+            }
+          ]
         }
       ]
     }
