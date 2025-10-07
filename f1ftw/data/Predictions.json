@@ -4430,6 +4430,30 @@
               "Progression":"Alpine"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Singapore",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Carlos Sainz Jnr",
+              "Race":"Charles Leclerc",
+              "Progression":"Racing Bulls"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Fernando Alonso",
+              "Race":"Alexander Albon",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Isack Hadjar",
+              "Race":"Lewis Hamilton",
+              "Progression":"Sauber"
+            }
+          ]
         }
       ]
     }
