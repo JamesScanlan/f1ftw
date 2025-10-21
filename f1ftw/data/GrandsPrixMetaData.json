@@ -1020,7 +1020,8 @@
         {
           "Name":"United States",
           "StartDate":"2025-10-17",
-          "EndDate":"2025-10-19"
+          "EndDate":"2025-10-19",
+          "Format":"Sprint"
         },
         {
           "Name":"Mexico",

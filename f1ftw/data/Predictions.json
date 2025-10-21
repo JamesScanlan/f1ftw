@@ -4454,6 +4454,33 @@
               "Progression":"Sauber"
             }
           ]
+        },
+        {
+          "Grand_Prix":"United States",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Sprint":"Nico Hulkenberg",
+              "Qualifying":"Carlos Sainz Jnr",
+              "Race":"George Russell",
+              "Progression":"Racing Bulls"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Sprint":"Isack Hadjar",
+              "Qualifying":"Andrea Kimi Antonelli",
+              "Race":"Charles Leclerc",
+              "Progression":"Sauber"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Sprint":"Fernando Alonso",
+              "Qualifying":"Alexander Albon",
+              "Race":"Lewis Hamilton",
+              "Progression":"Alpine"
+            }
+          ]
         }
       ]
     }
