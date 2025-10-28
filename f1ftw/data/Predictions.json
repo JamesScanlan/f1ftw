@@ -4481,6 +4481,30 @@
               "Progression":"Alpine"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Mexico",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Andrea Kimi Antonelli",
+              "Race":"Lewis Hamilton",
+              "Progression":"Sauber"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Yuki Tsunoda",
+              "Race":"Charles Leclerc",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Fernando Alonso",
+              "Race":"Carlos Sainz Jnr",
+              "Progression":"Haas F1"
+            }
+          ]
         }
       ]
     }
