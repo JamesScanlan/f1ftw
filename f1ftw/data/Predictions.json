@@ -4505,6 +4505,57 @@
               "Progression":"Haas F1"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Brazil",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Sprint":"Charles Leclerc",
+              "Qualifying":"Fernando Alonso",
+              "Race":"Max Verstappen",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Sprint":"Nico Hulkenberg",
+              "Qualifying":"Lewis Hamilton",
+              "Race":"Andrea Kimi Antonelli",
+              "Progression":"Sauber"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Sprint":"Gabriel Bortoleto",
+              "Qualifying":"Carlos Sainz Jnr",
+              "Race":"Oliver Bearman",
+              "Progression":"Williams"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Las Vegas",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Isack Hadjar",
+              "Race":"Alexander Albon",
+              "Progression":"Aston Martin"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"George Russell",
+              "Race":"Charles Leclerc",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Andrea Kimi Antonelli",
+              "Race":"Oliver Bearman",
+              "Progression":"Sauber"
+            }
+          ]
         }
       ]
     }
