@@ -4583,6 +4583,30 @@
               "Progression":"Sauber"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Abu Dhabi",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Carlos Sainz Jnr",
+              "Race":"Nico Hulkenberg",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Isack Hadjar",
+              "Race":"Esteban Ocon",
+              "Progression":"Sauber"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Oliver Bearman",
+              "Race":"Gabriel Bortoleto",
+              "Progression":"Alpine"
+            }
+          ]
         }
       ]
     }
