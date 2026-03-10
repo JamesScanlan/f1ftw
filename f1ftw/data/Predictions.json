@@ -4609,6 +4609,36 @@
           ]
         }
       ]
+    },
+    {
+      "Year":"2026",
+      "Races":
+      [
+        {
+          "Grand_Prix":"Australia",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"George Russell",
+              "Race":"Max Verstappen",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Lewis Hamilton",
+              "Race":"Isack Hadjar",
+              "Progression":"Cadilac"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Charles Leclerc",
+              "Race":"Oscar Piastri",
+              "Progression":"Williams"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
