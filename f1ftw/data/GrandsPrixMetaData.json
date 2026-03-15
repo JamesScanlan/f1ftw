@@ -1075,12 +1075,14 @@
         {
           "Name":"Bahrain",
           "StartDate":"2026-04-10",
-          "EndDate":"2026-04-12"
+          "EndDate":"2026-04-12",
+          "Status":"Cancelled"
         },
         {
           "Name":"Saudi Arabia",
           "StartDate":"2026-04-17",
-          "EndDate":"2026-04-19"
+          "EndDate":"2026-04-19",
+          "Status":"Cancelled"
         },
         {
           "Name":"Miami",

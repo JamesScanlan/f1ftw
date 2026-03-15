@@ -4637,6 +4637,33 @@
               "Progression":"Williams"
             }
           ]
+        },
+        {
+          "Grand_Prix":"China",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Sprint":"Isack Hadjar",
+              "Qualifying":"Lewis Hamilton",
+              "Race":"Arvid Lindblad",
+              "Progression":"Racing Bulls"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Sprint":"Oliver Bearman",
+              "Qualifying":"Lando Norris",
+              "Race":"Kimi Antonelli",
+              "Progression":"Audi"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Sprint":"Oscar Piastri",
+              "Qualifying":"Pierre Gasly",
+              "Race":"Max Verstappen",
+              "Progression":"Williams"
+            }
+          ]
         }
       ]
     }

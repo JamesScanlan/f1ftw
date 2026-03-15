@@ -45,3 +45,6 @@ if __name__ == "__main__":
     input_grand_prix_name = get_grand_prix_name_from_command_line_arguments(default = "All")
     if input_grand_prix_name != "All":
         calculate_number_of_races_remaining(input_grand_prix_name)
+    # else:
+    #     calculate_number_of_races_remaining("China")
+
