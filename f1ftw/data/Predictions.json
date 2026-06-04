@@ -4715,6 +4715,33 @@
               "Progression":"Audi"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Canada",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Sprint":"George Russell",
+              "Qualifying":"Isack Hadjar",
+              "Race":"Charles Leclerc",
+              "Progression":"Audi"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Sprint":"Lewis Hamilton",
+              "Qualifying":"Carlos Sainz Jnr",
+              "Race":"Lando Norris",
+              "Progression":"Cadilac"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Sprint":"Max Verstappen",
+              "Qualifying":"Nico Hulkenberg",
+              "Race":"Oscar Piastri",
+              "Progression":"Haas F1"
+            }
+          ]
         }
       ]
     }
