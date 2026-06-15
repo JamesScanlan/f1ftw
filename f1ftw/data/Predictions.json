@@ -4766,6 +4766,30 @@
               "Progression":"Cadilac"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Barcelona",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Lando Norris",
+              "Race":"Arvid Lindblad",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Oscar Piastri",
+              "Race":"Isack Hadjar",
+              "Progression":"Racing Bulls"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Max Verstappen",
+              "Race":"Oliver Bearman",
+              "Progression":"Williams"
+            }
+          ]
         }
       ]
     }
