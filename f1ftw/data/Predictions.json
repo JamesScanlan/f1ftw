@@ -4865,6 +4865,30 @@
               "Progression":"Haas F1"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Hungary",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Pierre Gasly",
+              "Race":"Max Verstappen",
+              "Progression":"Racing Bulls"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Liam Lawson",
+              "Race":"Nico Hulkenberg",
+              "Progression":"Alpine"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Isack Hadjar",
+              "Race":"Arvid Lindblad",
+              "Progression":"Aston Martin"
+            }
+          ]
         }
       ]
     }
