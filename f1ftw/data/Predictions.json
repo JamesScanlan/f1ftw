@@ -4889,6 +4889,33 @@
               "Progression":"Aston Martin"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Netherlands",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Sprint":"Lewis Hamilton",
+              "Qualifying":"Oscar Piastri",
+              "Race":"Max Verstappen",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Sprint":"Liam Lawson",
+              "Qualifying":"Yuki Tsunoda",
+              "Race":"Charles Leclerc",
+              "Progression":"Audi"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Sprint":"Fernando Alonso",
+              "Qualifying":"Pierre Gasly",
+              "Race":"Arvid Lindblad",
+              "Progression":"Aston Martin"
+            }
+          ]
         }
       ]
     }
