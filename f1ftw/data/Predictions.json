@@ -4916,6 +4916,54 @@
               "Progression":"Aston Martin"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Italy",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Max Verstappen",
+              "Race":"Oscar Piastri",
+              "Progression":"Alpine"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Pierre Gasly",
+              "Race":"Arvid Lindblad",
+              "Progression":"Audi"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Oliver Bearman",
+              "Race":"Yuki Tsunoda",
+              "Progression":"Aston Martin"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Spain",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"George Russell",
+              "Race":"Oscar Piastri",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Arvid Lindblad",
+              "Race":"Gabriel Bortoleto",
+              "Progression":"Aston Martin"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Yuki Tsunoda",
+              "Race":"Max Verstappen",
+              "Progression":"Cadilac"
+            }
+          ]
         }
       ]
     }
