@@ -4964,6 +4964,30 @@
               "Progression":"Cadilac"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Azerbaijan",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Oscar Piastri",
+              "Race":"George Russell",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Pierre Gasly",
+              "Race":"Franco Colapinto",
+              "Progression":"Aston Martin"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Isack Hadjar",
+              "Race":"Liam Lawson",
+              "Progression":"Cadilac"
+            }
+          ]
         }
       ]
     }
