@@ -4988,6 +4988,81 @@
               "Progression":"Cadilac"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Bahrain",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Liam Lawson",
+              "Race":"Pierre Gasly",
+              "Progression":"Audi"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Isack Hadjar",
+              "Race":"Max Verstappen",
+              "Progression":"Racing Bulls"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Arvid Lindblad",
+              "Race":"Gabriel Bortoleto",
+              "Progression":"Alpine"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"Singapore",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Sprint":"Oscar Piastri",
+              "Qualifying":"Pierre Gasly",
+              "Race":"Max Verstappen",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Sprint":"Isack Hadjar",
+              "Qualifying":"Charles Leclerc",
+              "Race":"Arvid Lindblad",
+              "Progression":"Racing Bulls"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Sprint":"Liam Lawson",
+              "Qualifying":"Franco Colapinto",
+              "Race":"Oliver Bearman",
+              "Progression":"Aston Martin"
+            }
+          ]
+        },
+        {
+          "Grand_Prix":"United States",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Liam Lawson",
+              "Race":"Lando Norris",
+              "Progression":"Racing Bulls"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Nico Hulkenberg",
+              "Race":"Charles Leclerc",
+              "Progression":"Alpine"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Arvid Lindblad",
+              "Race":"Pierre Gasly",
+              "Progression":"Aston Martin"
+            }
+          ]
         }
       ]
     }
