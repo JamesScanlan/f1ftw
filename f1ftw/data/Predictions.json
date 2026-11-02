@@ -5063,6 +5063,30 @@
               "Progression":"Aston Martin"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Mexico",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Charles Leclerc",
+              "Race":"Lando Norris",
+              "Progression":"Haas F1"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Liam Lawson",
+              "Race":"Lewis Hamilton",
+              "Progression":"Audi"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Arvid Lindblad",
+              "Race":"Pierre Gasly",
+              "Progression":"Aston Martin"
+            }
+          ]
         }
       ]
     }
