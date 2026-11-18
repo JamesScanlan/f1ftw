@@ -5087,6 +5087,30 @@
               "Progression":"Aston Martin"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Brazil",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"Liam Lawson",
+              "Race":"George Russell",
+              "Progression":"Red Bull"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Gabriel Bortoleto",
+              "Race":"Pierre Gasly",
+              "Progression":"Williams"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Oliver Bearman",
+              "Race":"Isack Hadjar",
+              "Progression":"Ferrari"
+            }
+          ]
         }
       ]
     }
