@@ -5111,6 +5111,30 @@
               "Progression":"Ferrari"
             }
           ]
+        },
+        {
+          "Grand_Prix":"Las Vegas",
+          "Predictions":
+          [
+            {
+              "Predictor":"Andrew Chadwick",
+              "Qualifying":"George Russell",
+              "Race":"Liam Lawson",
+              "Progression":"Audi"
+            },
+            {
+              "Predictor":"James Scanlan",
+              "Qualifying":"Isack Hadjar",
+              "Race":"Arvid Lindblad",
+              "Progression":"Alpine"
+            },
+            {
+              "Predictor":"Matt Potter",
+              "Qualifying":"Pierre Gasly",
+              "Race":"Franco Colapinto",
+              "Progression":"Racing Bulls"
+            }
+          ]
         }
       ]
     }
